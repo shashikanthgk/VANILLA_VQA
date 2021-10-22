@@ -2,7 +2,7 @@ import numpy as np
 import json
 import os
 import argparse
-import text_helper
+import text_helper as text_processing
 from collections import defaultdict
 
 
