@@ -27,9 +27,12 @@ def vqa_processing(image_dir, annotation_file, question_file, valid_answer_set, 
     abs_image_dir = os.path.abspath(image_dir % coco_set_name)
     image_name_template = 'COCO_'+coco_set_name+'_%012d'
     dataset = [None]*len(questions)
-    
+    count = 0
     unk_ans_count = 0
     for n_q, q in enumerate(questions):
+        if count == 1000:
+            break
+        count += 1
         if (n_q+1) % 10000 == 0:
             print('processing %d / %d' % (n_q+1, len(questions)))
         image_id = q['image_id']

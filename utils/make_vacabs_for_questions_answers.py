@@ -28,7 +28,7 @@ def make_vocab_questions(input_dir):
     vocab_list.insert(0, '<pad>')
     vocab_list.insert(1, '<unk>')
     
-    with open('../datasets/vocab_questions.txt', 'w') as f:
+    with open('../datasets/1MP/vocab_questions.txt', 'w') as f:
         f.writelines([w+'\n' for w in vocab_list])
     
     print('Make vocabulary for questions')
@@ -54,7 +54,7 @@ def make_vocab_answers(input_dir, n_answers):
     assert('<unk>' not in answers)
     top_answers = ['<unk>'] + answers[:n_answers-1] # '-1' is due to '<unk>'
     
-    with open('../datasets/vocab_answers.txt', 'w') as f:
+    with open('../datasets/1MP/vocab_answers.txt', 'w') as f:
         f.writelines([w+'\n' for w in top_answers])
 
     print('Make vocabulary for answers')
