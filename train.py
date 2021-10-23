@@ -7,7 +7,7 @@ import torch.optim as optim
 from torch.optim import lr_scheduler
 from data_loader import get_loader
 from models import VqaModel
-
+import sys
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -93,6 +93,13 @@ def main(args):
 
                 # Print the average loss in a mini-batch.
                 if batch_idx % 100 == 0:
+                    original_stdout = sys.stdout
+                    with open('result.txt', 'a') as f:
+                        sys.stdout = f # Change the standard output to the file we created.
+                        print('| {} SET | Epoch [{:02d}/{:02d}], Step [{:04d}/{:04d}], Loss: {:.4f}'
+                          .format(phase.upper(), epoch+1, args.num_epochs, batch_idx, int(batch_step_size), loss.item()))
+                        sys.stdout = original_stdout # Reset the standard output to its original value
+
                     print('| {} SET | Epoch [{:02d}/{:02d}], Step [{:04d}/{:04d}], Loss: {:.4f}'
                           .format(phase.upper(), epoch+1, args.num_epochs, batch_idx, int(batch_step_size), loss.item()))
 
@@ -100,7 +107,12 @@ def main(args):
             epoch_loss = running_loss / batch_step_size
             epoch_acc_exp1 = running_corr_exp1.double() / len(data_loader[phase].dataset)      # multiple choice
             epoch_acc_exp2 = running_corr_exp2.double() / len(data_loader[phase].dataset)      # multiple choice
-
+            original_stdout = sys.stdout
+            with open('result.txt', 'a') as f:
+                sys.stdout = f # Change the standard output to the file we created.
+                print('| {} SET | Epoch [{:02d}/{:02d}], Loss: {:.4f}, Acc(Exp1): {:.4f}, Acc(Exp2): {:.4f} \n'
+                  .format(phase.upper(), epoch+1, args.num_epochs, epoch_loss, epoch_acc_exp1, epoch_acc_exp2))
+                sys.stdout = original_stdout # Reset the standard output to its original value
             print('| {} SET | Epoch [{:02d}/{:02d}], Loss: {:.4f}, Acc(Exp1): {:.4f}, Acc(Exp2): {:.4f} \n'
                   .format(phase.upper(), epoch+1, args.num_epochs, epoch_loss, epoch_acc_exp1, epoch_acc_exp2))
 
