@@ -6,7 +6,6 @@
 
 datasets/
 models/
-logs/
 
 __pycache__
 tmp
