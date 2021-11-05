@@ -6,7 +6,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.optim import lr_scheduler
 from data_loader import get_loader
-from models import VqaModel
+from models import VqaModel,VWSA
 import sys
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -29,14 +29,25 @@ def main(args):
     qst_vocab_size = data_loader['train'].dataset.qst_vocab.vocab_size
     ans_vocab_size = data_loader['train'].dataset.ans_vocab.vocab_size
     ans_unk_idx = data_loader['train'].dataset.ans_vocab.unk2idx
-
-    model = VqaModel(
-        embed_size=args.embed_size,
-        qst_vocab_size=qst_vocab_size,
-        ans_vocab_size=ans_vocab_size,
-        word_embed_size=args.word_embed_size,
-        num_layers=args.num_layers,
-        hidden_size=args.hidden_size).to(device)
+    if args.model == "BVQA":
+        model = VqaModel(
+            embed_size=args.embed_size,
+            qst_vocab_size=qst_vocab_size,
+            ans_vocab_size=ans_vocab_size,
+            word_embed_size=args.word_embed_size,
+            num_layers=args.num_layers,
+            hidden_size=args.hidden_size).to(device)
+    elif args.model == 'VWSA':
+        model = VWSA(
+            embed_size=args.embed_size,
+            qst_vocab_size=qst_vocab_size,
+            ans_vocab_size=ans_vocab_size,
+            word_embed_size=args.word_embed_size,
+            num_layers=args.num_layers,
+            hidden_size=args.hidden_size).to(device)
+    else:
+        print("No specific model is mentioned! Aborting ...... !!!")
+        exit(0)
 
     criterion = nn.CrossEntropyLoss()
 
@@ -68,15 +79,15 @@ def main(args):
                 image = batch_sample['image'].to(device)
                 question = batch_sample['question'].to(device)
                 label = batch_sample['answer_label'].to(device)
-                multi_choice = batch_sample['answer_multi_choice']  # not tensor, list.
+                multi_choice = batch_sample['answer_multi_choice'] 
 
                 optimizer.zero_grad()
 
                 with torch.set_grad_enabled(phase == 'train'):
 
-                    output = model(image, question)      # [batch_size, ans_vocab_size=1000]
-                    _, pred_exp1 = torch.max(output, 1)  # [batch_size]
-                    _, pred_exp2 = torch.max(output, 1)  # [batch_size]
+                    output = model(image, question)      
+                    _, pred_exp1 = torch.max(output, 1)  
+                    _, pred_exp2 = torch.max(output, 1)  
                     loss = criterion(output, label)
 
                     if phase == 'train':
@@ -91,32 +102,29 @@ def main(args):
                 running_corr_exp1 += torch.stack([(ans == pred_exp1.cpu()) for ans in multi_choice]).any(dim=0).sum()
                 running_corr_exp2 += torch.stack([(ans == pred_exp2.cpu()) for ans in multi_choice]).any(dim=0).sum()
 
-                # Print the average loss in a mini-batch.
                 if batch_idx % 100 == 0:
                     original_stdout = sys.stdout
                     with open('result.txt', 'a') as f:
-                        sys.stdout = f # Change the standard output to the file we created.
+                        sys.stdout = f 
                         print('| {} SET | Epoch [{:02d}/{:02d}], Step [{:04d}/{:04d}], Loss: {:.4f}'
                           .format(phase.upper(), epoch+1, args.num_epochs, batch_idx, int(batch_step_size), loss.item()))
-                        sys.stdout = original_stdout # Reset the standard output to its original value
+                        sys.stdout = original_stdout 
 
                     print('| {} SET | Epoch [{:02d}/{:02d}], Step [{:04d}/{:04d}], Loss: {:.4f}'
                           .format(phase.upper(), epoch+1, args.num_epochs, batch_idx, int(batch_step_size), loss.item()))
 
-            # Print the average loss and accuracy in an epoch.
             epoch_loss = running_loss / batch_step_size
-            epoch_acc_exp1 = running_corr_exp1.double() / len(data_loader[phase].dataset)      # multiple choice
-            epoch_acc_exp2 = running_corr_exp2.double() / len(data_loader[phase].dataset)      # multiple choice
+            epoch_acc_exp1 = running_corr_exp1.double() / len(data_loader[phase].dataset)      
+            epoch_acc_exp2 = running_corr_exp2.double() / len(data_loader[phase].dataset)      
             original_stdout = sys.stdout
             with open('result.txt', 'a') as f:
-                sys.stdout = f # Change the standard output to the file we created.
+                sys.stdout = f 
                 print('| {} SET | Epoch [{:02d}/{:02d}], Loss: {:.4f}, Acc(Exp1): {:.4f}, Acc(Exp2): {:.4f} \n'
                   .format(phase.upper(), epoch+1, args.num_epochs, epoch_loss, epoch_acc_exp1, epoch_acc_exp2))
-                sys.stdout = original_stdout # Reset the standard output to its original value
+                sys.stdout = original_stdout 
             print('| {} SET | Epoch [{:02d}/{:02d}], Loss: {:.4f}, Acc(Exp1): {:.4f}, Acc(Exp2): {:.4f} \n'
                   .format(phase.upper(), epoch+1, args.num_epochs, epoch_loss, epoch_acc_exp1, epoch_acc_exp2))
 
-            # Log the loss and accuracy in an epoch.
             with open(os.path.join(args.log_dir, '{}-log-epoch-{:02}.txt')
                       .format(phase, epoch+1), 'w') as f:
                 f.write(str(epoch+1) + '\t'
@@ -124,7 +132,6 @@ def main(args):
                         + str(epoch_acc_exp1.item()) + '\t'
                         + str(epoch_acc_exp2.item()))
 
-        # Save the model check points.
         if (epoch+1) % args.save_step == 0:
             torch.save({'epoch': epoch+1, 'state_dict': model.state_dict()},
                        os.path.join(args.model_dir, 'model-epoch-{:02d}.ckpt'.format(epoch+1)))
@@ -184,6 +191,8 @@ if __name__ == '__main__':
 
     parser.add_argument('--save_step', type=int, default=1,
                         help='save step of model.')
+    parser.add_argument('--model', type=str, default='VWSA',
+                        help='Type of the mode to be trained.')
 
     args = parser.parse_args()
 

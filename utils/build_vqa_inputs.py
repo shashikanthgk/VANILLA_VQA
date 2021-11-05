@@ -84,7 +84,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--input_dir', type=str, default='/run/media/hoosiki/WareHouse3/mtb/datasets/VQA',
+    parser.add_argument('--input_dir', type=str, default='/1MP/datasets',
                         help='directory for inputs')
 
     parser.add_argument('--output_dir', type=str, default='../datasets',
