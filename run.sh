@@ -1,5 +1,5 @@
 #!/bin/sh
-#PBS -N vanillavqa
+#PBS -N VQA_WITH_ATTENTION
 #PBS -P majorproject
 #PBS -m bea
 #PBS -M vrsandeep.181it151@nitk.edu.in
@@ -13,5 +13,5 @@ echo $PBS_JOBID
 echo "==============================="
 cd $PBS_O_WORKDIR
 #job
-singularity exec --nv /home/181it151/local_sty_dkr_dlgpu2 python3 train.py --num_epochs 30 --batch_size 128
+singularity exec --nv /home/181it151/local_sty_dkr_dlgpu2 python3 train.py --num_epochs 30 --batch_size 128 --model 'VWSA'
 
