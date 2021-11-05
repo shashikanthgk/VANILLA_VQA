@@ -118,9 +118,9 @@ class Attention(nn.Module):
         u = vi_attended + vq
         return u
 
-class VWA(nn.Module):
+class VWSA(nn.Module):
     def __init__(self, embed_size, qst_vocab_size, ans_vocab_size, word_embed_size, num_layers, hidden_size): 
-        super(VWA, self).__init__()
+        super(VWSA, self).__init__()
         self.num_mlp_layer = 1
         self.img_encoder = ImgAttentionEncoder(embed_size)
         self.qst_encoder = QstEncoder(qst_vocab_size, word_embed_size, embed_size, num_layers, hidden_size)
