@@ -37,6 +37,11 @@ def main(args):
             word_embed_size=args.word_embed_size,
             num_layers=args.num_layers,
             hidden_size=args.hidden_size).to(device)
+        params = list(model.img_encoder.fc.parameters()) \
+        + list(model.qst_encoder.parameters()) \
+        + list(model.fc1.parameters()) \
+        + list(model.fc2.parameters())
+
     elif args.model == 'VWSA':
         model = VWSA(
             embed_size=args.embed_size,
@@ -51,12 +56,8 @@ def main(args):
 
     criterion = nn.CrossEntropyLoss()
 
-    params = list(model.img_encoder.fc.parameters()) \
-        + list(model.qst_encoder.parameters()) \
-        + list(model.fc1.parameters()) \
-        + list(model.fc2.parameters())
 
-    optimizer = optim.Adam(params, lr=args.learning_rate)
+    optimizer = optim.Adam(model.parameters(), lr=args.learning_rate)
     scheduler = lr_scheduler.StepLR(optimizer, step_size=args.step_size, gamma=args.gamma)
 
     for epoch in range(args.num_epochs):
