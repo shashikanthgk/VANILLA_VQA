@@ -3,7 +3,7 @@
 *.swp
 .ipynb_checkpoints
 .DS_Store
-
+gitauth.txt
 datasets/
 models/
 
