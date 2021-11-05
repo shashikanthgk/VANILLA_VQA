@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 import torchvision.models as models
+import torch.nn.functional as F
 
 
 class ImgEncoder(nn.Module):
@@ -111,12 +112,12 @@ class Attention(nn.Module):
         # N * 1024 -> N * 512 -> N * 1 * 512
         hq = self.ff_questions(vq).unsqueeze(dim=1)
         # N * 196 * 512
-        ha = torch.tanh(hi + hq)
+        ha = F.tanh(hi + hq)
         if getattr(self, 'dropout'):
             ha = self.dropout(ha)
         # N * 196 * 512 -> N * 196 * 1 -> N * 196
         ha = self.ff_attention(ha).squeeze(dim=2)
-        pi = torch.softmax(ha)
+        pi = F.softmax(ha)
         # (N * 196 * 1, N * 196 * 1024) -> N * 1024
         vi_attended = (pi.unsqueeze(dim=2) * vi).sum(dim=1)
         u = vi_attended + vq
