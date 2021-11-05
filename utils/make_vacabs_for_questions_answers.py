@@ -7,7 +7,6 @@ from collections import defaultdict
 
 
 def make_vocab_questions(input_dir):
-    """Make dictionary for questions and save them into text file."""
     vocab_set = set()
     SENTENCE_SPLIT_REGEX = re.compile(r'(\W+)')
     question_length = []
@@ -37,7 +36,6 @@ def make_vocab_questions(input_dir):
 
 
 def make_vocab_answers(input_dir, n_answers):
-    """Make dictionary for top n answers and save them into text file."""
     answers = defaultdict(lambda: 0)
     datasets = os.listdir(input_dir)
     for dataset in datasets:
@@ -71,7 +69,7 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input_dir', type=str, default='/run/media/hoosiki/WareHouse3/mtb/datasets/VQA',
+    parser.add_argument('--input_dir', type=str, default='/1MP/datasets/',
                         help='directory for input questions and answers')
     parser.add_argument('--n_answers', type=int, default=1000,
                         help='the number of answers to be kept in vocab')
