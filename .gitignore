@@ -6,6 +6,10 @@
 gitauth.txt
 datasets/
 models/
+models30/
+models50/
+
+
 
 __pycache__
 tmp
