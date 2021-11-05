@@ -109,7 +109,7 @@ class Attention(nn.Module):
         # N * 196 * 1024 -> N * 196 * 512
         hi = self.ff_image(vi)
         # N * 1024 -> N * 512 -> N * 1 * 512
-        hq = self.ff_ques(vq).unsqueeze(dim=1)
+        hq = self.ff_questions(vq).unsqueeze(dim=1)
         # N * 196 * 512
         ha = torch.tanh(hi + hq)
         if getattr(self, 'dropout'):
