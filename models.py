@@ -94,8 +94,6 @@ class ImgAttentionEncoder(nn.Module):
             img_feature = self.cnn(image)                           # [batch_size, vgg16(19)_fc=4096]
         img_feature = img_feature.view(-1, 512, 196).transpose(1,2) # [batch_size, 196, 512]
         img_feature = self.fc(img_feature)                          # [batch_size, 196, embed_size]
-        l2_norm = img_feature.norm(p=2, dim=1, keepdim=True).detach()
-        img_feature = img_feature.div(l2_norm)        
         return img_feature
 
 
@@ -107,35 +105,35 @@ class Attention(nn.Module):
         self.dropout = nn.Dropout(p=0.5)
         self.ff_attention = nn.Linear(num_channels, 1)
     
-    def forward(self, vi, vq):
-        # N * 196 * 1024 -> N * 196 * 512
-        hi = self.ff_image(vi)
-        # N * 1024 -> N * 512 -> N * 1 * 512
-        hq = self.ff_questions(vq).unsqueeze(dim=1)
-        # N * 196 * 512
-        ha = F.tanh(hi + hq)
-        if getattr(self, 'dropout'):
-            ha = self.dropout(ha)
-        # N * 196 * 512 -> N * 196 * 1 -> N * 196
-        ha = self.ff_attention(ha).squeeze(dim=2)
-        pi = F.softmax(ha)
-        # (N * 196 * 1, N * 196 * 1024) -> N * 1024
-        vi_attended = (pi.unsqueeze(dim=2) * vi).sum(dim=1)
-        u = vi_attended + vq
-        return u
-
     # def forward(self, vi, vq):
+    #     # N * 196 * 1024 -> N * 196 * 512
     #     hi = self.ff_image(vi)
+    #     # N * 1024 -> N * 512 -> N * 1 * 512
     #     hq = self.ff_questions(vq).unsqueeze(dim=1)
-    #     ha = torch.tanh(hi+hq)
-    #     if self.dropout:
+    #     # N * 196 * 512
+    #     ha = F.tanh(hi + hq)
+    #     if getattr(self, 'dropout'):
     #         ha = self.dropout(ha)
-    #     ha = self.ff_attention(ha)
-    #     pi = torch.softmax(ha, dim=1)
-    #     self.pi = pi
-    #     vi_attended = (pi * vi).sum(dim=1)
+    #     # N * 196 * 512 -> N * 196 * 1 -> N * 196
+    #     ha = self.ff_attention(ha).squeeze(dim=2)
+    #     pi = F.softmax(ha)
+    #     # (N * 196 * 1, N * 196 * 1024) -> N * 1024
+    #     vi_attended = (pi.unsqueeze(dim=2) * vi).sum(dim=1)
     #     u = vi_attended + vq
     #     return u
+
+    def forward(self, vi, vq):
+        hi = self.ff_image(vi)
+        hq = self.ff_questions(vq).unsqueeze(dim=1)
+        ha = torch.tanh(hi+hq)
+        if self.dropout:
+            ha = self.dropout(ha)
+        ha = self.ff_attention(ha)
+        pi = torch.softmax(ha, dim=1)
+        self.pi = pi
+        vi_attended = (pi * vi).sum(dim=1)
+        u = vi_attended + vq
+        return u
 
 class VWSA(nn.Module):
     def __init__(self, embed_size, qst_vocab_size, ans_vocab_size, word_embed_size, num_layers, hidden_size): 
