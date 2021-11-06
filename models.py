@@ -144,8 +144,10 @@ class VWSA(nn.Module):
         self.qst_encoder = QstEncoder(qst_vocab_size, word_embed_size, embed_size, num_layers, hidden_size)
         self.att = Attention(512, embed_size)
         self.tanh = nn.Tanh()
-        self.mlp = nn.Sequential(nn.Dropout(p=0.5),
-                            nn.Linear(embed_size, ans_vocab_size))
+        self.fc1 = nn.Linear(embed_size, ans_vocab_size)
+        self.fc2 = nn.Linear(ans_vocab_size, ans_vocab_size)
+        # self.mlp = nn.Sequential(nn.Dropout(p=0.5),
+        #                     nn.Linear(embed_size, ans_vocab_size))
         self.attn_features = []  ## attention features
 
     def forward(self, img, qst):
@@ -153,6 +155,12 @@ class VWSA(nn.Module):
         qst_feature = self.qst_encoder(qst)                     # [batch_size, embed_size]
         vi = img_feature
         u = qst_feature
-        u = self.att(vi, u)            
+        u = self.att(vi, u)          
         combined_feature = self.mlp(u)
+        combined_feature = self.tanh(combined_feature)
+        combined_feature = self.dropout(combined_feature)
+        combined_feature = self.fc1(combined_feature)           
+        combined_feature = self.tanh(combined_feature)
+        combined_feature = self.dropout(combined_feature)
+        combined_feature = self.fc2(combined_feature)          
         return combined_feature
