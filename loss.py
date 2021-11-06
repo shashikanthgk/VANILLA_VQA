@@ -3,7 +3,7 @@ import torch.nn as nn
 # import torch
 class CustomLoss(nn.Module):
     def __init__(self):
-        super(CustomLoss1, self).__init__()
+        super(CustomLoss, self).__init__()
     def __name__(self):
       return "CUSTOM1"
 
