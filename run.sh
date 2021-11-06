@@ -13,5 +13,5 @@ echo $PBS_JOBID
 echo "==============================="
 cd $PBS_O_WORKDIR
 #job
-singularity exec --nv /home/181it151/local_sty_dkr_dlgpu2 python3 train.py --num_epochs 30 --batch_size 128 --model 'VWSA'
+singularity exec --nv /home/181it151/local_sty_dkr_dlgpu2 python3 train.py --num_epochs 30 --batch_size 128 --model 'VWSA' --save_step 10
 

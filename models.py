@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 import torchvision.models as models
+import torch.nn.functional as F
 
 
 class ImgEncoder(nn.Module):
@@ -104,19 +105,36 @@ class Attention(nn.Module):
         self.ff_questions = nn.Linear(embed_size, num_channels)
         self.dropout = nn.Dropout(p=0.5)
         self.ff_attention = nn.Linear(num_channels, 1)
-
+    
     def forward(self, vi, vq):
+        # N * 196 * 1024 -> N * 196 * 512
         hi = self.ff_image(vi)
+        # N * 1024 -> N * 512 -> N * 1 * 512
         hq = self.ff_questions(vq).unsqueeze(dim=1)
-        ha = torch.tanh(hi+hq)
-        if self.dropout:
+        # N * 196 * 512
+        ha = F.tanh(hi + hq)
+        if getattr(self, 'dropout'):
             ha = self.dropout(ha)
-        ha = self.ff_attention(ha)
-        pi = torch.softmax(ha, dim=1)
-        self.pi = pi
-        vi_attended = (pi * vi).sum(dim=1)
+        # N * 196 * 512 -> N * 196 * 1 -> N * 196
+        ha = self.ff_attention(ha).squeeze(dim=2)
+        pi = F.softmax(ha)
+        # (N * 196 * 1, N * 196 * 1024) -> N * 1024
+        vi_attended = (pi.unsqueeze(dim=2) * vi).sum(dim=1)
         u = vi_attended + vq
         return u
+
+    # def forward(self, vi, vq):
+    #     hi = self.ff_image(vi)
+    #     hq = self.ff_questions(vq).unsqueeze(dim=1)
+    #     ha = torch.tanh(hi+hq)
+    #     if self.dropout:
+    #         ha = self.dropout(ha)
+    #     ha = self.ff_attention(ha)
+    #     pi = torch.softmax(ha, dim=1)
+    #     self.pi = pi
+    #     vi_attended = (pi * vi).sum(dim=1)
+    #     u = vi_attended + vq
+    #     return u
 
 class VWSA(nn.Module):
     def __init__(self, embed_size, qst_vocab_size, ans_vocab_size, word_embed_size, num_layers, hidden_size): 
@@ -126,8 +144,10 @@ class VWSA(nn.Module):
         self.qst_encoder = QstEncoder(qst_vocab_size, word_embed_size, embed_size, num_layers, hidden_size)
         self.att = Attention(512, embed_size)
         self.tanh = nn.Tanh()
-        self.mlp = nn.Sequential(nn.Dropout(p=0.5),
-                            nn.Linear(embed_size, ans_vocab_size))
+        self.fc1 = nn.Linear(embed_size, ans_vocab_size)
+        self.fc2 = nn.Linear(ans_vocab_size, ans_vocab_size)
+        # self.mlp = nn.Sequential(nn.Dropout(p=0.5),
+        #                     nn.Linear(embed_size, ans_vocab_size))
         self.attn_features = []  ## attention features
 
     def forward(self, img, qst):
@@ -135,6 +155,12 @@ class VWSA(nn.Module):
         qst_feature = self.qst_encoder(qst)                     # [batch_size, embed_size]
         vi = img_feature
         u = qst_feature
-        u = self.att(vi, u)            
-        combined_feature = self.mlp(u)
+        u = self.att(vi, u)          
+        # combined_feature = self.mlp(u)
+        combined_feature = self.tanh(u)
+        combined_feature = self.dropout(combined_feature)
+        combined_feature = self.fc1(combined_feature)           
+        combined_feature = self.tanh(combined_feature)
+        combined_feature = self.dropout(combined_feature)
+        combined_feature = self.fc2(combined_feature)          
         return combined_feature
