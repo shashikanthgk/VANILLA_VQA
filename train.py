@@ -11,7 +11,6 @@ import sys
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-
 def main(args):
 
     os.makedirs(args.log_dir, exist_ok=True)
@@ -62,7 +61,7 @@ def main(args):
     criterion = nn.CrossEntropyLoss()
 
 
-    optimizer = optim.Adam(params, lr=args.learning_rate)
+    optimizer = optim.Adam(model.parameters(), lr=args.learning_rate)
     scheduler = lr_scheduler.StepLR(optimizer, step_size=args.step_size, gamma=args.gamma)
 
     for epoch in range(args.num_epochs):
