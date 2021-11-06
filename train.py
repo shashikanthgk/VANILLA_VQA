@@ -8,7 +8,7 @@ from torch.optim import lr_scheduler
 from data_loader import get_loader
 from models import VqaModel,VWSA
 import sys
-import loss
+import loss as l
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 def main(args):
@@ -58,7 +58,7 @@ def main(args):
         print("No specific model is mentioned! Aborting ...... !!!")
         exit(0)
 
-    criterion = nn.CustomLoss1()
+    criterion = l.CustomLoss()
 
 
     optimizer = optim.Adam(model.parameters(), lr=args.learning_rate)

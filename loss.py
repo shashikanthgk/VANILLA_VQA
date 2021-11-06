@@ -1,7 +1,7 @@
 # import torch.nn.functional as F
 import torch.nn as nn
 # import torch
-class CustomLoss1(nn.Module):
+class CustomLoss(nn.Module):
     def __init__(self):
         super(CustomLoss1, self).__init__()
     def __name__(self):
