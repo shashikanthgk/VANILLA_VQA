@@ -1,6 +1,6 @@
 import torch.nn.functional as F
 import torch.nn as nn
-# import torch
+import torch
 class CustomLoss(nn.Module):
     def __init__(self):
         super(CustomLoss, self).__init__()
@@ -12,9 +12,8 @@ class CustomLoss(nn.Module):
         # inputs = inputs.view(-1)
         # targets = targets.view(-1)
         print(targets,inputs)
-        print(targets.shape,inputs.shape)
+        print(targets.shape,inputs.shape,torch.transpose(inputs, 0, 1).shape)
         CEloss = F.cross_entropy(inputs,targets)
-
-        KLloss = F.kl_div(inputs,targets,log_target=True)
+        KLloss = F.kl_div(torch.transpose(inputs, 0, 1),targets,log_target=True)
         return CEloss+KLloss
 
