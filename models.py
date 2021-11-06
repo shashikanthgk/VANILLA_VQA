@@ -94,8 +94,6 @@ class ImgAttentionEncoder(nn.Module):
             img_feature = self.cnn(image)                           # [batch_size, vgg16(19)_fc=4096]
         img_feature = img_feature.view(-1, 512, 196).transpose(1,2) # [batch_size, 196, 512]
         img_feature = self.fc(img_feature)                          # [batch_size, 196, embed_size]
-        l2_norm = img_feature.norm(p=2, dim=1, keepdim=True).detach()
-        img_feature = img_feature.div(l2_norm)        
         return img_feature
 
 
@@ -141,8 +139,7 @@ class VWSA(nn.Module):
     def __init__(self, embed_size, qst_vocab_size, ans_vocab_size, word_embed_size, num_layers, hidden_size): 
         super(VWSA, self).__init__()
         self.num_mlp_layer = 1
-        # self.img_encoder = ImgAttentionEncoder(embed_size)
-        self.img_encoder = ImgEncoder(embed_size)
+        self.img_encoder = ImgAttentionEncoder(embed_size)
         self.qst_encoder = QstEncoder(qst_vocab_size, word_embed_size, embed_size, num_layers, hidden_size)
         self.att = Attention(512, embed_size)
         self.tanh = nn.Tanh()
