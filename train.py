@@ -49,11 +49,11 @@ def main(args):
             word_embed_size=args.word_embed_size,
             num_layers=args.num_layers,
             hidden_size=args.hidden_size).to(device)
-        params = list(model.img_encoder.fc.parameters())\
-        + list(model.qst_encoder.parameters()) \
-        + list(model.att.parameters()) \
-        + list(model.fc1.parameters())\
-        + list(model.fc2.parameters())
+        # params = list(model.img_encoder.fc.parameters())\
+        # + list(model.qst_encoder.parameters()) \
+        # + list(model.att.parameters()) \
+        # + list(model.fc1.parameters())\
+        # + list(model.fc2.parameters())
     else:
         print("No specific model is mentioned! Aborting ...... !!!")
         exit(0)
