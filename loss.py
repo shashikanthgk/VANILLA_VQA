@@ -9,8 +9,8 @@ class CustomLoss(nn.Module):
 
     def forward(self, inputs, targets, smooth=1):
         
-        inputs = inputs.view(-1)
-        targets = targets.view(-1)
+        # inputs = inputs.view(-1)
+        # targets = targets.view(-1)
         print(targets,inputs)
         print(targets.shape,inputs.shape)
         CEloss = F.cross_entropy(inputs,targets)
