@@ -12,6 +12,7 @@ class CustomLoss(nn.Module):
         inputs = inputs.view(-1)
         targets = targets.view(-1)
         print(targets,inputs)
+        print(targets.shape,inputs.shape)
         CEloss = F.cross_entropy(inputs,targets)
 
         KLloss = F.kl_div(inputs,targets)
