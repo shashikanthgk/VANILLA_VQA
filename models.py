@@ -156,8 +156,8 @@ class VWSA(nn.Module):
         vi = img_feature
         u = qst_feature
         u = self.att(vi, u)          
-        combined_feature = self.mlp(u)
-        combined_feature = self.tanh(combined_feature)
+        # combined_feature = self.mlp(u)
+        combined_feature = self.tanh(u)
         combined_feature = self.dropout(combined_feature)
         combined_feature = self.fc1(combined_feature)           
         combined_feature = self.tanh(combined_feature)
