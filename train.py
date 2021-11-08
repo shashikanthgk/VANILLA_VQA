@@ -8,7 +8,7 @@ from torch.optim import lr_scheduler
 from data_loader import get_loader
 from models import VqaModel,VWSA
 import sys
-
+import loss as l
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 def main(args):
@@ -58,7 +58,7 @@ def main(args):
         print("No specific model is mentioned! Aborting ...... !!!")
         exit(0)
 
-    criterion = nn.CrossEntropyLoss()
+    criterion = l.CustomLoss()
 
 
     optimizer = optim.Adam(model.parameters(), lr=args.learning_rate)
@@ -119,7 +119,7 @@ def main(args):
                           .format(phase.upper(), epoch+1, args.num_epochs, batch_idx, int(batch_step_size), loss.item()))
 
             epoch_loss = running_loss / batch_step_size
-            epoch_acc_exp1 = running_corr_exp1.double() / len(data_loader[phase].dataset)      
+            epoch_acc_exp1 = running_corr_exp1.double() / len(data_loader[phase].dataset)     
             epoch_acc_exp2 = running_corr_exp2.double() / len(data_loader[phase].dataset)      
             original_stdout = sys.stdout
             with open('result.txt', 'a') as f:
