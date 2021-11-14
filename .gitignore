@@ -1,12 +1,14 @@
 ~
 *.npy
 *.swp
+*.pt
+*.cpt
 .ipynb_checkpoints
 .DS_Store
 gitauth.txt
 datasets/
 models/
-models30/
-models50/
+best_model/
 __pycache__
 tmp
+
