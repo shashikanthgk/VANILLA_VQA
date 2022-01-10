@@ -71,7 +71,7 @@ def main(args):
     criterion = nn.CrossEntropyLoss()
 
 
-    optimizer = optim.Adam(params, lr=args.learning_rate)
+    optimizer = optim.Adam(model.parameters(), lr=args.learning_rate)
     scheduler = lr_scheduler.StepLR(optimizer, step_size=args.step_size, gamma=args.gamma)
 
     for epoch in range(args.num_epochs):
