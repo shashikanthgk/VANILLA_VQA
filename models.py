@@ -154,6 +154,10 @@ class SAN(nn.Module):
                             nn.Linear(embed_size, ans_vocab_size))
         self.attn_features = [] 
         self.dropout = nn.Dropout(p=0.5)
+        self.fc1 = nn.Linear(embed_size, ans_vocab_size)
+        self.fc2 = nn.Linear(ans_vocab_size, ans_vocab_size)
+        self.attn_features = []  ## attention features
+
 
     def forward(self, img, qst):
         img_feature = self.img_encoder(img)                    
