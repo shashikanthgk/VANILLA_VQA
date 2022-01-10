@@ -68,10 +68,10 @@ def main(args):
         print("No specific model is mentioned! Aborting ...... !!!")
         exit(0)
 
-    criterion = l.CustomLoss()
+    criterion = nn.CrossEntropyLoss()
 
 
-    optimizer = optim.Adam(model.parameters(), lr=args.learning_rate)
+    optimizer = optim.Adam(params, lr=args.learning_rate)
     scheduler = lr_scheduler.StepLR(optimizer, step_size=args.step_size, gamma=args.gamma)
 
     for epoch in range(args.num_epochs):
@@ -145,8 +145,8 @@ def main(args):
                         + str(epoch_acc_exp2.item()))
 
         if (epoch+1) % args.save_step == 0:
-            torch.save({'epoch': epoch+1, 'state_dict': model.state_dict()},
-                       os.path.join(args.model_dir, 'model-epoch-{:02d}.ckpt'.format(epoch+1)))
+           # torch.save({'epoch': epoch+1, 'state_dict': model.state_dict()}, os.path.join(args.model_dir, 'model-epoch-{:02d}.ckpt'.format(epoch+1)))
+            torch.save(model,os.path.join(args.model_dir, '{}-epoch-{:02d}.pt'.format(args.model, epoch+1)))
 
 
 if __name__ == '__main__':
