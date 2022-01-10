@@ -153,6 +153,7 @@ class SAN(nn.Module):
         self.mlp = nn.Sequential(nn.Dropout(p=0.5),
                             nn.Linear(embed_size, ans_vocab_size))
         self.attn_features = [] 
+        self.dropout = nn.Dropout(p=0.5)
 
     def forward(self, img, qst):
         img_feature = self.img_encoder(img)                    
