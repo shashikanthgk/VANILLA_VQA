@@ -6,7 +6,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.optim import lr_scheduler
 from data_loader import get_loader
-from models import VqaModel,VWSA,SAN
+from models import SANModel
 import sys
 import loss as l
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -55,15 +55,18 @@ def main(args):
         # + list(model.fc1.parameters())\
         # + list(model.fc2.parameters())
     elif args.model == 'SAN':
-            model = SAN(
+        model = SANModel(
             embed_size=args.embed_size,
             qst_vocab_size=qst_vocab_size,
             ans_vocab_size=ans_vocab_size,
             word_embed_size=args.word_embed_size,
             num_layers=args.num_layers,
-            hidden_size=args.hidden_size,
-            num_attention_layer = args.num_attn_layer).to(device)
-
+            hidden_size=args.hidden_size).to(device)
+        params = list(model.img_encoder.fc.parameters())\
+                + list(model.qst_encoder.parameters()) \
+                + list(model.san.parameters()) \
+                + list(model.fc1.parameters())\
+                + list(model.fc2.parameters())
     else:
         print("No specific model is mentioned! Aborting ...... !!!")
         exit(0)
@@ -203,7 +206,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--save_step', type=int, default=1,
                         help='save step of model.')
-    parser.add_argument('--model', type=str, default='VWSA',
+    parser.add_argument('--model', type=str, default='SAN',
                         help='Type of the mode to be trained.')
     parser.add_argument('--num_attn_layer', type=str, default=2,
                         help=' Num of the attention layer.')
