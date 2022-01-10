@@ -61,7 +61,8 @@ def main(args):
             ans_vocab_size=ans_vocab_size,
             word_embed_size=args.word_embed_size,
             num_layers=args.num_layers,
-            hidden_size=args.hidden_size).to(device)
+            hidden_size=args.hidden_size
+            num_attention_layer = num_attention_layer).to(device)
     else:
         print("No specific model is mentioned! Aborting ...... !!!")
         exit(0)
@@ -203,7 +204,7 @@ if __name__ == '__main__':
                         help='save step of model.')
     parser.add_argument('--model', type=str, default='SAN',
                         help='Type of the mode to be trained.')
-    parser.add_argument('--num_attn_layer', type=str, default=2,
+    parser.add_argument('--num_attn_layer', type=int, default=2,
                         help=' Num of the attention layer.')
 
     args = parser.parse_args()

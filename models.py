@@ -143,6 +143,7 @@ class VWSA(nn.Module):
 class SAN(nn.Module):
     def __init__(self, embed_size, qst_vocab_size, ans_vocab_size, word_embed_size, num_layers, hidden_size,num_attention_layer): 
         super(SAN, self).__init__()
+        self.num_attention_layer = num_attention_layer
         self.num_mlp_layer = 1
         self.num_attention_layer = num_attention_layer
         self.img_encoder = ImgAttentionEncoder(embed_size)
