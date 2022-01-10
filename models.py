@@ -148,15 +148,11 @@ class SAN(nn.Module):
         self.num_attention_layer = num_attention_layer
         self.img_encoder = ImgAttentionEncoder(embed_size)
         self.qst_encoder = QstEncoder(qst_vocab_size, word_embed_size, embed_size, num_layers, hidden_size)
-        # self.att = Attention(512, embed_size)
+        self.att = Attention(512, embed_size)
         self.san = nn.ModuleList([Attention(512, embed_size)]*self.num_attention_layer)
         self.tanh = nn.Tanh()
         self.mlp = nn.Sequential(nn.Dropout(p=0.5),
                             nn.Linear(embed_size, ans_vocab_size))
-        self.attn_features = [] 
-        self.dropout = nn.Dropout(p=0.5)
-        self.fc1 = nn.Linear(embed_size, ans_vocab_size)
-        self.fc2 = nn.Linear(ans_vocab_size, ans_vocab_size)
         self.attn_features = []  ## attention features
 
 
@@ -168,7 +164,6 @@ class SAN(nn.Module):
         for attn_layer in self.san:
             u = attn_layer(vi, u)
             self.attn_features.append(attn_layer.pi)
-        u = self.att(vi, u)         
         combined_feature = self.mlp(u)
         return combined_feature
 
