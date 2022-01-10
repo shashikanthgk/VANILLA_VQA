@@ -6,7 +6,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.optim import lr_scheduler
 from data_loader import get_loader
-from models import VqaModel,VWSA
+from models import VqaModel,VWSA,SAN
 import sys
 import loss as l
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -54,6 +54,16 @@ def main(args):
         # + list(model.att.parameters()) \
         # + list(model.fc1.parameters())\
         # + list(model.fc2.parameters())
+    elif args.model == 'SAN':
+            model = SAN(
+            embed_size=args.embed_size,
+            qst_vocab_size=qst_vocab_size,
+            ans_vocab_size=ans_vocab_size,
+            word_embed_size=args.word_embed_size,
+            num_layers=args.num_layers,
+            hidden_size=args.hidden_size,
+            num_attention_layer = args.num_attn_layer).to(device)
+
     else:
         print("No specific model is mentioned! Aborting ...... !!!")
         exit(0)
@@ -99,9 +109,6 @@ def main(args):
                         loss.backward()
                         optimizer.step()
 
-                # Evaluation metric of 'multiple choice'
-                # Exp1: our model prediction to '<unk>' IS accepted as the answer.
-                # Exp2: our model prediction to '<unk>' is NOT accepted as the answer.
                 pred_exp2[pred_exp2 == ans_unk_idx] = -9999
                 running_loss += loss.item()
                 running_corr_exp1 += torch.stack([(ans == pred_exp1.cpu()) for ans in multi_choice]).any(dim=0).sum()
@@ -198,6 +205,8 @@ if __name__ == '__main__':
                         help='save step of model.')
     parser.add_argument('--model', type=str, default='VWSA',
                         help='Type of the mode to be trained.')
+    parser.add_argument('--num_attn_layer', type=str, default=2,
+                        help=' Num of the attention layer.')
 
     args = parser.parse_args()
 
