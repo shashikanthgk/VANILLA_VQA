@@ -6,7 +6,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.optim import lr_scheduler
 from data_loader import get_loader
-from models import SANModel
+from models import SAN,VqaModel,VWSA
 import sys
 import loss as l
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -55,7 +55,7 @@ def main(args):
         # + list(model.fc1.parameters())\
         # + list(model.fc2.parameters())
     elif args.model == 'SAN':
-        model = SANModel(
+        model = SAN(
             embed_size=args.embed_size,
             qst_vocab_size=qst_vocab_size,
             ans_vocab_size=ans_vocab_size,
