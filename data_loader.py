@@ -38,9 +38,8 @@ class VqaDataset(data.Dataset):
 
         if load_ans:
             ans2idc = [ans_vocab.word2idx(w) for w in vqa[idx]['valid_answers']]
-            # ans2idx = np.random.choice(ans2idc)
-            data = Counter(ans2idc)
-            ans2idx = data.most_common(1)[0][0]
+            ans2idx = np.random.choice(ans2idc)
+            # ans2idx =  max(set(ans2idc), key = ans2idc.count)
             sample['answer_label'] = ans2idx         
 
             mul2idc = list([-1] * max_num_ans)       
