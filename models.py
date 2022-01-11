@@ -146,7 +146,7 @@ class SAN(nn.Module):
         self.num_attention_layer = num_attention_layer
         self.num_mlp_layer = 1
         self.num_attention_layer = num_attention_layer
-        self.img_encoder = ImgAttentionEncoder(embed_size)
+        self.img_encoder = ImgEncoder(embed_size)
         self.qst_encoder = QstEncoder(qst_vocab_size, word_embed_size, embed_size, num_layers, hidden_size)
         self.att = Attention(512, embed_size)
         self.san = nn.ModuleList([Attention(512, embed_size)]*self.num_attention_layer)

@@ -37,6 +37,7 @@ class VqaDataset(data.Dataset):
 
         if load_ans:
             ans2idc = [ans_vocab.word2idx(w) for w in vqa[idx]['valid_answers']]
+            print(ans2idc)
             ans2idx = np.random.choice(ans2idc)
             sample['answer_label'] = ans2idx         
 
