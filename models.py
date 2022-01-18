@@ -162,7 +162,7 @@ class SAN(nn.Module):
         u = qst_feature
         for attn_layer in self.san:
             u = attn_layer(vi, u)
-            self.attn_features.append(attn_layer.pi)
+            # self.attn_features.append(attn_layer.pi)
         combined_feature = self.mlp(u)
         return combined_feature
 
