@@ -202,7 +202,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--save_step', type=int, default=1,
                         help='save step of model.')
-    parser.add_argument('--model', type=str, default='SAN',
+    parser.add_argument('--model', type=str, default='BVQA',
                         help='Type of the mode to be trained.')
     parser.add_argument('--num_attn_layer', type=int, default=2,
                         help=' Num of the attention layer.')
