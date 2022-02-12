@@ -62,7 +62,8 @@ def main(args):
             word_embed_size=args.word_embed_size,
             num_layers=args.num_layers,
             hidden_size=args.hidden_size,
-            num_attention_layer = args.num_attn_layer).to(device)
+            num_attention_layer = args.num_attn_layer
+            device = device).to(device)
     else:
         print("No specific model is mentioned! Aborting ...... !!!")
         exit(0)
