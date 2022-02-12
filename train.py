@@ -103,7 +103,6 @@ def main(args):
                     _, pred_exp1 = torch.max(output, 1)  
                     _, pred_exp2 = torch.max(output, 1)  
                     loss = criterion(output, label)
-
                     if phase == 'train':
                         loss.backward()
                         optimizer.step()
