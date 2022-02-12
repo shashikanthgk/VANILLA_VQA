@@ -3,7 +3,7 @@
 #PBS -P majorproject
 #PBS -m bea
 #PBS -M vrsandeep.181it151@nitk.edu.in
-#PBS -l select=1:mem=64G:ncpus=6:ngpus=1
+#PBS -l select=1:mem=128G:ncpus=6:ngpus=1
 #PBS -l walltime=480:00:00
 #PBS -j oe
 #$PBS_O_WORKDIR="/home/181it151/MP/VANILLA_VQA"

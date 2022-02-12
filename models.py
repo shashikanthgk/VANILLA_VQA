@@ -5,14 +5,12 @@ import torch.nn.functional as F
 
 
 class ImgEncoder(nn.Module):
-
     def __init__(self, embed_size):
         super(ImgEncoder, self).__init__()
         model = models.vgg19(pretrained=True)
         in_features = model.classifier[-1].in_features  
         model.classifier = nn.Sequential(
             *list(model.classifier.children())[:-1])    
-
         self.model = model                             
         self.fc = nn.Linear(in_features, embed_size)    
 
@@ -75,6 +73,40 @@ class VqaModel(nn.Module):
         combined_feature = self.fc2(combined_feature)          
 
         return combined_feature
+
+class ImgFeatureFusionEncoder(nn.Module):
+
+    def __init__(self, embed_size):
+
+        super(ImgFeatureFusionEncoder, self).__init__()
+        vggnet_feat = models.vgg19(pretrained=True).features
+        modules1 = list(vggnet_feat.children())[:18]
+        modules2 = list(vggnet_feat.children())[18:27]
+        modules3 = list(vggnet_feat.children())[27:-2]
+
+
+
+        self.cnn1 = nn.Sequential(*modules1)
+        self.cnn2 = nn.Sequential(*modules2)
+        self.cnn3 = nn.Sequential(*modules3)
+
+        self.fc = nn.Sequential(nn.Linear(self.cnn3[-3].out_channels, embed_size),
+                                nn.Tanh())     
+
+    def forward(self, image):
+        with torch.no_grad():
+            feature_layer_1 = self.cnn1(image)
+            feature_layer_2 = self.cnn2(feature_layer_1)
+            feature_layer_3 = self.cnn3(feature_layer_2)
+
+        convoluted_1 = nn.Conv2d(256,512,1, bias=False).to(device)(feature_layer_1)
+        pooled_layer1 = nn.MaxPool2d(4, stride=4)(convoluted_1).to(device)
+        pooled_layer2 = nn.MaxPool2d(2, stride=2)(feature_layer_2)
+        p_12_layer = torch.add(pooled_layer1,pooled_layer2)
+        fused_feature = torch.add(p_12_layer,feature_layer_3)
+        img_feature = fused_feature.view(-1, 512, 196).transpose(1,2) 
+        img_feature = self.fc(img_feature)                          
+        return img_feature
 
 
 class ImgAttentionEncoder(nn.Module):
@@ -146,7 +178,8 @@ class SAN(nn.Module):
         self.num_attention_layer = num_attention_layer
         self.num_mlp_layer = 1
         self.num_attention_layer = num_attention_layer
-        self.img_encoder = ImgAttentionEncoder(embed_size)
+        # self.img_encoder = ImgAttentionEncoder(embed_size)
+        self.img_encoder = ImgFeatureFusionEncoder(embed_size)
         self.qst_encoder = QstEncoder(qst_vocab_size, word_embed_size, embed_size, num_layers, hidden_size)
         self.san = nn.ModuleList([Attention(512, embed_size)]*self.num_attention_layer)
         self.tanh = nn.Tanh()
