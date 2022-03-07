@@ -97,8 +97,10 @@ class ImgFeatureFusionEncoder(nn.Module):
             feature_layer_3 = self.cnn3(feature_layer_2)
 
         convoluted_1 = nn.Conv2d(256,512,1, bias=False).to(self.device)(feature_layer_1)
-        pooled_layer1 = nn.MaxPool2d(4, stride=4)(convoluted_1).to(self.device)
-        pooled_layer2 = nn.MaxPool2d(2, stride=2)(feature_layer_2)
+        # pooled_layer1 = nn.MaxPool2d(4, stride=4)(convoluted_1).to(self.device)
+        # pooled_layer2 = nn.MaxPool2d(2, stride=2)(feature_layer_2)
+        pooled_layer1 = nn.AvgPool2d(4, stride=4)(convoluted_1).to(self.device)
+        pooled_layer2 = nn.AvgPool2d(2, stride=2)(feature_layer_2)
         p_12_layer = torch.add(pooled_layer1,pooled_layer2)
         fused_feature = torch.add(p_12_layer,feature_layer_3)
         img_feature = fused_feature.view(-1, 512, 196).transpose(1,2) 
