@@ -125,8 +125,8 @@ def main(args):
                           .format(phase.upper(), epoch+1, args.num_epochs, batch_idx, int(batch_step_size), loss.item()))
 
             epoch_loss = running_loss / batch_step_size
-            epoch_acc_exp1 =  (running_corr_exp1.double() / len(data_loader[phase].dataset))     
-            epoch_acc_exp2 =  (running_corr_exp2.double() / len(data_loader[phase].dataset))      
+            epoch_acc_exp1 = (running_corr_exp1.double() / len(data_loader[phase].dataset))     
+            epoch_acc_exp2 = (running_corr_exp2.double() / len(data_loader[phase].dataset))      
             original_stdout = sys.stdout
             with open('result.txt', 'a') as f:
                 sys.stdout = f 
