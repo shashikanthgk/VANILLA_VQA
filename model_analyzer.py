@@ -13,10 +13,6 @@ import numpy as np
 from sklearn.preprocessing import minmax_scale
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-
-
-
-
 class ImgAttentionEncoder(nn.Module):
 
     def __init__(self, embed_size):
@@ -63,6 +59,7 @@ class ImgFeatureFusionEncoder2(nn.Module):
         pooled_layer2 = nn.AvgPool2d(2, stride=2)(feature_layer_2)
         p_12_layer = torch.add(pooled_layer1,pooled_layer2)
         fused_feature = torch.add(p_12_layer,feature_layer_3)
+        return fused_feature
         img_feature = fused_feature.view(-1, 512, 196).transpose(1,2) 
         return img_feature
 
@@ -95,6 +92,7 @@ class ImgFeatureFusionEncoder(nn.Module):
         pooled_layer2 = nn.AvgPool2d(2, stride=2)(feature_layer_2)
         p_12_layer = torch.add(pooled_layer1,pooled_layer2)
         fused_feature = torch.add(p_12_layer,feature_layer_3)
+        return fused_feature
         img_feature = fused_feature.view(-1, 512, 196).transpose(1,2) 
         return img_feature
 
@@ -129,6 +127,7 @@ class ImgFeatureFusionEncoder3(nn.Module):
         # pooled_layer2 = nn.AvgPool2d(2, stride=2)(feature_layer_2)
         p_12_layer = torch.add(pooled_layer1,pooled_layer2)
         fused_feature = torch.add(p_12_layer,feature_layer_3)
+        return fused_feature
         img_feature = fused_feature.view(-1, 512, 196).transpose(1,2) 
         return img_feature
 
@@ -188,9 +187,9 @@ def train_model(encoder,image,name):
     x = model_ft(image)
     x = x.detach().cpu().numpy()[0]
     shape = x.shape
-    print(shape)
-    fig, axes = plt.subplots(23, 23)
-    count = 1
+    fig, axes = plt.subplots(23, 22)
+    plt.tight_layout()
+    x = x[:-6,:,:]
     for idx, arch in enumerate(x):
         i = (idx % 23)
         j = (idx // 23)
@@ -200,26 +199,26 @@ def train_model(encoder,image,name):
         img = np.asarray(img)
         axes[i, j].imshow(img,cmap='gray',interpolation='none')
         axes[i,j].axis('off')
-        # axes[i, j].set_cmap('hot')
+        axes[i,j].set_xticklabels([])
+        axes[i,j].set_yticklabels([])
     plt.axis('off')
     plt.subplots_adjust(wspace=0, hspace=0)
-    plt.show()
+    # plt.show()
 
     # image_scaled = minmax_scale(x.ravel(), feature_range=(0,1)).reshape(shape)
     # img = Image.fromarray(np.uint8(image_scaled * 255) , 'L')
     # img.save("ResultImages/"+name+".PNG")
-    # print(image_scaled)
-    # plt.imsave("ResultImages/"+name+".jpg",image_scaled)
+    plt.savefig("FeatureImages/"+name+".png")
 
 
 
-img = image_loader(data_transforms,"final.jpg").to(device)
+
+img = image_loader(data_transforms,"TestImage.jpg").to(device)
 normal_encoder = ImgAttentionEncoder(1024)
-# fusion_encoder_avg = ImgFeatureFusionEncoder(1024,device=device)
-# fusion_encoder_max = ImgFeatureFusionEncoder3(1024,device); 
-# fusion_encoder_concat = ImgFeatureFusionEncoder2(1024,device); 
-# print(normal_encoder.shape)
+fusion_encoder_avg = ImgFeatureFusionEncoder(1024,device=device)
+fusion_encoder_max = ImgFeatureFusionEncoder3(1024,device); 
+fusion_encoder_concat = ImgFeatureFusionEncoder2(1024,device); 
 train_model(normal_encoder,img,"normal_encoder")
-# train_model(fusion_encoder_avg,img,"fusion_encoder_avg")
-# train_model(fusion_encoder_max,img,"fusion_encoder_max")
-# train_model(fusion_encoder_concat,img,"fusion_encoder_concat")
+train_model(fusion_encoder_avg,img,"fusion_encoder_avg")
+train_model(fusion_encoder_max,img,"fusion_encoder_max")
+train_model(fusion_encoder_concat,img,"fusion_encoder_concat")

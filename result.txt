@@ -67,7 +67,7 @@
 | TRAIN SET | Epoch [01/100], Step [3200/3466], Loss: 5.6985
 | TRAIN SET | Epoch [01/100], Step [3300/3466], Loss: 5.4354
 | TRAIN SET | Epoch [01/100], Step [3400/3466], Loss: 5.5865
-| TRAIN SET | Epoch [01/100], Loss: 5.2342, Acc(Exp1): 0.3138, Acc(Exp2): 0.3126 
+| TRAIN SET | Epoch [01/100], Loss: 5.2342, Acc(Exp1): 0.4038 Acc(Exp2): 0.4026 
 
 | VALID SET | Epoch [01/100], Step [0000/1674], Loss: 4.8755
 | VALID SET | Epoch [01/100], Step [0100/1674], Loss: 6.3254
@@ -86,7 +86,7 @@
 | VALID SET | Epoch [01/100], Step [1400/1674], Loss: 4.4000
 | VALID SET | Epoch [01/100], Step [1500/1674], Loss: 4.5069
 | VALID SET | Epoch [01/100], Step [1600/1674], Loss: 4.4867
-| VALID SET | Epoch [01/100], Loss: 4.9758, Acc(Exp1): 0.3452, Acc(Exp2): 0.3450 
+| VALID SET | Epoch [01/100], Loss: 4.9758, Acc(Exp1): 0.4352 Acc(Exp2): 0.435 
 
 | TRAIN SET | Epoch [02/100], Step [0000/3466], Loss: 5.0330
 | TRAIN SET | Epoch [02/100], Step [0100/3466], Loss: 5.7706
@@ -123,7 +123,7 @@
 | TRAIN SET | Epoch [02/100], Step [3200/3466], Loss: 3.2139
 | TRAIN SET | Epoch [02/100], Step [3300/3466], Loss: 3.7742
 | TRAIN SET | Epoch [02/100], Step [3400/3466], Loss: 3.4988
-| TRAIN SET | Epoch [02/100], Loss: 4.5893, Acc(Exp1): 0.3763, Acc(Exp2): 0.3654 
+| TRAIN SET | Epoch [02/100], Loss: 4.5893, Acc(Exp1): 0.4663 Acc(Exp2): 0.4554 
 
 | VALID SET | Epoch [02/100], Step [0000/1674], Loss: 4.1633
 | VALID SET | Epoch [02/100], Step [0100/1674], Loss: 3.9247
@@ -142,7 +142,7 @@
 | VALID SET | Epoch [02/100], Step [1400/1674], Loss: 3.9975
 | VALID SET | Epoch [02/100], Step [1500/1674], Loss: 3.1752
 | VALID SET | Epoch [02/100], Step [1600/1674], Loss: 3.8006
-| VALID SET | Epoch [02/100], Loss: 3.6705, Acc(Exp1): 0.4433, Acc(Exp2): 0.4094 
+| VALID SET | Epoch [02/100], Loss: 3.6705, Acc(Exp1): 0.5333 Acc(Exp2): 0.4994 
 
 | TRAIN SET | Epoch [03/100], Step [0000/3466], Loss: 4.3970
 | TRAIN SET | Epoch [03/100], Step [0100/3466], Loss: 4.5303
@@ -179,7 +179,7 @@
 | TRAIN SET | Epoch [03/100], Step [3200/3466], Loss: 3.4431
 | TRAIN SET | Epoch [03/100], Step [3300/3466], Loss: 3.9739
 | TRAIN SET | Epoch [03/100], Step [3400/3466], Loss: 4.0329
-| TRAIN SET | Epoch [03/100], Loss: 3.7839, Acc(Exp1): 0.4358, Acc(Exp2): 0.4137 
+| TRAIN SET | Epoch [03/100], Loss: 3.7839, Acc(Exp1): 0.5258 Acc(Exp2): 0.5037 
 
 | VALID SET | Epoch [03/100], Step [0000/1674], Loss: 3.4245
 | VALID SET | Epoch [03/100], Step [0100/1674], Loss: 3.3700
@@ -198,7 +198,7 @@
 | VALID SET | Epoch [03/100], Step [1400/1674], Loss: 3.2235
 | VALID SET | Epoch [03/100], Step [1500/1674], Loss: 2.6438
 | VALID SET | Epoch [03/100], Step [1600/1674], Loss: 3.4374
-| VALID SET | Epoch [03/100], Loss: 3.2843, Acc(Exp1): 0.4726, Acc(Exp2): 0.4406 
+| VALID SET | Epoch [03/100], Loss: 3.2843, Acc(Exp1): 0.5626 Acc(Exp2): 0.5306 
 
 | TRAIN SET | Epoch [04/100], Step [0000/3466], Loss: 3.9155
 | TRAIN SET | Epoch [04/100], Step [0100/3466], Loss: 3.7778
@@ -235,7 +235,7 @@
 | TRAIN SET | Epoch [04/100], Step [3200/3466], Loss: 3.1651
 | TRAIN SET | Epoch [04/100], Step [3300/3466], Loss: 3.2790
 | TRAIN SET | Epoch [04/100], Step [3400/3466], Loss: 3.0266
-| TRAIN SET | Epoch [04/100], Loss: 3.5442, Acc(Exp1): 0.4577, Acc(Exp2): 0.4338 
+| TRAIN SET | Epoch [04/100], Loss: 3.5442, Acc(Exp1): 0.5477 Acc(Exp2): 0.5238 
 
 | VALID SET | Epoch [04/100], Step [0000/1674], Loss: 2.8940
 | VALID SET | Epoch [04/100], Step [0100/1674], Loss: 3.2573
@@ -254,7 +254,7 @@
 | VALID SET | Epoch [04/100], Step [1400/1674], Loss: 3.4258
 | VALID SET | Epoch [04/100], Step [1500/1674], Loss: 2.7995
 | VALID SET | Epoch [04/100], Step [1600/1674], Loss: 2.8404
-| VALID SET | Epoch [04/100], Loss: 3.0832, Acc(Exp1): 0.4954, Acc(Exp2): 0.4623 
+| VALID SET | Epoch [04/100], Loss: 3.0832, Acc(Exp1): 0.5854 Acc(Exp2): 0.5523 
 
 | TRAIN SET | Epoch [05/100], Step [0000/3466], Loss: 3.5929
 | TRAIN SET | Epoch [05/100], Step [0100/3466], Loss: 3.5504
@@ -291,7 +291,7 @@
 | TRAIN SET | Epoch [05/100], Step [3200/3466], Loss: 3.3252
 | TRAIN SET | Epoch [05/100], Step [3300/3466], Loss: 2.9409
 | TRAIN SET | Epoch [05/100], Step [3400/3466], Loss: 3.1580
-| TRAIN SET | Epoch [05/100], Loss: 3.3970, Acc(Exp1): 0.4718, Acc(Exp2): 0.4470 
+| TRAIN SET | Epoch [05/100], Loss: 3.3970, Acc(Exp1): 0.5618 Acc(Exp2): 0.537 
 
 | VALID SET | Epoch [05/100], Step [0000/1674], Loss: 2.8493
 | VALID SET | Epoch [05/100], Step [0100/1674], Loss: 2.8335
@@ -310,7 +310,7 @@
 | VALID SET | Epoch [05/100], Step [1400/1674], Loss: 2.9480
 | VALID SET | Epoch [05/100], Step [1500/1674], Loss: 2.8894
 | VALID SET | Epoch [05/100], Step [1600/1674], Loss: 3.2035
-| VALID SET | Epoch [05/100], Loss: 3.0236, Acc(Exp1): 0.5077, Acc(Exp2): 0.4740 
+| VALID SET | Epoch [05/100], Loss: 3.0236, Acc(Exp1): 0.5977 Acc(Exp2): 0.564 
 
 | TRAIN SET | Epoch [06/100], Step [0000/3466], Loss: 3.5078
 | TRAIN SET | Epoch [06/100], Step [0100/3466], Loss: 2.9787
@@ -347,7 +347,7 @@
 | TRAIN SET | Epoch [06/100], Step [3200/3466], Loss: 3.1885
 | TRAIN SET | Epoch [06/100], Step [3300/3466], Loss: 3.5128
 | TRAIN SET | Epoch [06/100], Step [3400/3466], Loss: 3.9847
-| TRAIN SET | Epoch [06/100], Loss: 3.2632, Acc(Exp1): 0.4842, Acc(Exp2): 0.4582 
+| TRAIN SET | Epoch [06/100], Loss: 3.2632, Acc(Exp1): 0.5742 Acc(Exp2): 0.5482 
 
 | VALID SET | Epoch [06/100], Step [0000/1674], Loss: 2.9064
 | VALID SET | Epoch [06/100], Step [0100/1674], Loss: 3.0421
@@ -366,7 +366,7 @@
 | VALID SET | Epoch [06/100], Step [1400/1674], Loss: 2.9782
 | VALID SET | Epoch [06/100], Step [1500/1674], Loss: 2.7127
 | VALID SET | Epoch [06/100], Step [1600/1674], Loss: 2.7032
-| VALID SET | Epoch [06/100], Loss: 2.9043, Acc(Exp1): 0.5130, Acc(Exp2): 0.4771 
+| VALID SET | Epoch [06/100], Loss: 2.9043, Acc(Exp1): 0.603 Acc(Exp2): 0.5671 
 
 | TRAIN SET | Epoch [07/100], Step [0000/3466], Loss: 3.2117
 | TRAIN SET | Epoch [07/100], Step [0100/3466], Loss: 2.8796
@@ -403,7 +403,7 @@
 | TRAIN SET | Epoch [07/100], Step [3200/3466], Loss: 2.6095
 | TRAIN SET | Epoch [07/100], Step [3300/3466], Loss: 3.6468
 | TRAIN SET | Epoch [07/100], Step [3400/3466], Loss: 2.9215
-| TRAIN SET | Epoch [07/100], Loss: 3.1179, Acc(Exp1): 0.4969, Acc(Exp2): 0.4696 
+| TRAIN SET | Epoch [07/100], Loss: 3.1179, Acc(Exp1): 0.5869 Acc(Exp2): 0.5596 
 
 | VALID SET | Epoch [07/100], Step [0000/1674], Loss: 3.1108
 | VALID SET | Epoch [07/100], Step [0100/1674], Loss: 2.5805
@@ -422,7 +422,7 @@
 | VALID SET | Epoch [07/100], Step [1400/1674], Loss: 2.3801
 | VALID SET | Epoch [07/100], Step [1500/1674], Loss: 2.9778
 | VALID SET | Epoch [07/100], Step [1600/1674], Loss: 3.3371
-| VALID SET | Epoch [07/100], Loss: 2.7854, Acc(Exp1): 0.5275, Acc(Exp2): 0.4909 
+| VALID SET | Epoch [07/100], Loss: 2.7854, Acc(Exp1): 0.6175 Acc(Exp2): 0.5809 
 
 | TRAIN SET | Epoch [08/100], Step [0000/3466], Loss: 3.0311
 | TRAIN SET | Epoch [08/100], Step [0100/3466], Loss: 3.0182
@@ -459,7 +459,7 @@
 | TRAIN SET | Epoch [08/100], Step [3200/3466], Loss: 2.2296
 | TRAIN SET | Epoch [08/100], Step [3300/3466], Loss: 2.9170
 | TRAIN SET | Epoch [08/100], Step [3400/3466], Loss: 2.6459
-| TRAIN SET | Epoch [08/100], Loss: 2.9652, Acc(Exp1): 0.5069, Acc(Exp2): 0.4782 
+| TRAIN SET | Epoch [08/100], Loss: 2.9652, Acc(Exp1): 0.5969 Acc(Exp2): 0.5682 
 
 | VALID SET | Epoch [08/100], Step [0000/1674], Loss: 2.5991
 | VALID SET | Epoch [08/100], Step [0100/1674], Loss: 2.4658
@@ -478,7 +478,7 @@
 | VALID SET | Epoch [08/100], Step [1400/1674], Loss: 2.8902
 | VALID SET | Epoch [08/100], Step [1500/1674], Loss: 2.4194
 | VALID SET | Epoch [08/100], Step [1600/1674], Loss: 2.7993
-| VALID SET | Epoch [08/100], Loss: 2.7111, Acc(Exp1): 0.5258, Acc(Exp2): 0.4886 
+| VALID SET | Epoch [08/100], Loss: 2.7111, Acc(Exp1): 0.6158 Acc(Exp2): 0.5786 
 
 | TRAIN SET | Epoch [09/100], Step [0000/3466], Loss: 3.2457
 | TRAIN SET | Epoch [09/100], Step [0100/3466], Loss: 2.7818
@@ -515,7 +515,7 @@
 | TRAIN SET | Epoch [09/100], Step [3200/3466], Loss: 2.3629
 | TRAIN SET | Epoch [09/100], Step [3300/3466], Loss: 2.7958
 | TRAIN SET | Epoch [09/100], Step [3400/3466], Loss: 2.5208
-| TRAIN SET | Epoch [09/100], Loss: 2.8256, Acc(Exp1): 0.5170, Acc(Exp2): 0.4872 
+| TRAIN SET | Epoch [09/100], Loss: 2.8256, Acc(Exp1): 0.607 Acc(Exp2): 0.5772 
 
 | VALID SET | Epoch [09/100], Step [0000/1674], Loss: 2.6956
 | VALID SET | Epoch [09/100], Step [0100/1674], Loss: 2.6236
@@ -534,7 +534,7 @@
 | VALID SET | Epoch [09/100], Step [1400/1674], Loss: 2.3237
 | VALID SET | Epoch [09/100], Step [1500/1674], Loss: 2.2754
 | VALID SET | Epoch [09/100], Step [1600/1674], Loss: 2.5668
-| VALID SET | Epoch [09/100], Loss: 2.6198, Acc(Exp1): 0.5395, Acc(Exp2): 0.5043 
+| VALID SET | Epoch [09/100], Loss: 2.6198, Acc(Exp1): 0.6295 Acc(Exp2): 0.5943 
 
 | TRAIN SET | Epoch [10/100], Step [0000/3466], Loss: 3.0541
 | TRAIN SET | Epoch [10/100], Step [0100/3466], Loss: 2.6297
@@ -571,7 +571,7 @@
 | TRAIN SET | Epoch [10/100], Step [3200/3466], Loss: 2.3074
 | TRAIN SET | Epoch [10/100], Step [3300/3466], Loss: 2.4879
 | TRAIN SET | Epoch [10/100], Step [3400/3466], Loss: 2.6715
-| TRAIN SET | Epoch [10/100], Loss: 2.5462, Acc(Exp1): 0.5478, Acc(Exp2): 0.5153 
+| TRAIN SET | Epoch [10/100], Loss: 2.5462, Acc(Exp1): 0.6378 Acc(Exp2): 0.6053 
 
 | VALID SET | Epoch [10/100], Step [0000/1674], Loss: 2.6183
 | VALID SET | Epoch [10/100], Step [0100/1674], Loss: 2.8362
@@ -590,7 +590,7 @@
 | VALID SET | Epoch [10/100], Step [1400/1674], Loss: 2.0446
 | VALID SET | Epoch [10/100], Step [1500/1674], Loss: 2.7825
 | VALID SET | Epoch [10/100], Step [1600/1674], Loss: 2.6969
-| VALID SET | Epoch [10/100], Loss: 2.4413, Acc(Exp1): 0.5623, Acc(Exp2): 0.5275 
+| VALID SET | Epoch [10/100], Loss: 2.4413, Acc(Exp1): 0.6523 Acc(Exp2): 0.6175 
 
 | TRAIN SET | Epoch [11/100], Step [0000/3466], Loss: 2.3300
 | TRAIN SET | Epoch [11/100], Step [0100/3466], Loss: 2.1011
@@ -627,7 +627,7 @@
 | TRAIN SET | Epoch [11/100], Step [3200/3466], Loss: 2.3086
 | TRAIN SET | Epoch [11/100], Step [3300/3466], Loss: 2.9501
 | TRAIN SET | Epoch [11/100], Step [3400/3466], Loss: 2.3820
-| TRAIN SET | Epoch [11/100], Loss: 2.4080, Acc(Exp1): 0.5639, Acc(Exp2): 0.5300 
+| TRAIN SET | Epoch [11/100], Loss: 2.4080, Acc(Exp1): 0.6539 Acc(Exp2): 0.62 
 
 | VALID SET | Epoch [11/100], Step [0000/1674], Loss: 2.1363
 | VALID SET | Epoch [11/100], Step [0100/1674], Loss: 2.3486
@@ -646,7 +646,7 @@
 | VALID SET | Epoch [11/100], Step [1400/1674], Loss: 2.6279
 | VALID SET | Epoch [11/100], Step [1500/1674], Loss: 2.3279
 | VALID SET | Epoch [11/100], Step [1600/1674], Loss: 2.4167
-| VALID SET | Epoch [11/100], Loss: 2.3935, Acc(Exp1): 0.5667, Acc(Exp2): 0.5317 
+| VALID SET | Epoch [11/100], Loss: 2.3935, Acc(Exp1): 0.6567 Acc(Exp2): 0.6217 
 
 | TRAIN SET | Epoch [12/100], Step [0000/3466], Loss: 2.4148
 | TRAIN SET | Epoch [12/100], Step [0100/3466], Loss: 2.1250
@@ -683,7 +683,7 @@
 | TRAIN SET | Epoch [12/100], Step [3200/3466], Loss: 2.2898
 | TRAIN SET | Epoch [12/100], Step [3300/3466], Loss: 2.2349
 | TRAIN SET | Epoch [12/100], Step [3400/3466], Loss: 2.4688
-| TRAIN SET | Epoch [12/100], Loss: 2.3316, Acc(Exp1): 0.5722, Acc(Exp2): 0.5374 
+| TRAIN SET | Epoch [12/100], Loss: 2.3316, Acc(Exp1): 0.6622 Acc(Exp2): 0.6274 
 
 | VALID SET | Epoch [12/100], Step [0000/1674], Loss: 2.1281
 | VALID SET | Epoch [12/100], Step [0100/1674], Loss: 2.3386
@@ -702,7 +702,7 @@
 | VALID SET | Epoch [12/100], Step [1400/1674], Loss: 2.1064
 | VALID SET | Epoch [12/100], Step [1500/1674], Loss: 1.9678
 | VALID SET | Epoch [12/100], Step [1600/1674], Loss: 2.0935
-| VALID SET | Epoch [12/100], Loss: 2.3666, Acc(Exp1): 0.5691, Acc(Exp2): 0.5350 
+| VALID SET | Epoch [12/100], Loss: 2.3666, Acc(Exp1): 0.6591 Acc(Exp2): 0.625 
 
 | TRAIN SET | Epoch [13/100], Step [0000/3466], Loss: 2.2764
 | TRAIN SET | Epoch [13/100], Step [0100/3466], Loss: 2.2843
@@ -739,7 +739,7 @@
 | TRAIN SET | Epoch [13/100], Step [3200/3466], Loss: 2.2290
 | TRAIN SET | Epoch [13/100], Step [3300/3466], Loss: 2.3496
 | TRAIN SET | Epoch [13/100], Step [3400/3466], Loss: 2.0184
-| TRAIN SET | Epoch [13/100], Loss: 2.2757, Acc(Exp1): 0.5783, Acc(Exp2): 0.5432 
+| TRAIN SET | Epoch [13/100], Loss: 2.2757, Acc(Exp1): 0.6683 Acc(Exp2): 0.6332 
 
 | VALID SET | Epoch [13/100], Step [0000/1674], Loss: 2.2289
 | VALID SET | Epoch [13/100], Step [0100/1674], Loss: 2.3570
@@ -758,7 +758,7 @@
 | VALID SET | Epoch [13/100], Step [1400/1674], Loss: 2.8394
 | VALID SET | Epoch [13/100], Step [1500/1674], Loss: 2.1023
 | VALID SET | Epoch [13/100], Step [1600/1674], Loss: 2.3662
-| VALID SET | Epoch [13/100], Loss: 2.3429, Acc(Exp1): 0.5727, Acc(Exp2): 0.5382 
+| VALID SET | Epoch [13/100], Loss: 2.3429, Acc(Exp1): 0.6627 Acc(Exp2): 0.6282 
 
 | TRAIN SET | Epoch [14/100], Step [0000/3466], Loss: 2.2772
 | TRAIN SET | Epoch [14/100], Step [0100/3466], Loss: 2.0726
@@ -795,7 +795,7 @@
 | TRAIN SET | Epoch [14/100], Step [3200/3466], Loss: 1.8088
 | TRAIN SET | Epoch [14/100], Step [3300/3466], Loss: 2.1879
 | TRAIN SET | Epoch [14/100], Step [3400/3466], Loss: 2.3602
-| TRAIN SET | Epoch [14/100], Loss: 2.2346, Acc(Exp1): 0.5821, Acc(Exp2): 0.5468 
+| TRAIN SET | Epoch [14/100], Loss: 2.2346, Acc(Exp1): 0.6721 Acc(Exp2): 0.6368 
 
 | VALID SET | Epoch [14/100], Step [0000/1674], Loss: 2.4667
 | VALID SET | Epoch [14/100], Step [0100/1674], Loss: 2.5086
@@ -814,7 +814,7 @@
 | VALID SET | Epoch [14/100], Step [1400/1674], Loss: 2.5406
 | VALID SET | Epoch [14/100], Step [1500/1674], Loss: 2.6068
 | VALID SET | Epoch [14/100], Step [1600/1674], Loss: 2.3615
-| VALID SET | Epoch [14/100], Loss: 2.3298, Acc(Exp1): 0.5738, Acc(Exp2): 0.5398 
+| VALID SET | Epoch [14/100], Loss: 2.3298, Acc(Exp1): 0.6638 Acc(Exp2): 0.6298 
 
 | TRAIN SET | Epoch [15/100], Step [0000/3466], Loss: 2.1259
 | TRAIN SET | Epoch [15/100], Step [0100/3466], Loss: 2.1064
@@ -851,7 +851,7 @@
 | TRAIN SET | Epoch [15/100], Step [3200/3466], Loss: 2.2463
 | TRAIN SET | Epoch [15/100], Step [3300/3466], Loss: 2.2100
 | TRAIN SET | Epoch [15/100], Step [3400/3466], Loss: 2.1547
-| TRAIN SET | Epoch [15/100], Loss: 2.1999, Acc(Exp1): 0.5867, Acc(Exp2): 0.5510 
+| TRAIN SET | Epoch [15/100], Loss: 2.1999, Acc(Exp1): 0.6767 Acc(Exp2): 0.641 
 
 | VALID SET | Epoch [15/100], Step [0000/1674], Loss: 2.0969
 | VALID SET | Epoch [15/100], Step [0100/1674], Loss: 2.4169
@@ -870,7 +870,7 @@
 | VALID SET | Epoch [15/100], Step [1400/1674], Loss: 2.2342
 | VALID SET | Epoch [15/100], Step [1500/1674], Loss: 2.5810
 | VALID SET | Epoch [15/100], Step [1600/1674], Loss: 2.3446
-| VALID SET | Epoch [15/100], Loss: 2.3208, Acc(Exp1): 0.5735, Acc(Exp2): 0.5387 
+| VALID SET | Epoch [15/100], Loss: 2.3208, Acc(Exp1): 0.6635 Acc(Exp2): 0.6287 
 
 | TRAIN SET | Epoch [16/100], Step [0000/3466], Loss: 2.2745
 | TRAIN SET | Epoch [16/100], Step [0100/3466], Loss: 1.8994
@@ -907,7 +907,7 @@
 | TRAIN SET | Epoch [16/100], Step [3200/3466], Loss: 2.1995
 | TRAIN SET | Epoch [16/100], Step [3300/3466], Loss: 2.8369
 | TRAIN SET | Epoch [16/100], Step [3400/3466], Loss: 2.2353
-| TRAIN SET | Epoch [16/100], Loss: 2.1651, Acc(Exp1): 0.5909, Acc(Exp2): 0.5550 
+| TRAIN SET | Epoch [16/100], Loss: 2.1651, Acc(Exp1): 0.6809 Acc(Exp2): 0.645 
 
 | VALID SET | Epoch [16/100], Step [0000/1674], Loss: 2.1717
 | VALID SET | Epoch [16/100], Step [0100/1674], Loss: 2.0737
@@ -926,7 +926,7 @@
 | VALID SET | Epoch [16/100], Step [1400/1674], Loss: 2.1805
 | VALID SET | Epoch [16/100], Step [1500/1674], Loss: 2.4803
 | VALID SET | Epoch [16/100], Step [1600/1674], Loss: 2.3092
-| VALID SET | Epoch [16/100], Loss: 2.3122, Acc(Exp1): 0.5744, Acc(Exp2): 0.5403 
+| VALID SET | Epoch [16/100], Loss: 2.3122, Acc(Exp1): 0.6644 Acc(Exp2): 0.6303 
 
 | TRAIN SET | Epoch [17/100], Step [0000/3466], Loss: 2.0603
 | TRAIN SET | Epoch [17/100], Step [0100/3466], Loss: 2.3634
@@ -963,7 +963,7 @@
 | TRAIN SET | Epoch [17/100], Step [3200/3466], Loss: 2.0957
 | TRAIN SET | Epoch [17/100], Step [3300/3466], Loss: 2.0042
 | TRAIN SET | Epoch [17/100], Step [3400/3466], Loss: 2.3026
-| TRAIN SET | Epoch [17/100], Loss: 2.1428, Acc(Exp1): 0.5942, Acc(Exp2): 0.5580 
+| TRAIN SET | Epoch [17/100], Loss: 2.1428, Acc(Exp1): 0.6842 Acc(Exp2): 0.648 
 
 | VALID SET | Epoch [17/100], Step [0000/1674], Loss: 2.0382
 | VALID SET | Epoch [17/100], Step [0100/1674], Loss: 2.1251
@@ -982,7 +982,7 @@
 | VALID SET | Epoch [17/100], Step [1400/1674], Loss: 2.2981
 | VALID SET | Epoch [17/100], Step [1500/1674], Loss: 2.4149
 | VALID SET | Epoch [17/100], Step [1600/1674], Loss: 2.7123
-| VALID SET | Epoch [17/100], Loss: 2.3074, Acc(Exp1): 0.5745, Acc(Exp2): 0.5410 
+| VALID SET | Epoch [17/100], Loss: 2.3074, Acc(Exp1): 0.6645 Acc(Exp2): 0.631 
 
 | TRAIN SET | Epoch [18/100], Step [0000/3466], Loss: 2.1227
 | TRAIN SET | Epoch [18/100], Step [0100/3466], Loss: 2.1216
@@ -1019,7 +1019,7 @@
 | TRAIN SET | Epoch [18/100], Step [3200/3466], Loss: 1.9883
 | TRAIN SET | Epoch [18/100], Step [3300/3466], Loss: 2.4701
 | TRAIN SET | Epoch [18/100], Step [3400/3466], Loss: 2.1513
-| TRAIN SET | Epoch [18/100], Loss: 2.1196, Acc(Exp1): 0.5984, Acc(Exp2): 0.5621 
+| TRAIN SET | Epoch [18/100], Loss: 2.1196, Acc(Exp1): 0.6884 Acc(Exp2): 0.6521 
 
 | VALID SET | Epoch [18/100], Step [0000/1674], Loss: 2.2332
 | VALID SET | Epoch [18/100], Step [0100/1674], Loss: 2.3521
@@ -1038,7 +1038,7 @@
 | VALID SET | Epoch [18/100], Step [1400/1674], Loss: 2.3950
 | VALID SET | Epoch [18/100], Step [1500/1674], Loss: 2.1389
 | VALID SET | Epoch [18/100], Step [1600/1674], Loss: 2.2159
-| VALID SET | Epoch [18/100], Loss: 2.3091, Acc(Exp1): 0.5756, Acc(Exp2): 0.5416 
+| VALID SET | Epoch [18/100], Loss: 2.3091, Acc(Exp1): 0.6656 Acc(Exp2): 0.6316 
 
 | TRAIN SET | Epoch [19/100], Step [0000/3466], Loss: 1.6912
 | TRAIN SET | Epoch [19/100], Step [0100/3466], Loss: 2.4434
@@ -1075,7 +1075,7 @@
 | TRAIN SET | Epoch [19/100], Step [3200/3466], Loss: 2.2300
 | TRAIN SET | Epoch [19/100], Step [3300/3466], Loss: 1.6855
 | TRAIN SET | Epoch [19/100], Step [3400/3466], Loss: 2.3337
-| TRAIN SET | Epoch [19/100], Loss: 2.0992, Acc(Exp1): 0.6003, Acc(Exp2): 0.5639 
+| TRAIN SET | Epoch [19/100], Loss: 2.0992, Acc(Exp1): 0.6903 Acc(Exp2): 0.6539 
 
 | VALID SET | Epoch [19/100], Step [0000/1674], Loss: 2.2218
 | VALID SET | Epoch [19/100], Step [0100/1674], Loss: 2.1227
@@ -1094,7 +1094,7 @@
 | VALID SET | Epoch [19/100], Step [1400/1674], Loss: 2.2665
 | VALID SET | Epoch [19/100], Step [1500/1674], Loss: 2.2104
 | VALID SET | Epoch [19/100], Step [1600/1674], Loss: 2.2114
-| VALID SET | Epoch [19/100], Loss: 2.3013, Acc(Exp1): 0.5763, Acc(Exp2): 0.5430 
+| VALID SET | Epoch [19/100], Loss: 2.3013, Acc(Exp1): 0.6663 Acc(Exp2): 0.633 
 
 | TRAIN SET | Epoch [20/100], Step [0000/3466], Loss: 2.3823
 | TRAIN SET | Epoch [20/100], Step [0100/3466], Loss: 1.8968
@@ -1131,7 +1131,7 @@
 | TRAIN SET | Epoch [20/100], Step [3200/3466], Loss: 1.9636
 | TRAIN SET | Epoch [20/100], Step [3300/3466], Loss: 2.1662
 | TRAIN SET | Epoch [20/100], Step [3400/3466], Loss: 1.9062
-| TRAIN SET | Epoch [20/100], Loss: 2.0702, Acc(Exp1): 0.6082, Acc(Exp2): 0.5714 
+| TRAIN SET | Epoch [20/100], Loss: 2.0702, Acc(Exp1): 0.6982 Acc(Exp2): 0.6614 
 
 | VALID SET | Epoch [20/100], Step [0000/1674], Loss: 2.0855
 | VALID SET | Epoch [20/100], Step [0100/1674], Loss: 2.2959
@@ -1150,7 +1150,7 @@
 | VALID SET | Epoch [20/100], Step [1400/1674], Loss: 2.1678
 | VALID SET | Epoch [20/100], Step [1500/1674], Loss: 2.3671
 | VALID SET | Epoch [20/100], Step [1600/1674], Loss: 2.3945
-| VALID SET | Epoch [20/100], Loss: 2.3000, Acc(Exp1): 0.5777, Acc(Exp2): 0.5447 
+| VALID SET | Epoch [20/100], Loss: 2.3000, Acc(Exp1): 0.6677 Acc(Exp2): 0.6347 
 
 | TRAIN SET | Epoch [21/100], Step [0000/3466], Loss: 1.8565
 | TRAIN SET | Epoch [21/100], Step [0100/3466], Loss: 2.1962
@@ -1187,7 +1187,7 @@
 | TRAIN SET | Epoch [21/100], Step [3200/3466], Loss: 2.0536
 | TRAIN SET | Epoch [21/100], Step [3300/3466], Loss: 2.2948
 | TRAIN SET | Epoch [21/100], Step [3400/3466], Loss: 2.3054
-| TRAIN SET | Epoch [21/100], Loss: 2.0622, Acc(Exp1): 0.6094, Acc(Exp2): 0.5726 
+| TRAIN SET | Epoch [21/100], Loss: 2.0622, Acc(Exp1): 0.6994 Acc(Exp2): 0.6626 
 
 | VALID SET | Epoch [21/100], Step [0000/1674], Loss: 2.2960
 | VALID SET | Epoch [21/100], Step [0100/1674], Loss: 2.2153
@@ -1206,7 +1206,7 @@
 | VALID SET | Epoch [21/100], Step [1400/1674], Loss: 2.4482
 | VALID SET | Epoch [21/100], Step [1500/1674], Loss: 2.3534
 | VALID SET | Epoch [21/100], Step [1600/1674], Loss: 1.8140
-| VALID SET | Epoch [21/100], Loss: 2.3054, Acc(Exp1): 0.5777, Acc(Exp2): 0.5445 
+| VALID SET | Epoch [21/100], Loss: 2.3054, Acc(Exp1): 0.6677 Acc(Exp2): 0.6345 
 
 | TRAIN SET | Epoch [22/100], Step [0000/3466], Loss: 2.0624
 | TRAIN SET | Epoch [22/100], Step [0100/3466], Loss: 2.2010
@@ -1243,7 +1243,7 @@
 | TRAIN SET | Epoch [22/100], Step [3200/3466], Loss: 1.8418
 | TRAIN SET | Epoch [22/100], Step [3300/3466], Loss: 1.9231
 | TRAIN SET | Epoch [22/100], Step [3400/3466], Loss: 1.9583
-| TRAIN SET | Epoch [22/100], Loss: 2.0606, Acc(Exp1): 0.6109, Acc(Exp2): 0.5739 
+| TRAIN SET | Epoch [22/100], Loss: 2.0606, Acc(Exp1): 0.7009 Acc(Exp2): 0.6639 
 
 | VALID SET | Epoch [22/100], Step [0000/1674], Loss: 2.2857
 | VALID SET | Epoch [22/100], Step [0100/1674], Loss: 2.3000
@@ -1262,7 +1262,7 @@
 | VALID SET | Epoch [22/100], Step [1400/1674], Loss: 2.1014
 | VALID SET | Epoch [22/100], Step [1500/1674], Loss: 2.6483
 | VALID SET | Epoch [22/100], Step [1600/1674], Loss: 2.1212
-| VALID SET | Epoch [22/100], Loss: 2.3015, Acc(Exp1): 0.5783, Acc(Exp2): 0.5454 
+| VALID SET | Epoch [22/100], Loss: 2.3015, Acc(Exp1): 0.6683 Acc(Exp2): 0.6354 
 
 | TRAIN SET | Epoch [23/100], Step [0000/3466], Loss: 2.1488
 | TRAIN SET | Epoch [23/100], Step [0100/3466], Loss: 1.9244
@@ -1299,7 +1299,7 @@
 | TRAIN SET | Epoch [23/100], Step [3200/3466], Loss: 2.1859
 | TRAIN SET | Epoch [23/100], Step [3300/3466], Loss: 2.1509
 | TRAIN SET | Epoch [23/100], Step [3400/3466], Loss: 2.3908
-| TRAIN SET | Epoch [23/100], Loss: 2.0526, Acc(Exp1): 0.6120, Acc(Exp2): 0.5751 
+| TRAIN SET | Epoch [23/100], Loss: 2.0526, Acc(Exp1): 0.702 Acc(Exp2): 0.6651 
 
 | VALID SET | Epoch [23/100], Step [0000/1674], Loss: 2.3035
 | VALID SET | Epoch [23/100], Step [0100/1674], Loss: 2.1739
@@ -1318,7 +1318,7 @@
 | VALID SET | Epoch [23/100], Step [1400/1674], Loss: 2.2462
 | VALID SET | Epoch [23/100], Step [1500/1674], Loss: 2.6336
 | VALID SET | Epoch [23/100], Step [1600/1674], Loss: 2.4064
-| VALID SET | Epoch [23/100], Loss: 2.3022, Acc(Exp1): 0.5792, Acc(Exp2): 0.5459 
+| VALID SET | Epoch [23/100], Loss: 2.3022, Acc(Exp1): 0.6692 Acc(Exp2): 0.6359 
 
 | TRAIN SET | Epoch [24/100], Step [0000/3466], Loss: 1.8767
 | TRAIN SET | Epoch [24/100], Step [0100/3466], Loss: 2.3952
@@ -1355,7 +1355,7 @@
 | TRAIN SET | Epoch [24/100], Step [3200/3466], Loss: 2.0355
 | TRAIN SET | Epoch [24/100], Step [3300/3466], Loss: 2.1804
 | TRAIN SET | Epoch [24/100], Step [3400/3466], Loss: 2.0360
-| TRAIN SET | Epoch [24/100], Loss: 2.0499, Acc(Exp1): 0.6129, Acc(Exp2): 0.5760 
+| TRAIN SET | Epoch [24/100], Loss: 2.0499, Acc(Exp1): 0.7029 Acc(Exp2): 0.666 
 
 | VALID SET | Epoch [24/100], Step [0000/1674], Loss: 2.1982
 | VALID SET | Epoch [24/100], Step [0100/1674], Loss: 2.2838
@@ -1374,7 +1374,7 @@
 | VALID SET | Epoch [24/100], Step [1400/1674], Loss: 1.8000
 | VALID SET | Epoch [24/100], Step [1500/1674], Loss: 2.0432
 | VALID SET | Epoch [24/100], Step [1600/1674], Loss: 2.4040
-| VALID SET | Epoch [24/100], Loss: 2.3011, Acc(Exp1): 0.5778, Acc(Exp2): 0.5450 
+| VALID SET | Epoch [24/100], Loss: 2.3011, Acc(Exp1): 0.6678 Acc(Exp2): 0.635 
 
 | TRAIN SET | Epoch [25/100], Step [0000/3466], Loss: 2.1464
 | TRAIN SET | Epoch [25/100], Step [0100/3466], Loss: 1.9187
@@ -1411,7 +1411,7 @@
 | TRAIN SET | Epoch [25/100], Step [3200/3466], Loss: 2.2728
 | TRAIN SET | Epoch [25/100], Step [3300/3466], Loss: 2.0646
 | TRAIN SET | Epoch [25/100], Step [3400/3466], Loss: 2.3640
-| TRAIN SET | Epoch [25/100], Loss: 2.0461, Acc(Exp1): 0.6135, Acc(Exp2): 0.5767 
+| TRAIN SET | Epoch [25/100], Loss: 2.0461, Acc(Exp1): 0.7035 Acc(Exp2): 0.6667 
 
 | VALID SET | Epoch [25/100], Step [0000/1674], Loss: 2.4946
 | VALID SET | Epoch [25/100], Step [0100/1674], Loss: 2.2123
@@ -1430,7 +1430,7 @@
 | VALID SET | Epoch [25/100], Step [1400/1674], Loss: 2.0816
 | VALID SET | Epoch [25/100], Step [1500/1674], Loss: 2.7011
 | VALID SET | Epoch [25/100], Step [1600/1674], Loss: 2.8304
-| VALID SET | Epoch [25/100], Loss: 2.3015, Acc(Exp1): 0.5785, Acc(Exp2): 0.5456 
+| VALID SET | Epoch [25/100], Loss: 2.3015, Acc(Exp1): 0.6685 Acc(Exp2): 0.6356 
 
 | TRAIN SET | Epoch [26/100], Step [0000/3466], Loss: 1.9043
 | TRAIN SET | Epoch [26/100], Step [0100/3466], Loss: 2.2186
@@ -1467,7 +1467,7 @@
 | TRAIN SET | Epoch [26/100], Step [3200/3466], Loss: 2.3933
 | TRAIN SET | Epoch [26/100], Step [3300/3466], Loss: 1.9839
 | TRAIN SET | Epoch [26/100], Step [3400/3466], Loss: 2.1305
-| TRAIN SET | Epoch [26/100], Loss: 2.0459, Acc(Exp1): 0.6129, Acc(Exp2): 0.5761 
+| TRAIN SET | Epoch [26/100], Loss: 2.0459, Acc(Exp1): 0.7029 Acc(Exp2): 0.6661 
 
 | VALID SET | Epoch [26/100], Step [0000/1674], Loss: 2.1696
 | VALID SET | Epoch [26/100], Step [0100/1674], Loss: 2.0432
@@ -1486,7 +1486,7 @@
 | VALID SET | Epoch [26/100], Step [1400/1674], Loss: 2.3958
 | VALID SET | Epoch [26/100], Step [1500/1674], Loss: 2.2212
 | VALID SET | Epoch [26/100], Step [1600/1674], Loss: 2.1644
-| VALID SET | Epoch [26/100], Loss: 2.3011, Acc(Exp1): 0.5783, Acc(Exp2): 0.5454 
+| VALID SET | Epoch [26/100], Loss: 2.3011, Acc(Exp1): 0.6683 Acc(Exp2): 0.6354 
 
 | TRAIN SET | Epoch [27/100], Step [0000/3466], Loss: 2.0998
 | TRAIN SET | Epoch [27/100], Step [0100/3466], Loss: 1.9345
@@ -1523,7 +1523,7 @@
 | TRAIN SET | Epoch [27/100], Step [3200/3466], Loss: 1.8863
 | TRAIN SET | Epoch [27/100], Step [3300/3466], Loss: 1.8164
 | TRAIN SET | Epoch [27/100], Step [3400/3466], Loss: 2.1308
-| TRAIN SET | Epoch [27/100], Loss: 2.0419, Acc(Exp1): 0.6146, Acc(Exp2): 0.5777 
+| TRAIN SET | Epoch [27/100], Loss: 2.0419, Acc(Exp1): 0.7046 Acc(Exp2): 0.6677 
 
 | VALID SET | Epoch [27/100], Step [0000/1674], Loss: 3.0047
 | VALID SET | Epoch [27/100], Step [0100/1674], Loss: 2.1160
@@ -1542,7 +1542,7 @@
 | VALID SET | Epoch [27/100], Step [1400/1674], Loss: 2.2474
 | VALID SET | Epoch [27/100], Step [1500/1674], Loss: 2.6576
 | VALID SET | Epoch [27/100], Step [1600/1674], Loss: 2.3456
-| VALID SET | Epoch [27/100], Loss: 2.3006, Acc(Exp1): 0.5790, Acc(Exp2): 0.5461 
+| VALID SET | Epoch [27/100], Loss: 2.3006, Acc(Exp1): 0.669 Acc(Exp2): 0.6361 
 
 | TRAIN SET | Epoch [28/100], Step [0000/3466], Loss: 1.8403
 | TRAIN SET | Epoch [28/100], Step [0100/3466], Loss: 2.1687
@@ -1579,7 +1579,7 @@
 | TRAIN SET | Epoch [28/100], Step [3200/3466], Loss: 1.8435
 | TRAIN SET | Epoch [28/100], Step [3300/3466], Loss: 1.9858
 | TRAIN SET | Epoch [28/100], Step [3400/3466], Loss: 2.0503
-| TRAIN SET | Epoch [28/100], Loss: 2.0393, Acc(Exp1): 0.6145, Acc(Exp2): 0.5775 
+| TRAIN SET | Epoch [28/100], Loss: 2.0393, Acc(Exp1): 0.7045 Acc(Exp2): 0.6675 
 
 | VALID SET | Epoch [28/100], Step [0000/1674], Loss: 2.0299
 | VALID SET | Epoch [28/100], Step [0100/1674], Loss: 2.4423
@@ -1598,7 +1598,7 @@
 | VALID SET | Epoch [28/100], Step [1400/1674], Loss: 2.4966
 | VALID SET | Epoch [28/100], Step [1500/1674], Loss: 2.0618
 | VALID SET | Epoch [28/100], Step [1600/1674], Loss: 2.3648
-| VALID SET | Epoch [28/100], Loss: 2.3013, Acc(Exp1): 0.5791, Acc(Exp2): 0.5461 
+| VALID SET | Epoch [28/100], Loss: 2.3013, Acc(Exp1): 0.6691 Acc(Exp2): 0.6361 
 
 | TRAIN SET | Epoch [29/100], Step [0000/3466], Loss: 2.0899
 | TRAIN SET | Epoch [29/100], Step [0100/3466], Loss: 2.0492
@@ -1635,7 +1635,7 @@
 | TRAIN SET | Epoch [29/100], Step [3200/3466], Loss: 2.2533
 | TRAIN SET | Epoch [29/100], Step [3300/3466], Loss: 1.9908
 | TRAIN SET | Epoch [29/100], Step [3400/3466], Loss: 2.2430
-| TRAIN SET | Epoch [29/100], Loss: 2.0353, Acc(Exp1): 0.6160, Acc(Exp2): 0.5790 
+| TRAIN SET | Epoch [29/100], Loss: 2.0353, Acc(Exp1): 0.706 Acc(Exp2): 0.669 
 
 | VALID SET | Epoch [29/100], Step [0000/1674], Loss: 2.6807
 | VALID SET | Epoch [29/100], Step [0100/1674], Loss: 2.5737
@@ -1654,7 +1654,7 @@
 | VALID SET | Epoch [29/100], Step [1400/1674], Loss: 2.1340
 | VALID SET | Epoch [29/100], Step [1500/1674], Loss: 2.2454
 | VALID SET | Epoch [29/100], Step [1600/1674], Loss: 2.3745
-| VALID SET | Epoch [29/100], Loss: 2.3029, Acc(Exp1): 0.5791, Acc(Exp2): 0.5465 
+| VALID SET | Epoch [29/100], Loss: 2.3029, Acc(Exp1): 0.6691 Acc(Exp2): 0.6365 
 
 | TRAIN SET | Epoch [30/100], Step [0000/3466], Loss: 2.0719
 | TRAIN SET | Epoch [30/100], Step [0100/3466], Loss: 2.0408
@@ -1691,7 +1691,7 @@
 | TRAIN SET | Epoch [30/100], Step [3200/3466], Loss: 2.0651
 | TRAIN SET | Epoch [30/100], Step [3300/3466], Loss: 1.9044
 | TRAIN SET | Epoch [30/100], Step [3400/3466], Loss: 1.8479
-| TRAIN SET | Epoch [30/100], Loss: 2.0382, Acc(Exp1): 0.6163, Acc(Exp2): 0.5794 
+| TRAIN SET | Epoch [30/100], Loss: 2.0382, Acc(Exp1): 0.7063 Acc(Exp2): 0.6694 
 
 | VALID SET | Epoch [30/100], Step [0000/1674], Loss: 2.2756
 | VALID SET | Epoch [30/100], Step [0100/1674], Loss: 2.3126
@@ -1710,7 +1710,7 @@
 | VALID SET | Epoch [30/100], Step [1400/1674], Loss: 2.3392
 | VALID SET | Epoch [30/100], Step [1500/1674], Loss: 1.7813
 | VALID SET | Epoch [30/100], Step [1600/1674], Loss: 2.2291
-| VALID SET | Epoch [30/100], Loss: 2.3033, Acc(Exp1): 0.5791, Acc(Exp2): 0.5463 
+| VALID SET | Epoch [30/100], Loss: 2.3033, Acc(Exp1): 0.6691 Acc(Exp2): 0.6363 
 
 | TRAIN SET | Epoch [31/100], Step [0000/3466], Loss: 2.2024
 | TRAIN SET | Epoch [31/100], Step [0100/3466], Loss: 2.0378
@@ -1747,7 +1747,7 @@
 | TRAIN SET | Epoch [31/100], Step [3200/3466], Loss: 2.0507
 | TRAIN SET | Epoch [31/100], Step [3300/3466], Loss: 2.0568
 | TRAIN SET | Epoch [31/100], Step [3400/3466], Loss: 2.2436
-| TRAIN SET | Epoch [31/100], Loss: 2.0327, Acc(Exp1): 0.6163, Acc(Exp2): 0.5793 
+| TRAIN SET | Epoch [31/100], Loss: 2.0327, Acc(Exp1): 0.7063 Acc(Exp2): 0.6693 
 
 | VALID SET | Epoch [31/100], Step [0000/1674], Loss: 2.2197
 | VALID SET | Epoch [31/100], Step [0100/1674], Loss: 2.0974
@@ -1766,7 +1766,7 @@
 | VALID SET | Epoch [31/100], Step [1400/1674], Loss: 2.3156
 | VALID SET | Epoch [31/100], Step [1500/1674], Loss: 2.3505
 | VALID SET | Epoch [31/100], Step [1600/1674], Loss: 2.2170
-| VALID SET | Epoch [31/100], Loss: 2.3052, Acc(Exp1): 0.5791, Acc(Exp2): 0.5463 
+| VALID SET | Epoch [31/100], Loss: 2.3052, Acc(Exp1): 0.6691 Acc(Exp2): 0.6363 
 
 | TRAIN SET | Epoch [32/100], Step [0000/3466], Loss: 2.1129
 | TRAIN SET | Epoch [32/100], Step [0100/3466], Loss: 1.9253
@@ -1803,7 +1803,7 @@
 | TRAIN SET | Epoch [32/100], Step [3200/3466], Loss: 1.7693
 | TRAIN SET | Epoch [32/100], Step [3300/3466], Loss: 2.6528
 | TRAIN SET | Epoch [32/100], Step [3400/3466], Loss: 1.9954
-| TRAIN SET | Epoch [32/100], Loss: 2.0350, Acc(Exp1): 0.6159, Acc(Exp2): 0.5789 
+| TRAIN SET | Epoch [32/100], Loss: 2.0350, Acc(Exp1): 0.7059 Acc(Exp2): 0.6689 
 
 | VALID SET | Epoch [32/100], Step [0000/1674], Loss: 2.3717
 | VALID SET | Epoch [32/100], Step [0100/1674], Loss: 1.9309
@@ -1822,7 +1822,7 @@
 | VALID SET | Epoch [32/100], Step [1400/1674], Loss: 2.1734
 | VALID SET | Epoch [32/100], Step [1500/1674], Loss: 2.1778
 | VALID SET | Epoch [32/100], Step [1600/1674], Loss: 2.2567
-| VALID SET | Epoch [32/100], Loss: 2.3010, Acc(Exp1): 0.5790, Acc(Exp2): 0.5462 
+| VALID SET | Epoch [32/100], Loss: 2.3010, Acc(Exp1): 0.669 Acc(Exp2): 0.6362 
 
 | TRAIN SET | Epoch [33/100], Step [0000/3466], Loss: 1.8683
 | TRAIN SET | Epoch [33/100], Step [0100/3466], Loss: 2.2340
@@ -1859,7 +1859,7 @@
 | TRAIN SET | Epoch [33/100], Step [3200/3466], Loss: 2.1525
 | TRAIN SET | Epoch [33/100], Step [3300/3466], Loss: 1.8671
 | TRAIN SET | Epoch [33/100], Step [3400/3466], Loss: 1.8469
-| TRAIN SET | Epoch [33/100], Loss: 2.0313, Acc(Exp1): 0.6173, Acc(Exp2): 0.5803 
+| TRAIN SET | Epoch [33/100], Loss: 2.0313, Acc(Exp1): 0.7073 Acc(Exp2): 0.6703 
 
 | VALID SET | Epoch [33/100], Step [0000/1674], Loss: 2.4021
 | VALID SET | Epoch [33/100], Step [0100/1674], Loss: 2.1575
@@ -1878,7 +1878,7 @@
 | VALID SET | Epoch [33/100], Step [1400/1674], Loss: 2.3511
 | VALID SET | Epoch [33/100], Step [1500/1674], Loss: 2.4270
 | VALID SET | Epoch [33/100], Step [1600/1674], Loss: 2.1005
-| VALID SET | Epoch [33/100], Loss: 2.3035, Acc(Exp1): 0.5798, Acc(Exp2): 0.5469 
+| VALID SET | Epoch [33/100], Loss: 2.3035, Acc(Exp1): 0.6698 Acc(Exp2): 0.6369 
 
 | TRAIN SET | Epoch [34/100], Step [0000/3466], Loss: 1.7491
 | TRAIN SET | Epoch [34/100], Step [0100/3466], Loss: 1.9407
@@ -1915,7 +1915,7 @@
 | TRAIN SET | Epoch [34/100], Step [3200/3466], Loss: 2.0515
 | TRAIN SET | Epoch [34/100], Step [3300/3466], Loss: 2.0774
 | TRAIN SET | Epoch [34/100], Step [3400/3466], Loss: 2.1735
-| TRAIN SET | Epoch [34/100], Loss: 2.0349, Acc(Exp1): 0.6171, Acc(Exp2): 0.5800 
+| TRAIN SET | Epoch [34/100], Loss: 2.0349, Acc(Exp1): 0.7071 Acc(Exp2): 0.67 
 
 | VALID SET | Epoch [34/100], Step [0000/1674], Loss: 2.0843
 | VALID SET | Epoch [34/100], Step [0100/1674], Loss: 2.4480
@@ -1934,7 +1934,7 @@
 | VALID SET | Epoch [34/100], Step [1400/1674], Loss: 2.4003
 | VALID SET | Epoch [34/100], Step [1500/1674], Loss: 2.5828
 | VALID SET | Epoch [34/100], Step [1600/1674], Loss: 1.9619
-| VALID SET | Epoch [34/100], Loss: 2.3005, Acc(Exp1): 0.5795, Acc(Exp2): 0.5468 
+| VALID SET | Epoch [34/100], Loss: 2.3005, Acc(Exp1): 0.6695 Acc(Exp2): 0.6368 
 
 | TRAIN SET | Epoch [35/100], Step [0000/3466], Loss: 2.2046
 | TRAIN SET | Epoch [35/100], Step [0100/3466], Loss: 1.9477
@@ -1971,7 +1971,7 @@
 | TRAIN SET | Epoch [35/100], Step [3200/3466], Loss: 2.2655
 | TRAIN SET | Epoch [35/100], Step [3300/3466], Loss: 2.0410
 | TRAIN SET | Epoch [35/100], Step [3400/3466], Loss: 2.0194
-| TRAIN SET | Epoch [35/100], Loss: 2.0338, Acc(Exp1): 0.6165, Acc(Exp2): 0.5794 
+| TRAIN SET | Epoch [35/100], Loss: 2.0338, Acc(Exp1): 0.7065 Acc(Exp2): 0.6694 
 
 | VALID SET | Epoch [35/100], Step [0000/1674], Loss: 2.3526
 | VALID SET | Epoch [35/100], Step [0100/1674], Loss: 2.2327
@@ -1990,7 +1990,7 @@
 | VALID SET | Epoch [35/100], Step [1400/1674], Loss: 2.2570
 | VALID SET | Epoch [35/100], Step [1500/1674], Loss: 2.2626
 | VALID SET | Epoch [35/100], Step [1600/1674], Loss: 2.1764
-| VALID SET | Epoch [35/100], Loss: 2.3014, Acc(Exp1): 0.5792, Acc(Exp2): 0.5465 
+| VALID SET | Epoch [35/100], Loss: 2.3014, Acc(Exp1): 0.6692 Acc(Exp2): 0.6365 
 
 | TRAIN SET | Epoch [36/100], Step [0000/3466], Loss: 2.1120
 | TRAIN SET | Epoch [36/100], Step [0100/3466], Loss: 1.9936
@@ -2027,7 +2027,7 @@
 | TRAIN SET | Epoch [36/100], Step [3200/3466], Loss: 1.8903
 | TRAIN SET | Epoch [36/100], Step [3300/3466], Loss: 1.9067
 | TRAIN SET | Epoch [36/100], Step [3400/3466], Loss: 2.0687
-| TRAIN SET | Epoch [36/100], Loss: 2.0337, Acc(Exp1): 0.6169, Acc(Exp2): 0.5800 
+| TRAIN SET | Epoch [36/100], Loss: 2.0337, Acc(Exp1): 0.7069 Acc(Exp2): 0.67 
 
 | VALID SET | Epoch [36/100], Step [0000/1674], Loss: 2.4876
 | VALID SET | Epoch [36/100], Step [0100/1674], Loss: 2.5184
@@ -2046,7 +2046,7 @@
 | VALID SET | Epoch [36/100], Step [1400/1674], Loss: 1.9843
 | VALID SET | Epoch [36/100], Step [1500/1674], Loss: 2.3570
 | VALID SET | Epoch [36/100], Step [1600/1674], Loss: 2.3831
-| VALID SET | Epoch [36/100], Loss: 2.2979, Acc(Exp1): 0.5798, Acc(Exp2): 0.5471 
+| VALID SET | Epoch [36/100], Loss: 2.2979, Acc(Exp1): 0.6698 Acc(Exp2): 0.6371 
 
 | TRAIN SET | Epoch [37/100], Step [0000/3466], Loss: 2.0854
 | TRAIN SET | Epoch [37/100], Step [0100/3466], Loss: 2.0918
@@ -2083,7 +2083,7 @@
 | TRAIN SET | Epoch [37/100], Step [3200/3466], Loss: 1.7764
 | TRAIN SET | Epoch [37/100], Step [3300/3466], Loss: 2.0886
 | TRAIN SET | Epoch [37/100], Step [3400/3466], Loss: 2.0421
-| TRAIN SET | Epoch [37/100], Loss: 2.0294, Acc(Exp1): 0.6178, Acc(Exp2): 0.5808 
+| TRAIN SET | Epoch [37/100], Loss: 2.0294, Acc(Exp1): 0.7078 Acc(Exp2): 0.6708 
 
 | VALID SET | Epoch [37/100], Step [0000/1674], Loss: 2.1868
 | VALID SET | Epoch [37/100], Step [0100/1674], Loss: 2.1988
@@ -2102,7 +2102,7 @@
 | VALID SET | Epoch [37/100], Step [1400/1674], Loss: 2.2589
 | VALID SET | Epoch [37/100], Step [1500/1674], Loss: 2.3302
 | VALID SET | Epoch [37/100], Step [1600/1674], Loss: 2.0465
-| VALID SET | Epoch [37/100], Loss: 2.3021, Acc(Exp1): 0.5793, Acc(Exp2): 0.5466 
+| VALID SET | Epoch [37/100], Loss: 2.3021, Acc(Exp1): 0.6693 Acc(Exp2): 0.6366 
 
 | TRAIN SET | Epoch [38/100], Step [0000/3466], Loss: 2.1570
 | TRAIN SET | Epoch [38/100], Step [0100/3466], Loss: 2.1938
@@ -2139,7 +2139,7 @@
 | TRAIN SET | Epoch [38/100], Step [3200/3466], Loss: 2.1420
 | TRAIN SET | Epoch [38/100], Step [3300/3466], Loss: 2.1351
 | TRAIN SET | Epoch [38/100], Step [3400/3466], Loss: 2.0301
-| TRAIN SET | Epoch [38/100], Loss: 2.0299, Acc(Exp1): 0.6171, Acc(Exp2): 0.5799 
+| TRAIN SET | Epoch [38/100], Loss: 2.0299, Acc(Exp1): 0.7071 Acc(Exp2): 0.6699 
 
 | VALID SET | Epoch [38/100], Step [0000/1674], Loss: 2.3917
 | VALID SET | Epoch [38/100], Step [0100/1674], Loss: 2.0155
@@ -2158,7 +2158,7 @@
 | VALID SET | Epoch [38/100], Step [1400/1674], Loss: 2.5478
 | VALID SET | Epoch [38/100], Step [1500/1674], Loss: 2.5062
 | VALID SET | Epoch [38/100], Step [1600/1674], Loss: 2.4536
-| VALID SET | Epoch [38/100], Loss: 2.3043, Acc(Exp1): 0.5798, Acc(Exp2): 0.5472 
+| VALID SET | Epoch [38/100], Loss: 2.3043, Acc(Exp1): 0.6698 Acc(Exp2): 0.6372 
 
 | TRAIN SET | Epoch [39/100], Step [0000/3466], Loss: 2.0200
 | TRAIN SET | Epoch [39/100], Step [0100/3466], Loss: 1.7204
@@ -2195,7 +2195,7 @@
 | TRAIN SET | Epoch [39/100], Step [3200/3466], Loss: 2.0358
 | TRAIN SET | Epoch [39/100], Step [3300/3466], Loss: 1.9641
 | TRAIN SET | Epoch [39/100], Step [3400/3466], Loss: 1.9702
-| TRAIN SET | Epoch [39/100], Loss: 2.0295, Acc(Exp1): 0.6166, Acc(Exp2): 0.5795 
+| TRAIN SET | Epoch [39/100], Loss: 2.0295, Acc(Exp1): 0.7066 Acc(Exp2): 0.6695 
 
 | VALID SET | Epoch [39/100], Step [0000/1674], Loss: 2.3668
 | VALID SET | Epoch [39/100], Step [0100/1674], Loss: 2.2026
@@ -2214,7 +2214,7 @@
 | VALID SET | Epoch [39/100], Step [1400/1674], Loss: 2.2267
 | VALID SET | Epoch [39/100], Step [1500/1674], Loss: 2.3182
 | VALID SET | Epoch [39/100], Step [1600/1674], Loss: 2.1923
-| VALID SET | Epoch [39/100], Loss: 2.3022, Acc(Exp1): 0.5795, Acc(Exp2): 0.5468 
+| VALID SET | Epoch [39/100], Loss: 2.3022, Acc(Exp1): 0.6695 Acc(Exp2): 0.6368 
 
 | TRAIN SET | Epoch [40/100], Step [0000/3466], Loss: 2.0735
 | TRAIN SET | Epoch [40/100], Step [0100/3466], Loss: 2.2502
@@ -2251,7 +2251,7 @@
 | TRAIN SET | Epoch [40/100], Step [3200/3466], Loss: 1.9617
 | TRAIN SET | Epoch [40/100], Step [3300/3466], Loss: 1.9386
 | TRAIN SET | Epoch [40/100], Step [3400/3466], Loss: 1.9659
-| TRAIN SET | Epoch [40/100], Loss: 2.0288, Acc(Exp1): 0.6170, Acc(Exp2): 0.5799 
+| TRAIN SET | Epoch [40/100], Loss: 2.0288, Acc(Exp1): 0.707 Acc(Exp2): 0.6699 
 
 | VALID SET | Epoch [40/100], Step [0000/1674], Loss: 2.2083
 | VALID SET | Epoch [40/100], Step [0100/1674], Loss: 2.4534
@@ -2270,7 +2270,7 @@
 | VALID SET | Epoch [40/100], Step [1400/1674], Loss: 2.4957
 | VALID SET | Epoch [40/100], Step [1500/1674], Loss: 2.2820
 | VALID SET | Epoch [40/100], Step [1600/1674], Loss: 2.1596
-| VALID SET | Epoch [40/100], Loss: 2.3018, Acc(Exp1): 0.5794, Acc(Exp2): 0.5466 
+| VALID SET | Epoch [40/100], Loss: 2.3018, Acc(Exp1): 0.6694 Acc(Exp2): 0.6366 
 
 | TRAIN SET | Epoch [41/100], Step [0000/3466], Loss: 2.0076
 | TRAIN SET | Epoch [41/100], Step [0100/3466], Loss: 1.9749
@@ -2307,7 +2307,7 @@
 | TRAIN SET | Epoch [41/100], Step [3200/3466], Loss: 2.1396
 | TRAIN SET | Epoch [41/100], Step [3300/3466], Loss: 1.7786
 | TRAIN SET | Epoch [41/100], Step [3400/3466], Loss: 2.0999
-| TRAIN SET | Epoch [41/100], Loss: 2.0288, Acc(Exp1): 0.6170, Acc(Exp2): 0.5799 
+| TRAIN SET | Epoch [41/100], Loss: 2.0288, Acc(Exp1): 0.707 Acc(Exp2): 0.6699 
 
 | VALID SET | Epoch [41/100], Step [0000/1674], Loss: 2.4465
 | VALID SET | Epoch [41/100], Step [0100/1674], Loss: 2.2194
@@ -2326,7 +2326,7 @@
 | VALID SET | Epoch [41/100], Step [1400/1674], Loss: 2.3856
 | VALID SET | Epoch [41/100], Step [1500/1674], Loss: 2.3131
 | VALID SET | Epoch [41/100], Step [1600/1674], Loss: 2.0433
-| VALID SET | Epoch [41/100], Loss: 2.3015, Acc(Exp1): 0.5789, Acc(Exp2): 0.5461 
+| VALID SET | Epoch [41/100], Loss: 2.3015, Acc(Exp1): 0.6689 Acc(Exp2): 0.6361 
 
 | TRAIN SET | Epoch [42/100], Step [0000/3466], Loss: 1.8757
 | TRAIN SET | Epoch [42/100], Step [0100/3466], Loss: 2.1616
@@ -2363,7 +2363,7 @@
 | TRAIN SET | Epoch [42/100], Step [3200/3466], Loss: 2.0763
 | TRAIN SET | Epoch [42/100], Step [3300/3466], Loss: 1.7614
 | TRAIN SET | Epoch [42/100], Step [3400/3466], Loss: 1.8106
-| TRAIN SET | Epoch [42/100], Loss: 2.0316, Acc(Exp1): 0.6168, Acc(Exp2): 0.5798 
+| TRAIN SET | Epoch [42/100], Loss: 2.0316, Acc(Exp1): 0.7068 Acc(Exp2): 0.6698 
 
 | VALID SET | Epoch [42/100], Step [0000/1674], Loss: 2.1168
 | VALID SET | Epoch [42/100], Step [0100/1674], Loss: 2.2245
@@ -2382,7 +2382,7 @@
 | VALID SET | Epoch [42/100], Step [1400/1674], Loss: 2.7295
 | VALID SET | Epoch [42/100], Step [1500/1674], Loss: 2.2993
 | VALID SET | Epoch [42/100], Step [1600/1674], Loss: 2.2167
-| VALID SET | Epoch [42/100], Loss: 2.3000, Acc(Exp1): 0.5789, Acc(Exp2): 0.5461 
+| VALID SET | Epoch [42/100], Loss: 2.3000, Acc(Exp1): 0.6689 Acc(Exp2): 0.6361 
 
 | TRAIN SET | Epoch [43/100], Step [0000/3466], Loss: 2.1820
 | TRAIN SET | Epoch [43/100], Step [0100/3466], Loss: 1.7858
@@ -2419,7 +2419,7 @@
 | TRAIN SET | Epoch [43/100], Step [3200/3466], Loss: 2.4389
 | TRAIN SET | Epoch [43/100], Step [3300/3466], Loss: 1.7996
 | TRAIN SET | Epoch [43/100], Step [3400/3466], Loss: 2.0954
-| TRAIN SET | Epoch [43/100], Loss: 2.0311, Acc(Exp1): 0.6171, Acc(Exp2): 0.5800 
+| TRAIN SET | Epoch [43/100], Loss: 2.0311, Acc(Exp1): 0.7071 Acc(Exp2): 0.67 
 
 | VALID SET | Epoch [43/100], Step [0000/1674], Loss: 2.1810
 | VALID SET | Epoch [43/100], Step [0100/1674], Loss: 2.2926
@@ -2438,7 +2438,7 @@
 | VALID SET | Epoch [43/100], Step [1400/1674], Loss: 2.1677
 | VALID SET | Epoch [43/100], Step [1500/1674], Loss: 2.0834
 | VALID SET | Epoch [43/100], Step [1600/1674], Loss: 2.3305
-| VALID SET | Epoch [43/100], Loss: 2.2999, Acc(Exp1): 0.5798, Acc(Exp2): 0.5469 
+| VALID SET | Epoch [43/100], Loss: 2.2999, Acc(Exp1): 0.6698 Acc(Exp2): 0.6369 
 
 | TRAIN SET | Epoch [44/100], Step [0000/3466], Loss: 1.9214
 | TRAIN SET | Epoch [44/100], Step [0100/3466], Loss: 1.9028
@@ -2475,7 +2475,7 @@
 | TRAIN SET | Epoch [44/100], Step [3200/3466], Loss: 2.2190
 | TRAIN SET | Epoch [44/100], Step [3300/3466], Loss: 1.9236
 | TRAIN SET | Epoch [44/100], Step [3400/3466], Loss: 2.2509
-| TRAIN SET | Epoch [44/100], Loss: 2.0298, Acc(Exp1): 0.6171, Acc(Exp2): 0.5800 
+| TRAIN SET | Epoch [44/100], Loss: 2.0298, Acc(Exp1): 0.7071 Acc(Exp2): 0.67 
 
 | VALID SET | Epoch [44/100], Step [0000/1674], Loss: 2.4042
 | VALID SET | Epoch [44/100], Step [0100/1674], Loss: 2.3422
@@ -2494,7 +2494,7 @@
 | VALID SET | Epoch [44/100], Step [1400/1674], Loss: 2.1845
 | VALID SET | Epoch [44/100], Step [1500/1674], Loss: 2.4969
 | VALID SET | Epoch [44/100], Step [1600/1674], Loss: 2.6112
-| VALID SET | Epoch [44/100], Loss: 2.3044, Acc(Exp1): 0.5789, Acc(Exp2): 0.5460 
+| VALID SET | Epoch [44/100], Loss: 2.3044, Acc(Exp1): 0.6689 Acc(Exp2): 0.636 
 
 | TRAIN SET | Epoch [45/100], Step [0000/3466], Loss: 2.0897
 | TRAIN SET | Epoch [45/100], Step [0100/3466], Loss: 2.0401
@@ -2531,7 +2531,7 @@
 | TRAIN SET | Epoch [45/100], Step [3200/3466], Loss: 2.3668
 | TRAIN SET | Epoch [45/100], Step [3300/3466], Loss: 2.0308
 | TRAIN SET | Epoch [45/100], Step [3400/3466], Loss: 1.5524
-| TRAIN SET | Epoch [45/100], Loss: 2.0294, Acc(Exp1): 0.6171, Acc(Exp2): 0.5799 
+| TRAIN SET | Epoch [45/100], Loss: 2.0294, Acc(Exp1): 0.7071 Acc(Exp2): 0.6699 
 
 | VALID SET | Epoch [45/100], Step [0000/1674], Loss: 2.3404
 | VALID SET | Epoch [45/100], Step [0100/1674], Loss: 2.1952
@@ -2550,7 +2550,7 @@
 | VALID SET | Epoch [45/100], Step [1400/1674], Loss: 2.7137
 | VALID SET | Epoch [45/100], Step [1500/1674], Loss: 2.3624
 | VALID SET | Epoch [45/100], Step [1600/1674], Loss: 2.4983
-| VALID SET | Epoch [45/100], Loss: 2.2997, Acc(Exp1): 0.5783, Acc(Exp2): 0.5456 
+| VALID SET | Epoch [45/100], Loss: 2.2997, Acc(Exp1): 0.6683 Acc(Exp2): 0.6356 
 
 | TRAIN SET | Epoch [46/100], Step [0000/3466], Loss: 2.1317
 | TRAIN SET | Epoch [46/100], Step [0100/3466], Loss: 2.0464
@@ -2587,7 +2587,7 @@
 | TRAIN SET | Epoch [46/100], Step [3200/3466], Loss: 2.1868
 | TRAIN SET | Epoch [46/100], Step [3300/3466], Loss: 2.1882
 | TRAIN SET | Epoch [46/100], Step [3400/3466], Loss: 1.9147
-| TRAIN SET | Epoch [46/100], Loss: 2.0273, Acc(Exp1): 0.6170, Acc(Exp2): 0.5800 
+| TRAIN SET | Epoch [46/100], Loss: 2.0273, Acc(Exp1): 0.707 Acc(Exp2): 0.67 
 
 | VALID SET | Epoch [46/100], Step [0000/1674], Loss: 2.2292
 | VALID SET | Epoch [46/100], Step [0100/1674], Loss: 2.5583
@@ -2606,7 +2606,7 @@
 | VALID SET | Epoch [46/100], Step [1400/1674], Loss: 2.5814
 | VALID SET | Epoch [46/100], Step [1500/1674], Loss: 2.2280
 | VALID SET | Epoch [46/100], Step [1600/1674], Loss: 2.2577
-| VALID SET | Epoch [46/100], Loss: 2.3064, Acc(Exp1): 0.5789, Acc(Exp2): 0.5461 
+| VALID SET | Epoch [46/100], Loss: 2.3064, Acc(Exp1): 0.6689 Acc(Exp2): 0.6361 
 
 | TRAIN SET | Epoch [47/100], Step [0000/3466], Loss: 1.9685
 | TRAIN SET | Epoch [47/100], Step [0100/3466], Loss: 2.0761
@@ -2643,7 +2643,7 @@
 | TRAIN SET | Epoch [47/100], Step [3200/3466], Loss: 2.3601
 | TRAIN SET | Epoch [47/100], Step [3300/3466], Loss: 1.9257
 | TRAIN SET | Epoch [47/100], Step [3400/3466], Loss: 1.8716
-| TRAIN SET | Epoch [47/100], Loss: 2.0300, Acc(Exp1): 0.6173, Acc(Exp2): 0.5803 
+| TRAIN SET | Epoch [47/100], Loss: 2.0300, Acc(Exp1): 0.7073 Acc(Exp2): 0.6703 
 
 | VALID SET | Epoch [47/100], Step [0000/1674], Loss: 2.6490
 | VALID SET | Epoch [47/100], Step [0100/1674], Loss: 2.0145
@@ -2662,7 +2662,7 @@
 | VALID SET | Epoch [47/100], Step [1400/1674], Loss: 1.9440
 | VALID SET | Epoch [47/100], Step [1500/1674], Loss: 1.8709
 | VALID SET | Epoch [47/100], Step [1600/1674], Loss: 2.1106
-| VALID SET | Epoch [47/100], Loss: 2.3032, Acc(Exp1): 0.5791, Acc(Exp2): 0.5464 
+| VALID SET | Epoch [47/100], Loss: 2.3032, Acc(Exp1): 0.6691 Acc(Exp2): 0.6364 
 
 | TRAIN SET | Epoch [48/100], Step [0000/3466], Loss: 1.6965
 | TRAIN SET | Epoch [48/100], Step [0100/3466], Loss: 2.2349
@@ -2699,7 +2699,7 @@
 | TRAIN SET | Epoch [48/100], Step [3200/3466], Loss: 2.1265
 | TRAIN SET | Epoch [48/100], Step [3300/3466], Loss: 2.2968
 | TRAIN SET | Epoch [48/100], Step [3400/3466], Loss: 1.8313
-| TRAIN SET | Epoch [48/100], Loss: 2.0292, Acc(Exp1): 0.6172, Acc(Exp2): 0.5801 
+| TRAIN SET | Epoch [48/100], Loss: 2.0292, Acc(Exp1): 0.7072 Acc(Exp2): 0.6701 
 
 | VALID SET | Epoch [48/100], Step [0000/1674], Loss: 1.9997
 | VALID SET | Epoch [48/100], Step [0100/1674], Loss: 2.0355
@@ -2718,7 +2718,7 @@
 | VALID SET | Epoch [48/100], Step [1400/1674], Loss: 1.8915
 | VALID SET | Epoch [48/100], Step [1500/1674], Loss: 1.8113
 | VALID SET | Epoch [48/100], Step [1600/1674], Loss: 2.2735
-| VALID SET | Epoch [48/100], Loss: 2.2981, Acc(Exp1): 0.5795, Acc(Exp2): 0.5467 
+| VALID SET | Epoch [48/100], Loss: 2.2981, Acc(Exp1): 0.6695 Acc(Exp2): 0.6367 
 
 | TRAIN SET | Epoch [49/100], Step [0000/3466], Loss: 1.9937
 | TRAIN SET | Epoch [49/100], Step [0100/3466], Loss: 2.2999
@@ -2755,7 +2755,7 @@
 | TRAIN SET | Epoch [49/100], Step [3200/3466], Loss: 2.1142
 | TRAIN SET | Epoch [49/100], Step [3300/3466], Loss: 2.0329
 | TRAIN SET | Epoch [49/100], Step [3400/3466], Loss: 2.2493
-| TRAIN SET | Epoch [49/100], Loss: 2.0298, Acc(Exp1): 0.6177, Acc(Exp2): 0.5806 
+| TRAIN SET | Epoch [49/100], Loss: 2.0298, Acc(Exp1): 0.7077 Acc(Exp2): 0.6706 
 
 | VALID SET | Epoch [49/100], Step [0000/1674], Loss: 2.1614
 | VALID SET | Epoch [49/100], Step [0100/1674], Loss: 2.0792
@@ -2774,7 +2774,7 @@
 | VALID SET | Epoch [49/100], Step [1400/1674], Loss: 2.1575
 | VALID SET | Epoch [49/100], Step [1500/1674], Loss: 2.1421
 | VALID SET | Epoch [49/100], Step [1600/1674], Loss: 2.1571
-| VALID SET | Epoch [49/100], Loss: 2.2997, Acc(Exp1): 0.5789, Acc(Exp2): 0.5461 
+| VALID SET | Epoch [49/100], Loss: 2.2997, Acc(Exp1): 0.6689 Acc(Exp2): 0.6361 
 
 | TRAIN SET | Epoch [50/100], Step [0000/3466], Loss: 2.0852
 | TRAIN SET | Epoch [50/100], Step [0100/3466], Loss: 2.0500
@@ -2811,7 +2811,7 @@
 | TRAIN SET | Epoch [50/100], Step [3200/3466], Loss: 1.7921
 | TRAIN SET | Epoch [50/100], Step [3300/3466], Loss: 2.1365
 | TRAIN SET | Epoch [50/100], Step [3400/3466], Loss: 2.2880
-| TRAIN SET | Epoch [50/100], Loss: 2.0303, Acc(Exp1): 0.6170, Acc(Exp2): 0.5799 
+| TRAIN SET | Epoch [50/100], Loss: 2.0303, Acc(Exp1): 0.707 Acc(Exp2): 0.6699 
 
 | VALID SET | Epoch [50/100], Step [0000/1674], Loss: 2.3088
 | VALID SET | Epoch [50/100], Step [0100/1674], Loss: 2.1915
@@ -2830,7 +2830,7 @@
 | VALID SET | Epoch [50/100], Step [1400/1674], Loss: 2.6216
 | VALID SET | Epoch [50/100], Step [1500/1674], Loss: 2.3010
 | VALID SET | Epoch [50/100], Step [1600/1674], Loss: 2.3495
-| VALID SET | Epoch [50/100], Loss: 2.3027, Acc(Exp1): 0.5787, Acc(Exp2): 0.5460 
+| VALID SET | Epoch [50/100], Loss: 2.3027, Acc(Exp1): 0.6687 Acc(Exp2): 0.636 
 
 | TRAIN SET | Epoch [51/100], Step [0000/3466], Loss: 1.7206
 | TRAIN SET | Epoch [51/100], Step [0100/3466], Loss: 2.2129
@@ -2867,7 +2867,7 @@
 | TRAIN SET | Epoch [51/100], Step [3200/3466], Loss: 2.0952
 | TRAIN SET | Epoch [51/100], Step [3300/3466], Loss: 1.7444
 | TRAIN SET | Epoch [51/100], Step [3400/3466], Loss: 2.0767
-| TRAIN SET | Epoch [51/100], Loss: 2.0316, Acc(Exp1): 0.6175, Acc(Exp2): 0.5806 
+| TRAIN SET | Epoch [51/100], Loss: 2.0316, Acc(Exp1): 0.7075 Acc(Exp2): 0.6706 
 
 | VALID SET | Epoch [51/100], Step [0000/1674], Loss: 2.4137
 | VALID SET | Epoch [51/100], Step [0100/1674], Loss: 2.3504
@@ -2886,7 +2886,7 @@
 | VALID SET | Epoch [51/100], Step [1400/1674], Loss: 2.0982
 | VALID SET | Epoch [51/100], Step [1500/1674], Loss: 2.3599
 | VALID SET | Epoch [51/100], Step [1600/1674], Loss: 1.8954
-| VALID SET | Epoch [51/100], Loss: 2.3059, Acc(Exp1): 0.5798, Acc(Exp2): 0.5470 
+| VALID SET | Epoch [51/100], Loss: 2.3059, Acc(Exp1): 0.6698 Acc(Exp2): 0.637 
 
 | TRAIN SET | Epoch [52/100], Step [0000/3466], Loss: 1.8015
 | TRAIN SET | Epoch [52/100], Step [0100/3466], Loss: 1.9825
@@ -2923,7 +2923,7 @@
 | TRAIN SET | Epoch [52/100], Step [3200/3466], Loss: 1.7844
 | TRAIN SET | Epoch [52/100], Step [3300/3466], Loss: 1.9729
 | TRAIN SET | Epoch [52/100], Step [3400/3466], Loss: 1.9997
-| TRAIN SET | Epoch [52/100], Loss: 2.0275, Acc(Exp1): 0.6174, Acc(Exp2): 0.5803 
+| TRAIN SET | Epoch [52/100], Loss: 2.0275, Acc(Exp1): 0.7074 Acc(Exp2): 0.6703 
 
 | VALID SET | Epoch [52/100], Step [0000/1674], Loss: 2.4169
 | VALID SET | Epoch [52/100], Step [0100/1674], Loss: 2.2826
@@ -2942,7 +2942,7 @@
 | VALID SET | Epoch [52/100], Step [1400/1674], Loss: 2.2862
 | VALID SET | Epoch [52/100], Step [1500/1674], Loss: 2.3245
 | VALID SET | Epoch [52/100], Step [1600/1674], Loss: 2.1528
-| VALID SET | Epoch [52/100], Loss: 2.3036, Acc(Exp1): 0.5796, Acc(Exp2): 0.5467 
+| VALID SET | Epoch [52/100], Loss: 2.3036, Acc(Exp1): 0.6696 Acc(Exp2): 0.6367 
 
 | TRAIN SET | Epoch [53/100], Step [0000/3466], Loss: 2.1164
 | TRAIN SET | Epoch [53/100], Step [0100/3466], Loss: 2.3791
@@ -2979,7 +2979,7 @@
 | TRAIN SET | Epoch [53/100], Step [3200/3466], Loss: 2.0673
 | TRAIN SET | Epoch [53/100], Step [3300/3466], Loss: 2.1438
 | TRAIN SET | Epoch [53/100], Step [3400/3466], Loss: 2.1116
-| TRAIN SET | Epoch [53/100], Loss: 2.0319, Acc(Exp1): 0.6173, Acc(Exp2): 0.5803 
+| TRAIN SET | Epoch [53/100], Loss: 2.0319, Acc(Exp1): 0.7073 Acc(Exp2): 0.6703 
 
 | VALID SET | Epoch [53/100], Step [0000/1674], Loss: 1.7146
 | VALID SET | Epoch [53/100], Step [0100/1674], Loss: 2.2170
@@ -2998,7 +2998,7 @@
 | VALID SET | Epoch [53/100], Step [1400/1674], Loss: 2.3520
 | VALID SET | Epoch [53/100], Step [1500/1674], Loss: 1.9808
 | VALID SET | Epoch [53/100], Step [1600/1674], Loss: 2.4195
-| VALID SET | Epoch [53/100], Loss: 2.3065, Acc(Exp1): 0.5789, Acc(Exp2): 0.5461 
+| VALID SET | Epoch [53/100], Loss: 2.3065, Acc(Exp1): 0.6689 Acc(Exp2): 0.6361 
 
 | TRAIN SET | Epoch [54/100], Step [0000/3466], Loss: 1.7534
 | TRAIN SET | Epoch [54/100], Step [0100/3466], Loss: 2.0093
@@ -3035,7 +3035,7 @@
 | TRAIN SET | Epoch [54/100], Step [3200/3466], Loss: 1.9734
 | TRAIN SET | Epoch [54/100], Step [3300/3466], Loss: 1.9234
 | TRAIN SET | Epoch [54/100], Step [3400/3466], Loss: 2.0786
-| TRAIN SET | Epoch [54/100], Loss: 2.0308, Acc(Exp1): 0.6174, Acc(Exp2): 0.5803 
+| TRAIN SET | Epoch [54/100], Loss: 2.0308, Acc(Exp1): 0.7074 Acc(Exp2): 0.6703 
 
 | VALID SET | Epoch [54/100], Step [0000/1674], Loss: 2.2979
 | VALID SET | Epoch [54/100], Step [0100/1674], Loss: 2.5145
@@ -3054,7 +3054,7 @@
 | VALID SET | Epoch [54/100], Step [1400/1674], Loss: 2.0460
 | VALID SET | Epoch [54/100], Step [1500/1674], Loss: 2.3039
 | VALID SET | Epoch [54/100], Step [1600/1674], Loss: 2.2924
-| VALID SET | Epoch [54/100], Loss: 2.3050, Acc(Exp1): 0.5799, Acc(Exp2): 0.5470 
+| VALID SET | Epoch [54/100], Loss: 2.3050, Acc(Exp1): 0.6699 Acc(Exp2): 0.637 
 
 | TRAIN SET | Epoch [55/100], Step [0000/3466], Loss: 1.9949
 | TRAIN SET | Epoch [55/100], Step [0100/3466], Loss: 2.1803
@@ -3091,7 +3091,7 @@
 | TRAIN SET | Epoch [55/100], Step [3200/3466], Loss: 2.0311
 | TRAIN SET | Epoch [55/100], Step [3300/3466], Loss: 1.7639
 | TRAIN SET | Epoch [55/100], Step [3400/3466], Loss: 1.8148
-| TRAIN SET | Epoch [55/100], Loss: 2.0302, Acc(Exp1): 0.6177, Acc(Exp2): 0.5806 
+| TRAIN SET | Epoch [55/100], Loss: 2.0302, Acc(Exp1): 0.7077 Acc(Exp2): 0.6706 
 
 | VALID SET | Epoch [55/100], Step [0000/1674], Loss: 2.7422
 | VALID SET | Epoch [55/100], Step [0100/1674], Loss: 2.1281
@@ -3110,7 +3110,7 @@
 | VALID SET | Epoch [55/100], Step [1400/1674], Loss: 2.0535
 | VALID SET | Epoch [55/100], Step [1500/1674], Loss: 2.3910
 | VALID SET | Epoch [55/100], Step [1600/1674], Loss: 2.6485
-| VALID SET | Epoch [55/100], Loss: 2.3049, Acc(Exp1): 0.5795, Acc(Exp2): 0.5467 
+| VALID SET | Epoch [55/100], Loss: 2.3049, Acc(Exp1): 0.6695 Acc(Exp2): 0.6367 
 
 | TRAIN SET | Epoch [56/100], Step [0000/3466], Loss: 1.8138
 | TRAIN SET | Epoch [56/100], Step [0100/3466], Loss: 1.9611
@@ -3147,7 +3147,7 @@
 | TRAIN SET | Epoch [56/100], Step [3200/3466], Loss: 2.1455
 | TRAIN SET | Epoch [56/100], Step [3300/3466], Loss: 1.9996
 | TRAIN SET | Epoch [56/100], Step [3400/3466], Loss: 1.7955
-| TRAIN SET | Epoch [56/100], Loss: 2.0302, Acc(Exp1): 0.6173, Acc(Exp2): 0.5803 
+| TRAIN SET | Epoch [56/100], Loss: 2.0302, Acc(Exp1): 0.7073 Acc(Exp2): 0.6703 
 
 | VALID SET | Epoch [56/100], Step [0000/1674], Loss: 2.1347
 | VALID SET | Epoch [56/100], Step [0100/1674], Loss: 2.0229
@@ -3166,7 +3166,7 @@
 | VALID SET | Epoch [56/100], Step [1400/1674], Loss: 1.9871
 | VALID SET | Epoch [56/100], Step [1500/1674], Loss: 2.1296
 | VALID SET | Epoch [56/100], Step [1600/1674], Loss: 2.1419
-| VALID SET | Epoch [56/100], Loss: 2.3040, Acc(Exp1): 0.5797, Acc(Exp2): 0.5469 
+| VALID SET | Epoch [56/100], Loss: 2.3040, Acc(Exp1): 0.6697 Acc(Exp2): 0.6369 
 
 | TRAIN SET | Epoch [57/100], Step [0000/3466], Loss: 1.9845
 | TRAIN SET | Epoch [57/100], Step [0100/3466], Loss: 2.1463
@@ -3203,7 +3203,7 @@
 | TRAIN SET | Epoch [57/100], Step [3200/3466], Loss: 1.8387
 | TRAIN SET | Epoch [57/100], Step [3300/3466], Loss: 1.9055
 | TRAIN SET | Epoch [57/100], Step [3400/3466], Loss: 1.8422
-| TRAIN SET | Epoch [57/100], Loss: 2.0321, Acc(Exp1): 0.6169, Acc(Exp2): 0.5799 
+| TRAIN SET | Epoch [57/100], Loss: 2.0321, Acc(Exp1): 0.7069 Acc(Exp2): 0.6699 
 
 | VALID SET | Epoch [57/100], Step [0000/1674], Loss: 2.2051
 | VALID SET | Epoch [57/100], Step [0100/1674], Loss: 2.3652
@@ -3222,7 +3222,7 @@
 | VALID SET | Epoch [57/100], Step [1400/1674], Loss: 2.4515
 | VALID SET | Epoch [57/100], Step [1500/1674], Loss: 2.1158
 | VALID SET | Epoch [57/100], Step [1600/1674], Loss: 2.3760
-| VALID SET | Epoch [57/100], Loss: 2.3015, Acc(Exp1): 0.5790, Acc(Exp2): 0.5461 
+| VALID SET | Epoch [57/100], Loss: 2.3015, Acc(Exp1): 0.669 Acc(Exp2): 0.6361 
 
 | TRAIN SET | Epoch [58/100], Step [0000/3466], Loss: 2.1120
 | TRAIN SET | Epoch [58/100], Step [0100/3466], Loss: 2.3458
@@ -3259,7 +3259,7 @@
 | TRAIN SET | Epoch [58/100], Step [3200/3466], Loss: 1.8767
 | TRAIN SET | Epoch [58/100], Step [3300/3466], Loss: 2.4151
 | TRAIN SET | Epoch [58/100], Step [3400/3466], Loss: 1.8917
-| TRAIN SET | Epoch [58/100], Loss: 2.0316, Acc(Exp1): 0.6169, Acc(Exp2): 0.5800 
+| TRAIN SET | Epoch [58/100], Loss: 2.0316, Acc(Exp1): 0.7069 Acc(Exp2): 0.67 
 
 | VALID SET | Epoch [58/100], Step [0000/1674], Loss: 2.1067
 | VALID SET | Epoch [58/100], Step [0100/1674], Loss: 2.5322
@@ -3278,7 +3278,7 @@
 | VALID SET | Epoch [58/100], Step [1400/1674], Loss: 2.1146
 | VALID SET | Epoch [58/100], Step [1500/1674], Loss: 2.3416
 | VALID SET | Epoch [58/100], Step [1600/1674], Loss: 2.5380
-| VALID SET | Epoch [58/100], Loss: 2.3029, Acc(Exp1): 0.5796, Acc(Exp2): 0.5469 
+| VALID SET | Epoch [58/100], Loss: 2.3029, Acc(Exp1): 0.6696 Acc(Exp2): 0.6369 
 
 | TRAIN SET | Epoch [59/100], Step [0000/3466], Loss: 1.7610
 | TRAIN SET | Epoch [59/100], Step [0100/3466], Loss: 2.1504
@@ -3315,7 +3315,7 @@
 | TRAIN SET | Epoch [59/100], Step [3200/3466], Loss: 1.9671
 | TRAIN SET | Epoch [59/100], Step [3300/3466], Loss: 2.0353
 | TRAIN SET | Epoch [59/100], Step [3400/3466], Loss: 2.1326
-| TRAIN SET | Epoch [59/100], Loss: 2.0327, Acc(Exp1): 0.6173, Acc(Exp2): 0.5803 
+| TRAIN SET | Epoch [59/100], Loss: 2.0327, Acc(Exp1): 0.7073 Acc(Exp2): 0.6703 
 
 | VALID SET | Epoch [59/100], Step [0000/1674], Loss: 2.6088
 | VALID SET | Epoch [59/100], Step [0100/1674], Loss: 2.3196
@@ -3334,7 +3334,7 @@
 | VALID SET | Epoch [59/100], Step [1400/1674], Loss: 2.0890
 | VALID SET | Epoch [59/100], Step [1500/1674], Loss: 2.0889
 | VALID SET | Epoch [59/100], Step [1600/1674], Loss: 2.3874
-| VALID SET | Epoch [59/100], Loss: 2.3022, Acc(Exp1): 0.5797, Acc(Exp2): 0.5468 
+| VALID SET | Epoch [59/100], Loss: 2.3022, Acc(Exp1): 0.6697 Acc(Exp2): 0.6368 
 
 | TRAIN SET | Epoch [60/100], Step [0000/3466], Loss: 1.9430
 | TRAIN SET | Epoch [60/100], Step [0100/3466], Loss: 2.0991
@@ -3371,7 +3371,7 @@
 | TRAIN SET | Epoch [60/100], Step [3200/3466], Loss: 1.8554
 | TRAIN SET | Epoch [60/100], Step [3300/3466], Loss: 1.8299
 | TRAIN SET | Epoch [60/100], Step [3400/3466], Loss: 2.0255
-| TRAIN SET | Epoch [60/100], Loss: 2.0300, Acc(Exp1): 0.6172, Acc(Exp2): 0.5802 
+| TRAIN SET | Epoch [60/100], Loss: 2.0300, Acc(Exp1): 0.7072 Acc(Exp2): 0.6702 
 
 | VALID SET | Epoch [60/100], Step [0000/1674], Loss: 2.3722
 | VALID SET | Epoch [60/100], Step [0100/1674], Loss: 2.2122
@@ -3390,7 +3390,7 @@
 | VALID SET | Epoch [60/100], Step [1400/1674], Loss: 2.4012
 | VALID SET | Epoch [60/100], Step [1500/1674], Loss: 2.0012
 | VALID SET | Epoch [60/100], Step [1600/1674], Loss: 2.4647
-| VALID SET | Epoch [60/100], Loss: 2.3035, Acc(Exp1): 0.5794, Acc(Exp2): 0.5468 
+| VALID SET | Epoch [60/100], Loss: 2.3035, Acc(Exp1): 0.6694 Acc(Exp2): 0.6368 
 
 | TRAIN SET | Epoch [61/100], Step [0000/3466], Loss: 2.1765
 | TRAIN SET | Epoch [61/100], Step [0100/3466], Loss: 2.1055
@@ -3427,7 +3427,7 @@
 | TRAIN SET | Epoch [61/100], Step [3200/3466], Loss: 1.9585
 | TRAIN SET | Epoch [61/100], Step [3300/3466], Loss: 2.1934
 | TRAIN SET | Epoch [61/100], Step [3400/3466], Loss: 2.1244
-| TRAIN SET | Epoch [61/100], Loss: 2.0295, Acc(Exp1): 0.6174, Acc(Exp2): 0.5804 
+| TRAIN SET | Epoch [61/100], Loss: 2.0295, Acc(Exp1): 0.7074 Acc(Exp2): 0.6704 
 
 | VALID SET | Epoch [61/100], Step [0000/1674], Loss: 2.5295
 | VALID SET | Epoch [61/100], Step [0100/1674], Loss: 2.1261
@@ -3446,7 +3446,7 @@
 | VALID SET | Epoch [61/100], Step [1400/1674], Loss: 2.1795
 | VALID SET | Epoch [61/100], Step [1500/1674], Loss: 2.4111
 | VALID SET | Epoch [61/100], Step [1600/1674], Loss: 2.1010
-| VALID SET | Epoch [61/100], Loss: 2.3015, Acc(Exp1): 0.5790, Acc(Exp2): 0.5462 
+| VALID SET | Epoch [61/100], Loss: 2.3015, Acc(Exp1): 0.669 Acc(Exp2): 0.6362 
 
 | TRAIN SET | Epoch [62/100], Step [0000/3466], Loss: 2.1354
 | TRAIN SET | Epoch [62/100], Step [0100/3466], Loss: 2.0850
@@ -3483,7 +3483,7 @@
 | TRAIN SET | Epoch [62/100], Step [3200/3466], Loss: 2.1195
 | TRAIN SET | Epoch [62/100], Step [3300/3466], Loss: 2.0771
 | TRAIN SET | Epoch [62/100], Step [3400/3466], Loss: 1.9135
-| TRAIN SET | Epoch [62/100], Loss: 2.0300, Acc(Exp1): 0.6167, Acc(Exp2): 0.5795 
+| TRAIN SET | Epoch [62/100], Loss: 2.0300, Acc(Exp1): 0.7067 Acc(Exp2): 0.6695 
 
 | VALID SET | Epoch [62/100], Step [0000/1674], Loss: 1.9262
 | VALID SET | Epoch [62/100], Step [0100/1674], Loss: 2.2693
@@ -3502,7 +3502,7 @@
 | VALID SET | Epoch [62/100], Step [1400/1674], Loss: 2.2774
 | VALID SET | Epoch [62/100], Step [1500/1674], Loss: 2.2247
 | VALID SET | Epoch [62/100], Step [1600/1674], Loss: 2.1984
-| VALID SET | Epoch [62/100], Loss: 2.2991, Acc(Exp1): 0.5796, Acc(Exp2): 0.5468 
+| VALID SET | Epoch [62/100], Loss: 2.2991, Acc(Exp1): 0.6696 Acc(Exp2): 0.6368 
 
 | TRAIN SET | Epoch [63/100], Step [0000/3466], Loss: 1.8950
 | TRAIN SET | Epoch [63/100], Step [0100/3466], Loss: 2.2021
@@ -3539,7 +3539,7 @@
 | TRAIN SET | Epoch [63/100], Step [3200/3466], Loss: 2.2662
 | TRAIN SET | Epoch [63/100], Step [3300/3466], Loss: 2.0549
 | TRAIN SET | Epoch [63/100], Step [3400/3466], Loss: 2.0970
-| TRAIN SET | Epoch [63/100], Loss: 2.0346, Acc(Exp1): 0.6171, Acc(Exp2): 0.5801 
+| TRAIN SET | Epoch [63/100], Loss: 2.0346, Acc(Exp1): 0.7071 Acc(Exp2): 0.6701 
 
 | VALID SET | Epoch [63/100], Step [0000/1674], Loss: 2.3565
 | VALID SET | Epoch [63/100], Step [0100/1674], Loss: 2.3782
@@ -3558,7 +3558,7 @@
 | VALID SET | Epoch [63/100], Step [1400/1674], Loss: 2.0096
 | VALID SET | Epoch [63/100], Step [1500/1674], Loss: 2.3866
 | VALID SET | Epoch [63/100], Step [1600/1674], Loss: 2.1117
-| VALID SET | Epoch [63/100], Loss: 2.3005, Acc(Exp1): 0.5794, Acc(Exp2): 0.5466 
+| VALID SET | Epoch [63/100], Loss: 2.3005, Acc(Exp1): 0.6694 Acc(Exp2): 0.6366 
 
 | TRAIN SET | Epoch [64/100], Step [0000/3466], Loss: 2.0659
 | TRAIN SET | Epoch [64/100], Step [0100/3466], Loss: 1.7697
@@ -3595,7 +3595,7 @@
 | TRAIN SET | Epoch [64/100], Step [3200/3466], Loss: 1.9216
 | TRAIN SET | Epoch [64/100], Step [3300/3466], Loss: 2.0649
 | TRAIN SET | Epoch [64/100], Step [3400/3466], Loss: 2.2385
-| TRAIN SET | Epoch [64/100], Loss: 2.0304, Acc(Exp1): 0.6174, Acc(Exp2): 0.5803 
+| TRAIN SET | Epoch [64/100], Loss: 2.0304, Acc(Exp1): 0.7074 Acc(Exp2): 0.6703 
 
 | VALID SET | Epoch [64/100], Step [0000/1674], Loss: 2.5334
 | VALID SET | Epoch [64/100], Step [0100/1674], Loss: 2.2845
@@ -3614,7 +3614,7 @@
 | VALID SET | Epoch [64/100], Step [1400/1674], Loss: 2.3557
 | VALID SET | Epoch [64/100], Step [1500/1674], Loss: 2.1912
 | VALID SET | Epoch [64/100], Step [1600/1674], Loss: 2.5488
-| VALID SET | Epoch [64/100], Loss: 2.3018, Acc(Exp1): 0.5789, Acc(Exp2): 0.5461 
+| VALID SET | Epoch [64/100], Loss: 2.3018, Acc(Exp1): 0.6689 Acc(Exp2): 0.6361 
 
 | TRAIN SET | Epoch [65/100], Step [0000/3466], Loss: 1.9095
 | TRAIN SET | Epoch [65/100], Step [0100/3466], Loss: 1.6788
@@ -3651,7 +3651,7 @@
 | TRAIN SET | Epoch [65/100], Step [3200/3466], Loss: 1.9453
 | TRAIN SET | Epoch [65/100], Step [3300/3466], Loss: 1.9777
 | TRAIN SET | Epoch [65/100], Step [3400/3466], Loss: 2.3725
-| TRAIN SET | Epoch [65/100], Loss: 2.0299, Acc(Exp1): 0.6169, Acc(Exp2): 0.5798 
+| TRAIN SET | Epoch [65/100], Loss: 2.0299, Acc(Exp1): 0.7069 Acc(Exp2): 0.6698 
 
 | VALID SET | Epoch [65/100], Step [0000/1674], Loss: 2.0537
 | VALID SET | Epoch [65/100], Step [0100/1674], Loss: 2.2333
@@ -3670,7 +3670,7 @@
 | VALID SET | Epoch [65/100], Step [1400/1674], Loss: 2.3479
 | VALID SET | Epoch [65/100], Step [1500/1674], Loss: 2.2431
 | VALID SET | Epoch [65/100], Step [1600/1674], Loss: 2.4459
-| VALID SET | Epoch [65/100], Loss: 2.3004, Acc(Exp1): 0.5793, Acc(Exp2): 0.5465 
+| VALID SET | Epoch [65/100], Loss: 2.3004, Acc(Exp1): 0.6693 Acc(Exp2): 0.6365 
 
 | TRAIN SET | Epoch [66/100], Step [0000/3466], Loss: 2.0235
 | TRAIN SET | Epoch [66/100], Step [0100/3466], Loss: 1.7423
@@ -3707,7 +3707,7 @@
 | TRAIN SET | Epoch [66/100], Step [3200/3466], Loss: 1.9337
 | TRAIN SET | Epoch [66/100], Step [3300/3466], Loss: 1.9622
 | TRAIN SET | Epoch [66/100], Step [3400/3466], Loss: 2.0857
-| TRAIN SET | Epoch [66/100], Loss: 2.0297, Acc(Exp1): 0.6177, Acc(Exp2): 0.5806 
+| TRAIN SET | Epoch [66/100], Loss: 2.0297, Acc(Exp1): 0.7077 Acc(Exp2): 0.6706 
 
 | VALID SET | Epoch [66/100], Step [0000/1674], Loss: 2.4321
 | VALID SET | Epoch [66/100], Step [0100/1674], Loss: 2.0960
@@ -3726,7 +3726,7 @@
 | VALID SET | Epoch [66/100], Step [1400/1674], Loss: 2.6028
 | VALID SET | Epoch [66/100], Step [1500/1674], Loss: 2.2411
 | VALID SET | Epoch [66/100], Step [1600/1674], Loss: 2.3150
-| VALID SET | Epoch [66/100], Loss: 2.2986, Acc(Exp1): 0.5789, Acc(Exp2): 0.5461 
+| VALID SET | Epoch [66/100], Loss: 2.2986, Acc(Exp1): 0.6689 Acc(Exp2): 0.6361 
 
 | TRAIN SET | Epoch [67/100], Step [0000/3466], Loss: 1.9711
 | TRAIN SET | Epoch [67/100], Step [0100/3466], Loss: 2.1254
@@ -3763,7 +3763,7 @@
 | TRAIN SET | Epoch [67/100], Step [3200/3466], Loss: 1.7259
 | TRAIN SET | Epoch [67/100], Step [3300/3466], Loss: 2.0416
 | TRAIN SET | Epoch [67/100], Step [3400/3466], Loss: 1.8440
-| TRAIN SET | Epoch [67/100], Loss: 2.0318, Acc(Exp1): 0.6170, Acc(Exp2): 0.5800 
+| TRAIN SET | Epoch [67/100], Loss: 2.0318, Acc(Exp1): 0.707 Acc(Exp2): 0.67 
 
 | VALID SET | Epoch [67/100], Step [0000/1674], Loss: 2.6244
 | VALID SET | Epoch [67/100], Step [0100/1674], Loss: 2.4055
@@ -3782,7 +3782,7 @@
 | VALID SET | Epoch [67/100], Step [1400/1674], Loss: 2.3714
 | VALID SET | Epoch [67/100], Step [1500/1674], Loss: 2.4892
 | VALID SET | Epoch [67/100], Step [1600/1674], Loss: 2.2153
-| VALID SET | Epoch [67/100], Loss: 2.3022, Acc(Exp1): 0.5798, Acc(Exp2): 0.5470 
+| VALID SET | Epoch [67/100], Loss: 2.3022, Acc(Exp1): 0.6698 Acc(Exp2): 0.637 
 
 | TRAIN SET | Epoch [68/100], Step [0000/3466], Loss: 1.7442
 | TRAIN SET | Epoch [68/100], Step [0100/3466], Loss: 1.7559
@@ -3819,7 +3819,7 @@
 | TRAIN SET | Epoch [68/100], Step [3200/3466], Loss: 2.1839
 | TRAIN SET | Epoch [68/100], Step [3300/3466], Loss: 2.1271
 | TRAIN SET | Epoch [68/100], Step [3400/3466], Loss: 1.9179
-| TRAIN SET | Epoch [68/100], Loss: 2.0310, Acc(Exp1): 0.6167, Acc(Exp2): 0.5796 
+| TRAIN SET | Epoch [68/100], Loss: 2.0310, Acc(Exp1): 0.7067 Acc(Exp2): 0.6696 
 
 | VALID SET | Epoch [68/100], Step [0000/1674], Loss: 2.4379
 | VALID SET | Epoch [68/100], Step [0100/1674], Loss: 2.2371
@@ -3838,7 +3838,7 @@
 | VALID SET | Epoch [68/100], Step [1400/1674], Loss: 2.5039
 | VALID SET | Epoch [68/100], Step [1500/1674], Loss: 2.0394
 | VALID SET | Epoch [68/100], Step [1600/1674], Loss: 2.4136
-| VALID SET | Epoch [68/100], Loss: 2.3021, Acc(Exp1): 0.5789, Acc(Exp2): 0.5461 
+| VALID SET | Epoch [68/100], Loss: 2.3021, Acc(Exp1): 0.6689 Acc(Exp2): 0.6361 
 
 | TRAIN SET | Epoch [69/100], Step [0000/3466], Loss: 1.8139
 | TRAIN SET | Epoch [69/100], Step [0100/3466], Loss: 1.8802
@@ -3875,7 +3875,7 @@
 | TRAIN SET | Epoch [69/100], Step [3200/3466], Loss: 2.1415
 | TRAIN SET | Epoch [69/100], Step [3300/3466], Loss: 2.0434
 | TRAIN SET | Epoch [69/100], Step [3400/3466], Loss: 2.3414
-| TRAIN SET | Epoch [69/100], Loss: 2.0329, Acc(Exp1): 0.6174, Acc(Exp2): 0.5803 
+| TRAIN SET | Epoch [69/100], Loss: 2.0329, Acc(Exp1): 0.7074 Acc(Exp2): 0.6703 
 
 | VALID SET | Epoch [69/100], Step [0000/1674], Loss: 2.1342
 | VALID SET | Epoch [69/100], Step [0100/1674], Loss: 2.0909
@@ -3894,7 +3894,7 @@
 | VALID SET | Epoch [69/100], Step [1400/1674], Loss: 2.5278
 | VALID SET | Epoch [69/100], Step [1500/1674], Loss: 2.2884
 | VALID SET | Epoch [69/100], Step [1600/1674], Loss: 2.2178
-| VALID SET | Epoch [69/100], Loss: 2.3053, Acc(Exp1): 0.5790, Acc(Exp2): 0.5461 
+| VALID SET | Epoch [69/100], Loss: 2.3053, Acc(Exp1): 0.669 Acc(Exp2): 0.6361 
 
 | TRAIN SET | Epoch [70/100], Step [0000/3466], Loss: 1.8847
 | TRAIN SET | Epoch [70/100], Step [0100/3466], Loss: 2.1616
@@ -3931,7 +3931,7 @@
 | TRAIN SET | Epoch [70/100], Step [3200/3466], Loss: 1.9804
 | TRAIN SET | Epoch [70/100], Step [3300/3466], Loss: 2.1555
 | TRAIN SET | Epoch [70/100], Step [3400/3466], Loss: 1.9583
-| TRAIN SET | Epoch [70/100], Loss: 2.0277, Acc(Exp1): 0.6173, Acc(Exp2): 0.5802 
+| TRAIN SET | Epoch [70/100], Loss: 2.0277, Acc(Exp1): 0.7073 Acc(Exp2): 0.6702 
 
 | VALID SET | Epoch [70/100], Step [0000/1674], Loss: 2.3105
 | VALID SET | Epoch [70/100], Step [0100/1674], Loss: 2.3165
@@ -3950,7 +3950,7 @@
 | VALID SET | Epoch [70/100], Step [1400/1674], Loss: 2.3700
 | VALID SET | Epoch [70/100], Step [1500/1674], Loss: 2.2884
 | VALID SET | Epoch [70/100], Step [1600/1674], Loss: 2.1624
-| VALID SET | Epoch [70/100], Loss: 2.3001, Acc(Exp1): 0.5790, Acc(Exp2): 0.5462 
+| VALID SET | Epoch [70/100], Loss: 2.3001, Acc(Exp1): 0.669 Acc(Exp2): 0.6362 
 
 | TRAIN SET | Epoch [71/100], Step [0000/3466], Loss: 2.0337
 | TRAIN SET | Epoch [71/100], Step [0100/3466], Loss: 1.4215
@@ -3987,7 +3987,7 @@
 | TRAIN SET | Epoch [71/100], Step [3200/3466], Loss: 1.7688
 | TRAIN SET | Epoch [71/100], Step [3300/3466], Loss: 2.1064
 | TRAIN SET | Epoch [71/100], Step [3400/3466], Loss: 1.9921
-| TRAIN SET | Epoch [71/100], Loss: 2.0308, Acc(Exp1): 0.6179, Acc(Exp2): 0.5807 
+| TRAIN SET | Epoch [71/100], Loss: 2.0308, Acc(Exp1): 0.7079 Acc(Exp2): 0.6707 
 
 | VALID SET | Epoch [71/100], Step [0000/1674], Loss: 2.4332
 | VALID SET | Epoch [71/100], Step [0100/1674], Loss: 2.2783
@@ -4006,7 +4006,7 @@
 | VALID SET | Epoch [71/100], Step [1400/1674], Loss: 2.0097
 | VALID SET | Epoch [71/100], Step [1500/1674], Loss: 2.2798
 | VALID SET | Epoch [71/100], Step [1600/1674], Loss: 2.6251
-| VALID SET | Epoch [71/100], Loss: 2.3039, Acc(Exp1): 0.5800, Acc(Exp2): 0.5473 
+| VALID SET | Epoch [71/100], Loss: 2.3039, Acc(Exp1): 0.67 Acc(Exp2): 0.6373 
 
 | TRAIN SET | Epoch [72/100], Step [0000/3466], Loss: 2.0765
 | TRAIN SET | Epoch [72/100], Step [0100/3466], Loss: 1.9983
@@ -4043,7 +4043,7 @@
 | TRAIN SET | Epoch [72/100], Step [3200/3466], Loss: 1.8560
 | TRAIN SET | Epoch [72/100], Step [3300/3466], Loss: 2.4229
 | TRAIN SET | Epoch [72/100], Step [3400/3466], Loss: 1.9637
-| TRAIN SET | Epoch [72/100], Loss: 2.0318, Acc(Exp1): 0.6166, Acc(Exp2): 0.5795 
+| TRAIN SET | Epoch [72/100], Loss: 2.0318, Acc(Exp1): 0.7066 Acc(Exp2): 0.6695 
 
 | VALID SET | Epoch [72/100], Step [0000/1674], Loss: 2.1482
 | VALID SET | Epoch [72/100], Step [0100/1674], Loss: 2.4013
@@ -4062,7 +4062,7 @@
 | VALID SET | Epoch [72/100], Step [1400/1674], Loss: 2.1552
 | VALID SET | Epoch [72/100], Step [1500/1674], Loss: 2.3739
 | VALID SET | Epoch [72/100], Step [1600/1674], Loss: 2.3324
-| VALID SET | Epoch [72/100], Loss: 2.3014, Acc(Exp1): 0.5787, Acc(Exp2): 0.5459 
+| VALID SET | Epoch [72/100], Loss: 2.3014, Acc(Exp1): 0.6687 Acc(Exp2): 0.6359 
 
 | TRAIN SET | Epoch [73/100], Step [0000/3466], Loss: 1.9186
 | TRAIN SET | Epoch [73/100], Step [0100/3466], Loss: 2.0165
@@ -4099,7 +4099,7 @@
 | TRAIN SET | Epoch [73/100], Step [3200/3466], Loss: 1.7270
 | TRAIN SET | Epoch [73/100], Step [3300/3466], Loss: 2.2174
 | TRAIN SET | Epoch [73/100], Step [3400/3466], Loss: 1.8485
-| TRAIN SET | Epoch [73/100], Loss: 2.0283, Acc(Exp1): 0.6175, Acc(Exp2): 0.5803 
+| TRAIN SET | Epoch [73/100], Loss: 2.0283, Acc(Exp1): 0.7075 Acc(Exp2): 0.6703 
 
 | VALID SET | Epoch [73/100], Step [0000/1674], Loss: 2.5071
 | VALID SET | Epoch [73/100], Step [0100/1674], Loss: 2.4546
@@ -4118,7 +4118,7 @@
 | VALID SET | Epoch [73/100], Step [1400/1674], Loss: 2.5157
 | VALID SET | Epoch [73/100], Step [1500/1674], Loss: 2.3351
 | VALID SET | Epoch [73/100], Step [1600/1674], Loss: 2.7086
-| VALID SET | Epoch [73/100], Loss: 2.3012, Acc(Exp1): 0.5792, Acc(Exp2): 0.5464 
+| VALID SET | Epoch [73/100], Loss: 2.3012, Acc(Exp1): 0.6692 Acc(Exp2): 0.6364 
 
 | TRAIN SET | Epoch [74/100], Step [0000/3466], Loss: 1.9722
 | TRAIN SET | Epoch [74/100], Step [0100/3466], Loss: 2.0562
@@ -4155,7 +4155,7 @@
 | TRAIN SET | Epoch [74/100], Step [3200/3466], Loss: 2.0246
 | TRAIN SET | Epoch [74/100], Step [3300/3466], Loss: 2.0301
 | TRAIN SET | Epoch [74/100], Step [3400/3466], Loss: 1.9447
-| TRAIN SET | Epoch [74/100], Loss: 2.0310, Acc(Exp1): 0.6178, Acc(Exp2): 0.5808 
+| TRAIN SET | Epoch [74/100], Loss: 2.0310, Acc(Exp1): 0.7078 Acc(Exp2): 0.6708 
 
 | VALID SET | Epoch [74/100], Step [0000/1674], Loss: 2.3229
 | VALID SET | Epoch [74/100], Step [0100/1674], Loss: 2.6752
@@ -4174,7 +4174,7 @@
 | VALID SET | Epoch [74/100], Step [1400/1674], Loss: 2.7443
 | VALID SET | Epoch [74/100], Step [1500/1674], Loss: 2.6336
 | VALID SET | Epoch [74/100], Step [1600/1674], Loss: 2.3585
-| VALID SET | Epoch [74/100], Loss: 2.3034, Acc(Exp1): 0.5789, Acc(Exp2): 0.5462 
+| VALID SET | Epoch [74/100], Loss: 2.3034, Acc(Exp1): 0.6689 Acc(Exp2): 0.6362 
 
 | TRAIN SET | Epoch [75/100], Step [0000/3466], Loss: 2.0283
 | TRAIN SET | Epoch [75/100], Step [0100/3466], Loss: 2.3293
@@ -4211,7 +4211,7 @@
 | TRAIN SET | Epoch [75/100], Step [3200/3466], Loss: 1.8177
 | TRAIN SET | Epoch [75/100], Step [3300/3466], Loss: 2.1297
 | TRAIN SET | Epoch [75/100], Step [3400/3466], Loss: 2.0507
-| TRAIN SET | Epoch [75/100], Loss: 2.0315, Acc(Exp1): 0.6174, Acc(Exp2): 0.5804 
+| TRAIN SET | Epoch [75/100], Loss: 2.0315, Acc(Exp1): 0.7074 Acc(Exp2): 0.6704 
 
 | VALID SET | Epoch [75/100], Step [0000/1674], Loss: 2.4447
 | VALID SET | Epoch [75/100], Step [0100/1674], Loss: 2.0109
@@ -4230,7 +4230,7 @@
 | VALID SET | Epoch [75/100], Step [1400/1674], Loss: 2.4415
 | VALID SET | Epoch [75/100], Step [1500/1674], Loss: 2.5865
 | VALID SET | Epoch [75/100], Step [1600/1674], Loss: 2.4230
-| VALID SET | Epoch [75/100], Loss: 2.3004, Acc(Exp1): 0.5798, Acc(Exp2): 0.5470 
+| VALID SET | Epoch [75/100], Loss: 2.3004, Acc(Exp1): 0.6698 Acc(Exp2): 0.637 
 
 | TRAIN SET | Epoch [76/100], Step [0000/3466], Loss: 1.9505
 | TRAIN SET | Epoch [76/100], Step [0100/3466], Loss: 1.8830
@@ -4267,7 +4267,7 @@
 | TRAIN SET | Epoch [76/100], Step [3200/3466], Loss: 2.0387
 | TRAIN SET | Epoch [76/100], Step [3300/3466], Loss: 1.9951
 | TRAIN SET | Epoch [76/100], Step [3400/3466], Loss: 1.9095
-| TRAIN SET | Epoch [76/100], Loss: 2.0282, Acc(Exp1): 0.6169, Acc(Exp2): 0.5799 
+| TRAIN SET | Epoch [76/100], Loss: 2.0282, Acc(Exp1): 0.7069 Acc(Exp2): 0.6699 
 
 | VALID SET | Epoch [76/100], Step [0000/1674], Loss: 2.4409
 | VALID SET | Epoch [76/100], Step [0100/1674], Loss: 2.3485
@@ -4286,7 +4286,7 @@
 | VALID SET | Epoch [76/100], Step [1400/1674], Loss: 2.2189
 | VALID SET | Epoch [76/100], Step [1500/1674], Loss: 1.9224
 | VALID SET | Epoch [76/100], Step [1600/1674], Loss: 1.9020
-| VALID SET | Epoch [76/100], Loss: 2.3052, Acc(Exp1): 0.5799, Acc(Exp2): 0.5472 
+| VALID SET | Epoch [76/100], Loss: 2.3052, Acc(Exp1): 0.6699 Acc(Exp2): 0.6372 
 
 | TRAIN SET | Epoch [77/100], Step [0000/3466], Loss: 1.6752
 | TRAIN SET | Epoch [77/100], Step [0100/3466], Loss: 2.1249
@@ -4323,7 +4323,7 @@
 | TRAIN SET | Epoch [77/100], Step [3200/3466], Loss: 1.9001
 | TRAIN SET | Epoch [77/100], Step [3300/3466], Loss: 1.8914
 | TRAIN SET | Epoch [77/100], Step [3400/3466], Loss: 2.6322
-| TRAIN SET | Epoch [77/100], Loss: 2.0288, Acc(Exp1): 0.6178, Acc(Exp2): 0.5808 
+| TRAIN SET | Epoch [77/100], Loss: 2.0288, Acc(Exp1): 0.7078 Acc(Exp2): 0.6708 
 
 | VALID SET | Epoch [77/100], Step [0000/1674], Loss: 2.2571
 | VALID SET | Epoch [77/100], Step [0100/1674], Loss: 2.4633
@@ -4342,7 +4342,7 @@
 | VALID SET | Epoch [77/100], Step [1400/1674], Loss: 2.1422
 | VALID SET | Epoch [77/100], Step [1500/1674], Loss: 2.1244
 | VALID SET | Epoch [77/100], Step [1600/1674], Loss: 2.1286
-| VALID SET | Epoch [77/100], Loss: 2.2989, Acc(Exp1): 0.5796, Acc(Exp2): 0.5468 
+| VALID SET | Epoch [77/100], Loss: 2.2989, Acc(Exp1): 0.6696 Acc(Exp2): 0.6368 
 
 | TRAIN SET | Epoch [78/100], Step [0000/3466], Loss: 2.1829
 | TRAIN SET | Epoch [78/100], Step [0100/3466], Loss: 2.5515
@@ -4379,7 +4379,7 @@
 | TRAIN SET | Epoch [78/100], Step [3200/3466], Loss: 1.9060
 | TRAIN SET | Epoch [78/100], Step [3300/3466], Loss: 2.1168
 | TRAIN SET | Epoch [78/100], Step [3400/3466], Loss: 1.9455
-| TRAIN SET | Epoch [78/100], Loss: 2.0343, Acc(Exp1): 0.6172, Acc(Exp2): 0.5801 
+| TRAIN SET | Epoch [78/100], Loss: 2.0343, Acc(Exp1): 0.7072 Acc(Exp2): 0.6701 
 
 | VALID SET | Epoch [78/100], Step [0000/1674], Loss: 2.2494
 | VALID SET | Epoch [78/100], Step [0100/1674], Loss: 2.5979
@@ -4398,7 +4398,7 @@
 | VALID SET | Epoch [78/100], Step [1400/1674], Loss: 2.3042
 | VALID SET | Epoch [78/100], Step [1500/1674], Loss: 2.0732
 | VALID SET | Epoch [78/100], Step [1600/1674], Loss: 2.5038
-| VALID SET | Epoch [78/100], Loss: 2.3008, Acc(Exp1): 0.5797, Acc(Exp2): 0.5469 
+| VALID SET | Epoch [78/100], Loss: 2.3008, Acc(Exp1): 0.6697 Acc(Exp2): 0.6369 
 
 | TRAIN SET | Epoch [79/100], Step [0000/3466], Loss: 2.2483
 | TRAIN SET | Epoch [79/100], Step [0100/3466], Loss: 2.1158
@@ -4435,7 +4435,7 @@
 | TRAIN SET | Epoch [79/100], Step [3200/3466], Loss: 1.9330
 | TRAIN SET | Epoch [79/100], Step [3300/3466], Loss: 1.8604
 | TRAIN SET | Epoch [79/100], Step [3400/3466], Loss: 1.9040
-| TRAIN SET | Epoch [79/100], Loss: 2.0327, Acc(Exp1): 0.6173, Acc(Exp2): 0.5803 
+| TRAIN SET | Epoch [79/100], Loss: 2.0327, Acc(Exp1): 0.7073 Acc(Exp2): 0.6703 
 
 | VALID SET | Epoch [79/100], Step [0000/1674], Loss: 2.1085
 | VALID SET | Epoch [79/100], Step [0100/1674], Loss: 2.2980
@@ -4454,7 +4454,7 @@
 | VALID SET | Epoch [79/100], Step [1400/1674], Loss: 1.9490
 | VALID SET | Epoch [79/100], Step [1500/1674], Loss: 2.6776
 | VALID SET | Epoch [79/100], Step [1600/1674], Loss: 2.1953
-| VALID SET | Epoch [79/100], Loss: 2.3017, Acc(Exp1): 0.5797, Acc(Exp2): 0.5469 
+| VALID SET | Epoch [79/100], Loss: 2.3017, Acc(Exp1): 0.6697 Acc(Exp2): 0.6369 
 
 | TRAIN SET | Epoch [80/100], Step [0000/3466], Loss: 2.0627
 | TRAIN SET | Epoch [80/100], Step [0100/3466], Loss: 2.1910
@@ -4491,7 +4491,7 @@
 | TRAIN SET | Epoch [80/100], Step [3200/3466], Loss: 2.0414
 | TRAIN SET | Epoch [80/100], Step [3300/3466], Loss: 2.5212
 | TRAIN SET | Epoch [80/100], Step [3400/3466], Loss: 2.2590
-| TRAIN SET | Epoch [80/100], Loss: 2.0300, Acc(Exp1): 0.6170, Acc(Exp2): 0.5800 
+| TRAIN SET | Epoch [80/100], Loss: 2.0300, Acc(Exp1): 0.707 Acc(Exp2): 0.67 
 
 | VALID SET | Epoch [80/100], Step [0000/1674], Loss: 2.4353
 | VALID SET | Epoch [80/100], Step [0100/1674], Loss: 2.3537
@@ -4510,7 +4510,7 @@
 | VALID SET | Epoch [80/100], Step [1400/1674], Loss: 2.1283
 | VALID SET | Epoch [80/100], Step [1500/1674], Loss: 2.1816
 | VALID SET | Epoch [80/100], Step [1600/1674], Loss: 2.3188
-| VALID SET | Epoch [80/100], Loss: 2.3015, Acc(Exp1): 0.5789, Acc(Exp2): 0.5463 
+| VALID SET | Epoch [80/100], Loss: 2.3015, Acc(Exp1): 0.6689 Acc(Exp2): 0.6363 
 
 | TRAIN SET | Epoch [81/100], Step [0000/3466], Loss: 1.9798
 | TRAIN SET | Epoch [81/100], Step [0100/3466], Loss: 1.9659
@@ -4547,7 +4547,7 @@
 | TRAIN SET | Epoch [81/100], Step [3200/3466], Loss: 2.0389
 | TRAIN SET | Epoch [81/100], Step [3300/3466], Loss: 2.2427
 | TRAIN SET | Epoch [81/100], Step [3400/3466], Loss: 1.9397
-| TRAIN SET | Epoch [81/100], Loss: 2.0296, Acc(Exp1): 0.6172, Acc(Exp2): 0.5802 
+| TRAIN SET | Epoch [81/100], Loss: 2.0296, Acc(Exp1): 0.7072 Acc(Exp2): 0.6702 
 
 | VALID SET | Epoch [81/100], Step [0000/1674], Loss: 2.4575
 | VALID SET | Epoch [81/100], Step [0100/1674], Loss: 2.3553
@@ -4566,7 +4566,7 @@
 | VALID SET | Epoch [81/100], Step [1400/1674], Loss: 2.3870
 | VALID SET | Epoch [81/100], Step [1500/1674], Loss: 2.7457
 | VALID SET | Epoch [81/100], Step [1600/1674], Loss: 2.7593
-| VALID SET | Epoch [81/100], Loss: 2.2989, Acc(Exp1): 0.5796, Acc(Exp2): 0.5468 
+| VALID SET | Epoch [81/100], Loss: 2.2989, Acc(Exp1): 0.6696 Acc(Exp2): 0.6368 
 
 | TRAIN SET | Epoch [82/100], Step [0000/3466], Loss: 2.3479
 | TRAIN SET | Epoch [82/100], Step [0100/3466], Loss: 2.0041
@@ -4603,7 +4603,7 @@
 | TRAIN SET | Epoch [82/100], Step [3200/3466], Loss: 1.9291
 | TRAIN SET | Epoch [82/100], Step [3300/3466], Loss: 2.0595
 | TRAIN SET | Epoch [82/100], Step [3400/3466], Loss: 2.0904
-| TRAIN SET | Epoch [82/100], Loss: 2.0282, Acc(Exp1): 0.6178, Acc(Exp2): 0.5807 
+| TRAIN SET | Epoch [82/100], Loss: 2.0282, Acc(Exp1): 0.7078 Acc(Exp2): 0.6707 
 
 | VALID SET | Epoch [82/100], Step [0000/1674], Loss: 2.3091
 | VALID SET | Epoch [82/100], Step [0100/1674], Loss: 2.3757
@@ -4622,7 +4622,7 @@
 | VALID SET | Epoch [82/100], Step [1400/1674], Loss: 2.4203
 | VALID SET | Epoch [82/100], Step [1500/1674], Loss: 2.3694
 | VALID SET | Epoch [82/100], Step [1600/1674], Loss: 2.1912
-| VALID SET | Epoch [82/100], Loss: 2.3017, Acc(Exp1): 0.5797, Acc(Exp2): 0.5469 
+| VALID SET | Epoch [82/100], Loss: 2.3017, Acc(Exp1): 0.6697 Acc(Exp2): 0.6369 
 
 | TRAIN SET | Epoch [83/100], Step [0000/3466], Loss: 2.0825
 | TRAIN SET | Epoch [83/100], Step [0100/3466], Loss: 2.1615
@@ -4659,7 +4659,7 @@
 | TRAIN SET | Epoch [83/100], Step [3200/3466], Loss: 1.9824
 | TRAIN SET | Epoch [83/100], Step [3300/3466], Loss: 1.7006
 | TRAIN SET | Epoch [83/100], Step [3400/3466], Loss: 2.0644
-| TRAIN SET | Epoch [83/100], Loss: 2.0282, Acc(Exp1): 0.6173, Acc(Exp2): 0.5801 
+| TRAIN SET | Epoch [83/100], Loss: 2.0282, Acc(Exp1): 0.7073 Acc(Exp2): 0.6701 
 
 | VALID SET | Epoch [83/100], Step [0000/1674], Loss: 2.1430
 | VALID SET | Epoch [83/100], Step [0100/1674], Loss: 2.3640
@@ -4678,7 +4678,7 @@
 | VALID SET | Epoch [83/100], Step [1400/1674], Loss: 2.3178
 | VALID SET | Epoch [83/100], Step [1500/1674], Loss: 2.1216
 | VALID SET | Epoch [83/100], Step [1600/1674], Loss: 2.5266
-| VALID SET | Epoch [83/100], Loss: 2.3034, Acc(Exp1): 0.5790, Acc(Exp2): 0.5462 
+| VALID SET | Epoch [83/100], Loss: 2.3034, Acc(Exp1): 0.669 Acc(Exp2): 0.6362 
 
 | TRAIN SET | Epoch [84/100], Step [0000/3466], Loss: 2.0847
 | TRAIN SET | Epoch [84/100], Step [0100/3466], Loss: 1.9227
@@ -4715,7 +4715,7 @@
 | TRAIN SET | Epoch [84/100], Step [3200/3466], Loss: 1.9939
 | TRAIN SET | Epoch [84/100], Step [3300/3466], Loss: 2.4075
 | TRAIN SET | Epoch [84/100], Step [3400/3466], Loss: 2.0824
-| TRAIN SET | Epoch [84/100], Loss: 2.0293, Acc(Exp1): 0.6174, Acc(Exp2): 0.5804 
+| TRAIN SET | Epoch [84/100], Loss: 2.0293, Acc(Exp1): 0.7074 Acc(Exp2): 0.6704 
 
 | VALID SET | Epoch [84/100], Step [0000/1674], Loss: 2.0361
 | VALID SET | Epoch [84/100], Step [0100/1674], Loss: 2.3458
@@ -4734,7 +4734,7 @@
 | VALID SET | Epoch [84/100], Step [1400/1674], Loss: 2.3229
 | VALID SET | Epoch [84/100], Step [1500/1674], Loss: 2.6676
 | VALID SET | Epoch [84/100], Step [1600/1674], Loss: 2.5094
-| VALID SET | Epoch [84/100], Loss: 2.2999, Acc(Exp1): 0.5791, Acc(Exp2): 0.5463 
+| VALID SET | Epoch [84/100], Loss: 2.2999, Acc(Exp1): 0.6691 Acc(Exp2): 0.6363 
 
 | TRAIN SET | Epoch [85/100], Step [0000/3466], Loss: 2.1188
 | TRAIN SET | Epoch [85/100], Step [0100/3466], Loss: 1.9442
@@ -4771,7 +4771,7 @@
 | TRAIN SET | Epoch [85/100], Step [3200/3466], Loss: 1.9827
 | TRAIN SET | Epoch [85/100], Step [3300/3466], Loss: 1.5517
 | TRAIN SET | Epoch [85/100], Step [3400/3466], Loss: 2.0044
-| TRAIN SET | Epoch [85/100], Loss: 2.0287, Acc(Exp1): 0.6172, Acc(Exp2): 0.5804 
+| TRAIN SET | Epoch [85/100], Loss: 2.0287, Acc(Exp1): 0.7072 Acc(Exp2): 0.6704 
 
 | VALID SET | Epoch [85/100], Step [0000/1674], Loss: 2.0441
 | VALID SET | Epoch [85/100], Step [0100/1674], Loss: 2.0195
@@ -4790,7 +4790,7 @@
 | VALID SET | Epoch [85/100], Step [1400/1674], Loss: 2.2236
 | VALID SET | Epoch [85/100], Step [1500/1674], Loss: 2.2359
 | VALID SET | Epoch [85/100], Step [1600/1674], Loss: 2.4268
-| VALID SET | Epoch [85/100], Loss: 2.3024, Acc(Exp1): 0.5790, Acc(Exp2): 0.5462 
+| VALID SET | Epoch [85/100], Loss: 2.3024, Acc(Exp1): 0.669 Acc(Exp2): 0.6362 
 
 | TRAIN SET | Epoch [86/100], Step [0000/3466], Loss: 1.9002
 | TRAIN SET | Epoch [86/100], Step [0100/3466], Loss: 2.1968
@@ -4827,7 +4827,7 @@
 | TRAIN SET | Epoch [86/100], Step [3200/3466], Loss: 1.8211
 | TRAIN SET | Epoch [86/100], Step [3300/3466], Loss: 1.5456
 | TRAIN SET | Epoch [86/100], Step [3400/3466], Loss: 2.1576
-| TRAIN SET | Epoch [86/100], Loss: 2.0282, Acc(Exp1): 0.6172, Acc(Exp2): 0.5802 
+| TRAIN SET | Epoch [86/100], Loss: 2.0282, Acc(Exp1): 0.7072 Acc(Exp2): 0.6702 
 
 | VALID SET | Epoch [86/100], Step [0000/1674], Loss: 2.6771
 | VALID SET | Epoch [86/100], Step [0100/1674], Loss: 1.9336
@@ -4846,7 +4846,7 @@
 | VALID SET | Epoch [86/100], Step [1400/1674], Loss: 2.2184
 | VALID SET | Epoch [86/100], Step [1500/1674], Loss: 1.9543
 | VALID SET | Epoch [86/100], Step [1600/1674], Loss: 2.3538
-| VALID SET | Epoch [86/100], Loss: 2.3020, Acc(Exp1): 0.5795, Acc(Exp2): 0.5467 
+| VALID SET | Epoch [86/100], Loss: 2.3020, Acc(Exp1): 0.6695 Acc(Exp2): 0.6367 
 
 | TRAIN SET | Epoch [87/100], Step [0000/3466], Loss: 2.1665
 | TRAIN SET | Epoch [87/100], Step [0100/3466], Loss: 1.9973
@@ -4883,7 +4883,7 @@
 | TRAIN SET | Epoch [87/100], Step [3200/3466], Loss: 1.9158
 | TRAIN SET | Epoch [87/100], Step [3300/3466], Loss: 1.8153
 | TRAIN SET | Epoch [87/100], Step [3400/3466], Loss: 2.3048
-| TRAIN SET | Epoch [87/100], Loss: 2.0320, Acc(Exp1): 0.6181, Acc(Exp2): 0.5811 
+| TRAIN SET | Epoch [87/100], Loss: 2.0320, Acc(Exp1): 0.7081 Acc(Exp2): 0.6711 
 
 | VALID SET | Epoch [87/100], Step [0000/1674], Loss: 2.4657
 | VALID SET | Epoch [87/100], Step [0100/1674], Loss: 2.0820
@@ -4902,7 +4902,7 @@
 | VALID SET | Epoch [87/100], Step [1400/1674], Loss: 2.3494
 | VALID SET | Epoch [87/100], Step [1500/1674], Loss: 2.6084
 | VALID SET | Epoch [87/100], Step [1600/1674], Loss: 2.2723
-| VALID SET | Epoch [87/100], Loss: 2.2986, Acc(Exp1): 0.5795, Acc(Exp2): 0.5468 
+| VALID SET | Epoch [87/100], Loss: 2.2986, Acc(Exp1): 0.6695 Acc(Exp2): 0.6368 
 
 | TRAIN SET | Epoch [88/100], Step [0000/3466], Loss: 2.1918
 | TRAIN SET | Epoch [88/100], Step [0100/3466], Loss: 2.0627
@@ -4939,7 +4939,7 @@
 | TRAIN SET | Epoch [88/100], Step [3200/3466], Loss: 1.6143
 | TRAIN SET | Epoch [88/100], Step [3300/3466], Loss: 2.3380
 | TRAIN SET | Epoch [88/100], Step [3400/3466], Loss: 2.1433
-| TRAIN SET | Epoch [88/100], Loss: 2.0293, Acc(Exp1): 0.6167, Acc(Exp2): 0.5798 
+| TRAIN SET | Epoch [88/100], Loss: 2.0293, Acc(Exp1): 0.7067 Acc(Exp2): 0.6698 
 
 | VALID SET | Epoch [88/100], Step [0000/1674], Loss: 2.4981
 | VALID SET | Epoch [88/100], Step [0100/1674], Loss: 2.2945
@@ -4958,7 +4958,7 @@
 | VALID SET | Epoch [88/100], Step [1400/1674], Loss: 2.6934
 | VALID SET | Epoch [88/100], Step [1500/1674], Loss: 2.2030
 | VALID SET | Epoch [88/100], Step [1600/1674], Loss: 2.3211
-| VALID SET | Epoch [88/100], Loss: 2.3017, Acc(Exp1): 0.5791, Acc(Exp2): 0.5464 
+| VALID SET | Epoch [88/100], Loss: 2.3017, Acc(Exp1): 0.6691 Acc(Exp2): 0.6364 
 
 | TRAIN SET | Epoch [89/100], Step [0000/3466], Loss: 2.2080
 | TRAIN SET | Epoch [89/100], Step [0100/3466], Loss: 1.9722
@@ -4995,7 +4995,7 @@
 | TRAIN SET | Epoch [89/100], Step [3200/3466], Loss: 2.0506
 | TRAIN SET | Epoch [89/100], Step [3300/3466], Loss: 1.9331
 | TRAIN SET | Epoch [89/100], Step [3400/3466], Loss: 2.1010
-| TRAIN SET | Epoch [89/100], Loss: 2.0307, Acc(Exp1): 0.6174, Acc(Exp2): 0.5804 
+| TRAIN SET | Epoch [89/100], Loss: 2.0307, Acc(Exp1): 0.7074 Acc(Exp2): 0.6704 
 
 | VALID SET | Epoch [89/100], Step [0000/1674], Loss: 2.1928
 | VALID SET | Epoch [89/100], Step [0100/1674], Loss: 2.5563
@@ -5014,7 +5014,7 @@
 | VALID SET | Epoch [89/100], Step [1400/1674], Loss: 2.4529
 | VALID SET | Epoch [89/100], Step [1500/1674], Loss: 2.2150
 | VALID SET | Epoch [89/100], Step [1600/1674], Loss: 2.7290
-| VALID SET | Epoch [89/100], Loss: 2.3036, Acc(Exp1): 0.5787, Acc(Exp2): 0.5460 
+| VALID SET | Epoch [89/100], Loss: 2.3036, Acc(Exp1): 0.6687 Acc(Exp2): 0.636 
 
 | TRAIN SET | Epoch [90/100], Step [0000/3466], Loss: 2.0018
 | TRAIN SET | Epoch [90/100], Step [0100/3466], Loss: 2.2032
@@ -5051,7 +5051,7 @@
 | TRAIN SET | Epoch [90/100], Step [3200/3466], Loss: 2.1149
 | TRAIN SET | Epoch [90/100], Step [3300/3466], Loss: 2.2194
 | TRAIN SET | Epoch [90/100], Step [3400/3466], Loss: 2.1411
-| TRAIN SET | Epoch [90/100], Loss: 2.0291, Acc(Exp1): 0.6175, Acc(Exp2): 0.5804 
+| TRAIN SET | Epoch [90/100], Loss: 2.0291, Acc(Exp1): 0.7075 Acc(Exp2): 0.6704 
 
 | VALID SET | Epoch [90/100], Step [0000/1674], Loss: 2.4818
 | VALID SET | Epoch [90/100], Step [0100/1674], Loss: 2.5182
@@ -5070,7 +5070,7 @@
 | VALID SET | Epoch [90/100], Step [1400/1674], Loss: 2.4563
 | VALID SET | Epoch [90/100], Step [1500/1674], Loss: 2.3754
 | VALID SET | Epoch [90/100], Step [1600/1674], Loss: 2.2930
-| VALID SET | Epoch [90/100], Loss: 2.3036, Acc(Exp1): 0.5791, Acc(Exp2): 0.5463 
+| VALID SET | Epoch [90/100], Loss: 2.3036, Acc(Exp1): 0.6691 Acc(Exp2): 0.6363 
 
 | TRAIN SET | Epoch [91/100], Step [0000/3466], Loss: 2.2104
 | TRAIN SET | Epoch [91/100], Step [0100/3466], Loss: 2.0734
@@ -5107,7 +5107,7 @@
 | TRAIN SET | Epoch [91/100], Step [3200/3466], Loss: 1.8259
 | TRAIN SET | Epoch [91/100], Step [3300/3466], Loss: 2.0486
 | TRAIN SET | Epoch [91/100], Step [3400/3466], Loss: 1.9155
-| TRAIN SET | Epoch [91/100], Loss: 2.0310, Acc(Exp1): 0.6176, Acc(Exp2): 0.5805 
+| TRAIN SET | Epoch [91/100], Loss: 2.0310, Acc(Exp1): 0.7076 Acc(Exp2): 0.6705 
 
 | VALID SET | Epoch [91/100], Step [0000/1674], Loss: 2.3046
 | VALID SET | Epoch [91/100], Step [0100/1674], Loss: 2.6911
@@ -5126,7 +5126,7 @@
 | VALID SET | Epoch [91/100], Step [1400/1674], Loss: 2.6404
 | VALID SET | Epoch [91/100], Step [1500/1674], Loss: 2.0343
 | VALID SET | Epoch [91/100], Step [1600/1674], Loss: 2.5830
-| VALID SET | Epoch [91/100], Loss: 2.3064, Acc(Exp1): 0.5796, Acc(Exp2): 0.5468 
+| VALID SET | Epoch [91/100], Loss: 2.3064, Acc(Exp1): 0.6696 Acc(Exp2): 0.6368 
 
 | TRAIN SET | Epoch [92/100], Step [0000/3466], Loss: 2.2137
 | TRAIN SET | Epoch [92/100], Step [0100/3466], Loss: 1.9199
@@ -5163,7 +5163,7 @@
 | TRAIN SET | Epoch [92/100], Step [3200/3466], Loss: 1.9916
 | TRAIN SET | Epoch [92/100], Step [3300/3466], Loss: 2.0188
 | TRAIN SET | Epoch [92/100], Step [3400/3466], Loss: 1.9537
-| TRAIN SET | Epoch [92/100], Loss: 2.0279, Acc(Exp1): 0.6181, Acc(Exp2): 0.5811 
+| TRAIN SET | Epoch [92/100], Loss: 2.0279, Acc(Exp1): 0.7081 Acc(Exp2): 0.6711 
 
 | VALID SET | Epoch [92/100], Step [0000/1674], Loss: 2.1190
 | VALID SET | Epoch [92/100], Step [0100/1674], Loss: 1.7658
@@ -5182,7 +5182,7 @@
 | VALID SET | Epoch [92/100], Step [1400/1674], Loss: 1.9335
 | VALID SET | Epoch [92/100], Step [1500/1674], Loss: 2.3101
 | VALID SET | Epoch [92/100], Step [1600/1674], Loss: 2.5367
-| VALID SET | Epoch [92/100], Loss: 2.3033, Acc(Exp1): 0.5798, Acc(Exp2): 0.5470 
+| VALID SET | Epoch [92/100], Loss: 2.3033, Acc(Exp1): 0.6698 Acc(Exp2): 0.637 
 
 | TRAIN SET | Epoch [93/100], Step [0000/3466], Loss: 2.0807
 | TRAIN SET | Epoch [93/100], Step [0100/3466], Loss: 1.9206
@@ -5219,7 +5219,7 @@
 | TRAIN SET | Epoch [93/100], Step [3200/3466], Loss: 1.9425
 | TRAIN SET | Epoch [93/100], Step [3300/3466], Loss: 1.9736
 | TRAIN SET | Epoch [93/100], Step [3400/3466], Loss: 2.0693
-| TRAIN SET | Epoch [93/100], Loss: 2.0322, Acc(Exp1): 0.6172, Acc(Exp2): 0.5801 
+| TRAIN SET | Epoch [93/100], Loss: 2.0322, Acc(Exp1): 0.7072 Acc(Exp2): 0.6701 
 
 | VALID SET | Epoch [93/100], Step [0000/1674], Loss: 2.3810
 | VALID SET | Epoch [93/100], Step [0100/1674], Loss: 2.3989
@@ -5238,7 +5238,7 @@
 | VALID SET | Epoch [93/100], Step [1400/1674], Loss: 2.5661
 | VALID SET | Epoch [93/100], Step [1500/1674], Loss: 2.4376
 | VALID SET | Epoch [93/100], Step [1600/1674], Loss: 2.4457
-| VALID SET | Epoch [93/100], Loss: 2.3017, Acc(Exp1): 0.5792, Acc(Exp2): 0.5463 
+| VALID SET | Epoch [93/100], Loss: 2.3017, Acc(Exp1): 0.6692 Acc(Exp2): 0.6363 
 
 | TRAIN SET | Epoch [94/100], Step [0000/3466], Loss: 1.8951
 | TRAIN SET | Epoch [94/100], Step [0100/3466], Loss: 1.7641
@@ -5275,7 +5275,7 @@
 | TRAIN SET | Epoch [94/100], Step [3200/3466], Loss: 2.2081
 | TRAIN SET | Epoch [94/100], Step [3300/3466], Loss: 2.2808
 | TRAIN SET | Epoch [94/100], Step [3400/3466], Loss: 2.1415
-| TRAIN SET | Epoch [94/100], Loss: 2.0327, Acc(Exp1): 0.6172, Acc(Exp2): 0.5802 
+| TRAIN SET | Epoch [94/100], Loss: 2.0327, Acc(Exp1): 0.7072 Acc(Exp2): 0.6702 
 
 | VALID SET | Epoch [94/100], Step [0000/1674], Loss: 2.3233
 | VALID SET | Epoch [94/100], Step [0100/1674], Loss: 2.3099
@@ -5294,7 +5294,7 @@
 | VALID SET | Epoch [94/100], Step [1400/1674], Loss: 2.0978
 | VALID SET | Epoch [94/100], Step [1500/1674], Loss: 2.3065
 | VALID SET | Epoch [94/100], Step [1600/1674], Loss: 2.2571
-| VALID SET | Epoch [94/100], Loss: 2.3031, Acc(Exp1): 0.5790, Acc(Exp2): 0.5461 
+| VALID SET | Epoch [94/100], Loss: 2.3031, Acc(Exp1): 0.669 Acc(Exp2): 0.6361 
 
 | TRAIN SET | Epoch [95/100], Step [0000/3466], Loss: 2.1151
 | TRAIN SET | Epoch [95/100], Step [0100/3466], Loss: 1.9738
@@ -5331,7 +5331,7 @@
 | TRAIN SET | Epoch [95/100], Step [3200/3466], Loss: 2.1392
 | TRAIN SET | Epoch [95/100], Step [3300/3466], Loss: 1.8375
 | TRAIN SET | Epoch [95/100], Step [3400/3466], Loss: 1.8092
-| TRAIN SET | Epoch [95/100], Loss: 2.0294, Acc(Exp1): 0.6172, Acc(Exp2): 0.5801 
+| TRAIN SET | Epoch [95/100], Loss: 2.0294, Acc(Exp1): 0.7072 Acc(Exp2): 0.6701 
 
 | VALID SET | Epoch [95/100], Step [0000/1674], Loss: 2.4186
 | VALID SET | Epoch [95/100], Step [0100/1674], Loss: 2.1666
@@ -5350,7 +5350,7 @@
 | VALID SET | Epoch [95/100], Step [1400/1674], Loss: 2.5671
 | VALID SET | Epoch [95/100], Step [1500/1674], Loss: 2.3805
 | VALID SET | Epoch [95/100], Step [1600/1674], Loss: 2.1365
-| VALID SET | Epoch [95/100], Loss: 2.3011, Acc(Exp1): 0.5800, Acc(Exp2): 0.5472 
+| VALID SET | Epoch [95/100], Loss: 2.3011, Acc(Exp1): 0.67 Acc(Exp2): 0.6372 
 
 | TRAIN SET | Epoch [96/100], Step [0000/3466], Loss: 2.2473
 | TRAIN SET | Epoch [96/100], Step [0100/3466], Loss: 1.9896
@@ -5387,7 +5387,7 @@
 | TRAIN SET | Epoch [96/100], Step [3200/3466], Loss: 2.0552
 | TRAIN SET | Epoch [96/100], Step [3300/3466], Loss: 1.8356
 | TRAIN SET | Epoch [96/100], Step [3400/3466], Loss: 2.1367
-| TRAIN SET | Epoch [96/100], Loss: 2.0316, Acc(Exp1): 0.6174, Acc(Exp2): 0.5802 
+| TRAIN SET | Epoch [96/100], Loss: 2.0316, Acc(Exp1): 0.7074 Acc(Exp2): 0.6702 
 
 | VALID SET | Epoch [96/100], Step [0000/1674], Loss: 2.3688
 | VALID SET | Epoch [96/100], Step [0100/1674], Loss: 2.0389
@@ -5406,7 +5406,7 @@
 | VALID SET | Epoch [96/100], Step [1400/1674], Loss: 2.1599
 | VALID SET | Epoch [96/100], Step [1500/1674], Loss: 2.3079
 | VALID SET | Epoch [96/100], Step [1600/1674], Loss: 2.6156
-| VALID SET | Epoch [96/100], Loss: 2.3024, Acc(Exp1): 0.5790, Acc(Exp2): 0.5462 
+| VALID SET | Epoch [96/100], Loss: 2.3024, Acc(Exp1): 0.669 Acc(Exp2): 0.6362 
 
 | TRAIN SET | Epoch [97/100], Step [0000/3466], Loss: 1.7080
 | TRAIN SET | Epoch [97/100], Step [0100/3466], Loss: 1.9776
@@ -5443,7 +5443,7 @@
 | TRAIN SET | Epoch [97/100], Step [3200/3466], Loss: 1.8487
 | TRAIN SET | Epoch [97/100], Step [3300/3466], Loss: 2.1279
 | TRAIN SET | Epoch [97/100], Step [3400/3466], Loss: 2.2671
-| TRAIN SET | Epoch [97/100], Loss: 2.0314, Acc(Exp1): 0.6166, Acc(Exp2): 0.5796 
+| TRAIN SET | Epoch [97/100], Loss: 2.0314, Acc(Exp1): 0.7066 Acc(Exp2): 0.6696 
 
 | VALID SET | Epoch [97/100], Step [0000/1674], Loss: 2.2471
 | VALID SET | Epoch [97/100], Step [0100/1674], Loss: 2.4857
@@ -5462,7 +5462,7 @@
 | VALID SET | Epoch [97/100], Step [1400/1674], Loss: 2.2066
 | VALID SET | Epoch [97/100], Step [1500/1674], Loss: 2.1740
 | VALID SET | Epoch [97/100], Step [1600/1674], Loss: 2.5360
-| VALID SET | Epoch [97/100], Loss: 2.2984, Acc(Exp1): 0.5795, Acc(Exp2): 0.5467 
+| VALID SET | Epoch [97/100], Loss: 2.2984, Acc(Exp1): 0.6695 Acc(Exp2): 0.6367 
 
 | TRAIN SET | Epoch [98/100], Step [0000/3466], Loss: 1.9349
 | TRAIN SET | Epoch [98/100], Step [0100/3466], Loss: 1.8134
@@ -5499,7 +5499,7 @@
 | TRAIN SET | Epoch [98/100], Step [3200/3466], Loss: 2.1295
 | TRAIN SET | Epoch [98/100], Step [3300/3466], Loss: 2.1023
 | TRAIN SET | Epoch [98/100], Step [3400/3466], Loss: 2.0285
-| TRAIN SET | Epoch [98/100], Loss: 2.0290, Acc(Exp1): 0.6170, Acc(Exp2): 0.5799 
+| TRAIN SET | Epoch [98/100], Loss: 2.0290, Acc(Exp1): 0.707 Acc(Exp2): 0.6699 
 
 | VALID SET | Epoch [98/100], Step [0000/1674], Loss: 2.2401
 | VALID SET | Epoch [98/100], Step [0100/1674], Loss: 2.2171
@@ -5518,7 +5518,7 @@
 | VALID SET | Epoch [98/100], Step [1400/1674], Loss: 2.0780
 | VALID SET | Epoch [98/100], Step [1500/1674], Loss: 2.1414
 | VALID SET | Epoch [98/100], Step [1600/1674], Loss: 2.4007
-| VALID SET | Epoch [98/100], Loss: 2.2992, Acc(Exp1): 0.5796, Acc(Exp2): 0.5468 
+| VALID SET | Epoch [98/100], Loss: 2.2992, Acc(Exp1): 0.6696 Acc(Exp2): 0.6368 
 
 | TRAIN SET | Epoch [99/100], Step [0000/3466], Loss: 2.3212
 | TRAIN SET | Epoch [99/100], Step [0100/3466], Loss: 2.1264
@@ -5555,7 +5555,7 @@
 | TRAIN SET | Epoch [99/100], Step [3200/3466], Loss: 1.9198
 | TRAIN SET | Epoch [99/100], Step [3300/3466], Loss: 1.9589
 | TRAIN SET | Epoch [99/100], Step [3400/3466], Loss: 1.8842
-| TRAIN SET | Epoch [99/100], Loss: 2.0313, Acc(Exp1): 0.6176, Acc(Exp2): 0.5806 
+| TRAIN SET | Epoch [99/100], Loss: 2.0313, Acc(Exp1): 0.7076 Acc(Exp2): 0.6706 
 
 | VALID SET | Epoch [99/100], Step [0000/1674], Loss: 2.4061
 | VALID SET | Epoch [99/100], Step [0100/1674], Loss: 2.5323
@@ -5574,7 +5574,7 @@
 | VALID SET | Epoch [99/100], Step [1400/1674], Loss: 2.3353
 | VALID SET | Epoch [99/100], Step [1500/1674], Loss: 2.6670
 | VALID SET | Epoch [99/100], Step [1600/1674], Loss: 2.2746
-| VALID SET | Epoch [99/100], Loss: 2.3046, Acc(Exp1): 0.5794, Acc(Exp2): 0.5465 
+| VALID SET | Epoch [99/100], Loss: 2.3046, Acc(Exp1): 0.6694 Acc(Exp2): 0.6365 
 
 | TRAIN SET | Epoch [100/100], Step [0000/3466], Loss: 1.7932
 | TRAIN SET | Epoch [100/100], Step [0100/3466], Loss: 1.8059
@@ -5611,7 +5611,7 @@
 | TRAIN SET | Epoch [100/100], Step [3200/3466], Loss: 2.2417
 | TRAIN SET | Epoch [100/100], Step [3300/3466], Loss: 2.0248
 | TRAIN SET | Epoch [100/100], Step [3400/3466], Loss: 1.6612
-| TRAIN SET | Epoch [100/100], Loss: 2.0290, Acc(Exp1): 0.6173, Acc(Exp2): 0.5803 
+| TRAIN SET | Epoch [100/100], Loss: 2.0290, Acc(Exp1): 0.7073 Acc(Exp2): 0.6703 
 
 | VALID SET | Epoch [100/100], Step [0000/1674], Loss: 1.9446
 | VALID SET | Epoch [100/100], Step [0100/1674], Loss: 2.3556
@@ -5630,5 +5630,5 @@
 | VALID SET | Epoch [100/100], Step [1400/1674], Loss: 2.1590
 | VALID SET | Epoch [100/100], Step [1500/1674], Loss: 2.5872
 | VALID SET | Epoch [100/100], Step [1600/1674], Loss: 2.2651
-| VALID SET | Epoch [100/100], Loss: 2.3005, Acc(Exp1): 0.5794, Acc(Exp2): 0.5467 
+| VALID SET | Epoch [100/100], Loss: 2.3005, Acc(Exp1): 0.6694 Acc(Exp2): 0.6367 
 
