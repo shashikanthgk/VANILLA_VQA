@@ -170,7 +170,6 @@ class VWSA(nn.Module):
         return combined_feature
 
 
-
 class SAN(nn.Module):
     def __init__(self, embed_size, qst_vocab_size, ans_vocab_size, word_embed_size, num_layers, hidden_size,num_attention_layer,device): 
         super(SAN, self).__init__()
@@ -184,7 +183,7 @@ class SAN(nn.Module):
         self.tanh = nn.Tanh()
         self.mlp = nn.Sequential(nn.Dropout(p=0.5),
                             nn.Linear(embed_size, ans_vocab_size))
-        self.attn_features = []  ## attention features
+        self.attn_features = [] 
 
 
     def forward(self, img, qst):
